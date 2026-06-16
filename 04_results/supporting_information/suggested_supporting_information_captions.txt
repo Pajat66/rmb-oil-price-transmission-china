@@ -1,0 +1,12 @@
+S1 Table. Variable names and abbreviations.
+S2 Table. Descriptive statistics of main variables for the long sample.
+S3 Table. Descriptive statistics of main variables for the short sample.
+S4 Table. Unit root test results for level series.
+S5 Table. Unit root test results for first-differenced series.
+S6 Table. Cumulative lag effects of the RMB-denominated oil price.
+S7 Table. Impacts of the RMB-denominated oil price on the crude oil import unit price.
+S8 Table. Impacts of import costs and upstream/midstream prices on CPI YoY.
+
+Notes for S4-S5: core_cpi_proxy_yoy is treated as a supplementary variable and is excluded from the core unit-root-test sheets because it is not a core ARDL variable used for the manuscript's main premise checks.
+Notes for S6: cumulative effects are estimated from the manuscript Table 4 specification, namely a 6-period DLM with oil_rmb lags 0-6 and indust_va_cum_yoy as the industrial value-added control.
+Notes for S8: the table reports lag-specific and cumulative CPI regressions for import costs and upstream/midstream price indicators; the pattern of small, mixed, and mostly unstable coefficients supports the manuscript conclusion that CPI transmission is weak, indirect, lagged, and unstable.

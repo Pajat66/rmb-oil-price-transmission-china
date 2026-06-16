@@ -1,0 +1,23 @@
+［1］王京晶. 开放经济输入型通货膨胀问题研究——基于中国数据的实证检验[J]. 亚太经济, 2011(03):116-121.
+［2］卢锋. 大国经济与输入型通胀论[J]. 国际经济评论, 2008(07-08):9-23.
+［3］中国经济增长与宏观稳定课题组. 外部冲击与中国的通货膨胀[J]. 经济研究, 2008(05):4-18.
+［4］中国人民银行营业管理部课题组, 杨国中, 姜再勇. 外部冲击与我国物价水平的决定——基于结构VAR模型的分析[J]. 财经研究, 2009, 35(08):92-105.
+［5］伍戈. 输入型通胀与货币政策应对：兼议汇率的作用[J]. 国际经济评论, 2011(06):49-57.
+［6］European Central Bank. Exchange rate pass-through into euro area inflation[R/OL]. ECB Economic Bulletin, 2016.
+［7］Chen J, Zhu X, Li H. The pass-through effects of oil price shocks on China's inflation: A time-varying analysis[J]. Energy Economics, 2020, 86:104695.
+［8］Mihaljek D, Klau M. A note on the pass-through from exchange rate and foreign price changes to inflation in selected emerging market economies[R]. BIS Papers No. 8, 2001.
+［9］Forbes K, Hjortsoe I, Nenova T. The shocks matter: Improving our estimates of exchange rate pass-through[R]. NBER Working Paper No.24773, 2018.
+［10］Hooker M A. Are oil shocks inflationary? Asymmetric and nonlinear specifications versus changes in regime[J]. Journal of Money, Credit and Banking, 2002, 34(2):540-561.
+［11］Cologni A, Manera M. Oil prices, inflation and interest rates in a structural cointegrated VAR model for the G-7 countries[J]. Energy Economics, 2008, 30(3):856-888.
+［12］Beirne J, Renzhi N. Oil price pass-through to inflation in emerging Asia[J]. Journal of Asian Economics, 2026, 103:102103.
+［13］Qin Y, Zhang Z. Oil price shocks, economic policy uncertainty and China’s producer price index: Evidence from quantile regression analysis[J]. The North American Journal of Economics and Finance, 2025, 77:102399.
+［14］陈六傅, 刘厚俊. 人民币汇率的价格传递效应——基于VAR模型的实证分析[J]. 金融研究, 2007(04):1-13.
+［15］施建淮, 傅雄广, 许伟. 人民币汇率变动对我国价格水平的传递[J]. 经济研究, 2008(07):52-63.
+［16］刘亚, 李伟平, 杨宇俊. 人民币汇率变动对我国通货膨胀的影响：汇率传递视角的研究[J]. 金融研究, 2008(03):28-41.
+［17］倪克勤, 曹伟. 人民币汇率变动的不完全传递研究：理论及实证[J]. 金融研究, 2009(06):44-59.
+［18］王晋斌, 李南. 中国汇率传递效应的实证分析[J]. 经济研究, 2009(04):17-27.
+［19］杜运苏, 赵勇. 汇率变动的价格传递效应——基于中国的实证研究[J]. 经济科学, 2008(05):48-57.
+［20］Ding S, Zheng D, Cui T, Du M. The oil price-inflation nexus: The exchange rate pass-through effect[J]. Energy Economics, 2023, 125:106828.
+［21］Nusair S A, Olson D. The effects of oil price shocks on Asian exchange rates: Evidence from quantile regression analysis[J]. Energy Economics, 2019, 78:44-63.
+［22］Tang C, Aruga K. A study on the pass-through rate of the exchange rate on the liquid natural gas (LNG) import price in China[J]. International Journal of Financial Studies, 2020, 8(4):70.
+［23］丁绪辉, 王柳元, 贺菊花. 国际石油价格与人民币汇率的联动效应研究——基于VAR模型的实证分析[J]. 价格理论与实践, 2017(07):97-100.
