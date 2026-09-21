@@ -16,5 +16,7 @@ authors:
     given-names: Huijuan
   - family-names: Yuan
     given-names: Quanbo
-doi: 10.5281/zenodo.20714252
+doi: 10.5281/zenodo.22869727
+version: 1.1.0
+date-released: 2026-09-21
 license: MIT

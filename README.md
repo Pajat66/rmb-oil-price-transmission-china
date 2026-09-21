@@ -11,20 +11,22 @@ The study combines a long monthly macroeconomic sample (1998-01 to 2026-02) with
 **Title:** Transmission of RMB-denominated oil price shocks to China’s price system
 
 **Authors:** Xuehua Zhou, Baoping Zhang, Zhongfan Li, Yuechao Yao, Hanming Zhang, Huijuan Wang, and Quanbo Yuan
-**Replication archive DOI:** [10.5281/zenodo.20714252](https://doi.org/10.5281/zenodo.20714252)
+**Concept DOI (all versions):** [10.5281/zenodo.20714251](https://doi.org/10.5281/zenodo.20714251)
+
+**Current archived release (v1.1.0):** [10.5281/zenodo.22869727](https://doi.org/10.5281/zenodo.22869727)
 
 ## Data availability and provenance
 
 Raw source files are preserved under `01_raw/` as originally collected and must not be modified during reproduction. Provider terms continue to govern third-party data.
 
-| Provider | Repository source material | Primary role |
-| --- | --- | --- |
-| U.S. Energy Information Administration (EIA) | `01_raw/01_eia_brent/` | Brent crude-oil price |
-| Federal Reserve Economic Data (FRED) | `01_raw/02_fx_pbc_fred/` | RMB/USD exchange rate |
-| National Bureau of Statistics of China | `01_raw/03_nbs_price/` | CPI, PPI, purchase-price and industrial-output series |
-| General Administration of Customs of China | `01_raw/04_customs_trade/` | Crude-oil import quantity and value |
-| Bank for International Settlements (BIS) | `01_raw/05_backup_bis_worldbank/` | Backup exchange-rate series where applicable |
-| World Bank commodity-price data | `01_raw/05_backup_bis_worldbank/` | Backup/cross-check commodity-price data where applicable |
+| Provider                                     | Repository source material        | Primary role                                             |
+| -------------------------------------------- | --------------------------------- | -------------------------------------------------------- |
+| U.S. Energy Information Administration (EIA) | `01_raw/01_eia_brent/`            | Brent crude-oil price                                    |
+| Federal Reserve Economic Data (FRED)         | `01_raw/02_fx_pbc_fred/`          | RMB/USD exchange rate                                    |
+| National Bureau of Statistics of China       | `01_raw/03_nbs_price/`            | CPI, PPI, purchase-price and industrial-output series    |
+| General Administration of Customs of China   | `01_raw/04_customs_trade/`        | Crude-oil import quantity and value                      |
+| Bank for International Settlements (BIS)     | `01_raw/05_backup_bis_worldbank/` | Backup exchange-rate series where applicable             |
+| World Bank commodity-price data              | `01_raw/05_backup_bis_worldbank/` | Backup/cross-check commodity-price data where applicable |
 
 See `00_admin/README_METADATA.md` and `01_raw/README_DATA_SOURCES.md` for file-level documentation.
 
