@@ -70,14 +70,14 @@ FIGURE_MAP = [
     },
     {
         "fig_no": 10,
-        "stem": "fig6_1_mantel_network_bubble_english",
-        "title": "Mantel network bubble figure.",
+        "stem": "fig6_2_lp_irf_band_english",
+        "title": "Dynamic response band chart based on local projections.",
         "required": True,
     },
     {
         "fig_no": 11,
-        "stem": "fig6_2_lp_irf_band_english",
-        "title": "Local-projection impulse-response bands.",
+        "stem": "fig6_1_mantel_network_bubble_english",
+        "title": "Mantel test correlation graph for imported inflation transmission.",
         "required": True,
     },
 ]

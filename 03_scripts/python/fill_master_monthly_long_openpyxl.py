@@ -11,8 +11,8 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 
-# === 1) Update these three lines if the project directory changes ===
-PROJECT_ROOT = Path(r"D:\Anew_file\统计建模\Mainfiles")
+# === 1) Resolve the repository root from this script's location ===
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW = PROJECT_ROOT / "01_raw"
 OUT = PROJECT_ROOT / "02_clean" / "monthly_master" / "master_monthly_long_1998_2026.xlsx"
 

@@ -9,7 +9,7 @@ from plos_figure_export import save_plos_figure
 # =========================
 # 1. Path configuration
 # =========================
-ROOT = Path(r"D:\Anew_file\统计建模\Mainfiles")
+ROOT = Path(__file__).resolve().parents[2]
 DATA_FILE = ROOT / "04_results" / "chapter2" / "master_short_clean_v1.xlsx"
 FIG_DIR = ROOT / "04_results" / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)

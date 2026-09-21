@@ -11,7 +11,7 @@ from plos_figure_export import save_plos_figure
 # Figure 2-1: optimized 3D terrain chart for major-variable sample coverage
 # =========================
 
-ROOT = Path(r"D:\Anew_file\统计建模\Mainfiles")
+ROOT = Path(__file__).resolve().parents[2]
 OUT_DIR = ROOT / "04_results" / "figures"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

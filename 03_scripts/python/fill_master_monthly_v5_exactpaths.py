@@ -7,15 +7,7 @@ from openpyxl.styles import Font, PatternFill, Alignment
 from openpyxl.utils import get_column_letter
 
 
-def find_project_root() -> Path:
-    here = Path(__file__).resolve()
-    for p in [here.parent, *here.parents]:
-        if p.name == "Mainfiles":
-            return p
-    return here.parents[2]
-
-
-PROJECT_ROOT = find_project_root()
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 RAW = PROJECT_ROOT / "01_raw"
 
 MASTER_CANDIDATES = [

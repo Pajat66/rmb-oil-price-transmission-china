@@ -7,7 +7,7 @@ import statsmodels.api as sm
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 from plos_figure_export import save_plos_figure
 
-ROOT = Path(r"D:\Anew_file\统计建模\Mainfiles")
+ROOT = Path(__file__).resolve().parents[2]
 FIG_DIR = ROOT / "04_results" / "figures"
 FIG_DIR.mkdir(parents=True, exist_ok=True)
 

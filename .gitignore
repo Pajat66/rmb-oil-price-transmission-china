@@ -9,12 +9,19 @@ __pycache__/
 *.pyo
 *.pyd
 .ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # R temporary files
 .Rhistory
 .RData
 .Rproj.user/
 *.Rproj
+
+# IDE/editor files
+.vscode/
+.idea/
 
 # Office temporary files
 ~$*.docx
@@ -36,11 +43,20 @@ env/
 04_results/**/temp/
 04_results/**/tmp/
 04_results/**/cache/
+temp_check/
+**/temp_check/
 
-# Optional: do not upload copyrighted literature PDFs
-05_paper_materials/Refference/*.pdf
-05_paper_materials/Reference/*.pdf
+# Internal repository audit reports
+docs/repository_audit/
 
-# Oversized publication figures
+# Third-party literature PDFs
+05_paper_materials/references/*.pdf
+
+# Oversized duplicate publication figures
 04_results/figures_english/*.tif
 04_results/figures_english/*.tiff
+
+# Local backup archives
+*.zip
+*.rar
+*.7z

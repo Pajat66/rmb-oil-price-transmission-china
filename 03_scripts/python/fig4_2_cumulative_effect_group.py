@@ -8,7 +8,7 @@ from plos_figure_export import save_plos_figure
 # =========================
 # 1. Path configuration
 # =========================
-ROOT = Path(r"D:\Anew_file\统计建模\Mainfiles")
+ROOT = Path(__file__).resolve().parents[2]
 # Switch back to master_short_clean_v1.xlsx if required by the analysis design
 # Otherwise continue using master_short_plot_ready.xlsx
 DATA_FILE = ROOT / "04_results" / "chapter2" / "master_short_plot_ready.xlsx"

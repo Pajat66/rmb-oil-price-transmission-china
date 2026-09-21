@@ -6,7 +6,7 @@ from pathlib import Path
 # =========================
 # 1. Path configuration
 # =========================
-ROOT = Path(r"D:\Anew_file\统计建模\Mainfiles")
+ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT / "02_clean" / "monthly_master"
 OUT_DIR = ROOT / "04_results" / "chapter2"
 OUT_DIR.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the associated manuscript and this archived package."
+title: "Transmission of RMB-denominated oil price shocks to China’s price system"
+authors:
+  - family-names: Zhou
+    given-names: Xuehua
+  - family-names: Zhang
+    given-names: Baoping
+  - family-names: Li
+    given-names: Zhongfan
+  - family-names: Yao
+    given-names: Yuechao
+  - family-names: Zhang
+    given-names: Hanming
+  - family-names: Wang
+    given-names: Huijuan
+  - family-names: Yuan
+    given-names: Quanbo
+doi: 10.5281/zenodo.20714252
+license: MIT

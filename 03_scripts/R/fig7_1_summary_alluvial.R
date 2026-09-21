@@ -174,8 +174,15 @@ p <- ggplot(
     plot.background = element_rect(fill = "white", color = NA)
   )
 
-# 4. Save output; width is set to 16 inches to leave enough right-side space
-root    <- "D:/Anew_file/统计建模/Mainfiles"
+# 4. Resolve the repository root from this script's location and save output.
+args <- commandArgs(trailingOnly = FALSE)
+file_arg <- grep("^--file=", args, value = TRUE)
+script_dir <- if (length(file_arg) > 0) {
+  dirname(normalizePath(sub("^--file=", "", file_arg[1]), winslash = "/"))
+} else {
+  normalizePath(getwd(), winslash = "/")
+}
+root    <- normalizePath(file.path(script_dir, "..", ".."), winslash = "/", mustWork = TRUE)
 fig_dir <- file.path(root, "04_results", "figures")
 if (!dir.exists(fig_dir)) dir.create(fig_dir, recursive = TRUE)
 
