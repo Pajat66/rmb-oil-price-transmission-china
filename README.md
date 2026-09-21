@@ -64,11 +64,11 @@ There is intentionally no one-command reproduction wrapper: several scripts over
 
 ## Manuscript, outputs, and Supporting Information
 
-`CONTENTS_MANIFEST.md` records the verified manuscript–data–script–output mapping and flags entries that need manual confirmation. Figure 10 is the local-projection dynamic-response band and Figure 11 is the Mantel correlation graph. `docs/repository_audit/SUPPORTING_INFORMATION_AUDIT.md` compares the repository SI workbook with the read-only submitted Supporting Information folder. The current SI workbook is `04_results/supporting_information/S1_Table.xlsx`, with sheets `S1 Table` through `S8 Table`.
+`CONTENTS_MANIFEST.md` records the verified manuscript–data–script–output mapping and flags entries that need manual confirmation. Figure 10 is the local-projection dynamic-response band and Figure 11 is the Mantel correlation graph. The repository Supporting Information workbook was cross-checked against the submitted Supporting Information package for sheet order, populated cells, formulas, and header content. The current SI workbook is `04_results/supporting_information/S1_Table.xlsx`, with sheets `S1 Table` through `S8 Table`.
 
 ## License and citation
 
-Repository-authored code is released under the MIT License; see `LICENSE`. Third-party source datasets and literature remain subject to their original providers’ terms, licenses, and policies. Cite this package using `CITATION.cff` and the DOI above.
+Repository-authored code is released under the MIT License; see `LICENSE`. The MIT License applies only to repository-authored code and documentation and does not override third-party data-provider terms. Third-party source datasets and literature remain subject to their original providers’ terms, licenses, and policies. Cite this package using `CITATION.cff` and the DOI above.
 
 ## Contact
 

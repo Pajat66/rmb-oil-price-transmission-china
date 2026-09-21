@@ -11,15 +11,9 @@ SOURCE_DIR = ROOT / "04_results" / "figures_english"
 SUBMISSION_DIR = ROOT / "04_results" / "figures_plos_submission"
 
 
-# Manuscript figure mapping. Fig1 is intentionally listed even though this
-# package currently does not contain a standalone technical-route image.
+# Fig1 is a manually prepared conceptual schematic and is intentionally
+# excluded from automated figure conversion.
 FIGURE_MAP = [
-    {
-        "fig_no": 1,
-        "stem": None,
-        "title": "Technical route and model structure of this study.",
-        "required": True,
-    },
     {
         "fig_no": 2,
         "stem": "fig2_1_sample_coverage_english",

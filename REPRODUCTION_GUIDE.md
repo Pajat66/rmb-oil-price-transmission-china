@@ -36,11 +36,11 @@ Use `CONTENTS_MANIFEST.md` for the manuscript-to-output link. The PLOS conversio
 
 ## 7. Supporting Information generation
 
-The SI export script builds one workbook whose sheets are S1 Table through S8 Table. Their sources and models are recorded in `04_results/supporting_information/supporting_table_mapping.csv`; the deposited copy is assessed in `docs/repository_audit/SUPPORTING_INFORMATION_AUDIT.md`.
+The SI export script builds one workbook whose sheets are S1 Table through S8 Table. Their sources and models are recorded in `04_results/supporting_information/supporting_table_mapping.csv`. The repository Supporting Information workbook was cross-checked against the submitted Supporting Information package for sheet order, populated cells, formulas, and header content.
 
 ## 8. Known caveats
 
 - This repository does not claim a one-command reproduction path.
 - Some retained exploratory/older figure scripts write to `04_results/figures/`, while current English manuscript outputs are in `04_results/figures_english/`; see the manifest before choosing a script.
-- Figure 1 has a deposited submission TIFF, but the code's PLOS mapping intentionally records no standalone technical-route source image. Its provenance needs manual confirmation.
+- Figure 1 is a manually prepared conceptual schematic and is not generated computationally.
 - R execution is environment-dependent; this cleanup does not install R or rerun models.
