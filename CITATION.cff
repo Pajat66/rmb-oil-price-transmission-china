@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite the v2.0.0 research package. GitHub main publication is authorized; a tagged Release and a new version DOI have not yet been created. MIT covers author software/documentation; CC BY 4.0 covers author-original figures/tables/shareable outputs; third-party observations retain upstream terms. See LICENSE and licenses/FILE_LICENSES.csv."
+message: "Cite the v2.0.0 research package. The research package is available on GitHub main; a v2.0.0 tag, GitHub Release and new version DOI have not yet been created. MIT covers author software/documentation; CC BY 4.0 covers author-original figures/tables/shareable outputs; third-party observations retain upstream terms. See LICENSE and licenses/FILE_LICENSES.csv."
 type: software
 title: "Renminbi-denominated oil-price movements and inflation dynamics across China's price system"
 version: 2.0.0

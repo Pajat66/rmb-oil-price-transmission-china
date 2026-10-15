@@ -1,6 +1,6 @@
 # Licences for v2.0.0
 
-The authors have approved version v2.0.0 and the following grants for material they own and have the right to license. The final GitHub main push is authorized; a tag, GitHub Release, Zenodo archive and journal submission require separate authorization.
+The authors have approved version v2.0.0 and the following grants for material they own and have the right to license. The research package is available on GitHub main; the v2.0.0 tag, GitHub Release, Zenodo archive and journal submission remain pending and require separate authorization.
 
 1. **MIT** applies to author-owned revised Python software in src/ and scripts/, software configuration and associated author-written software/reproduction documentation. The grant and copyright notice are in licenses/MIT.txt. The pre-existing licenses/HISTORICAL_CODE_LICENSE.txt is preserved verbatim and remains applicable within its original scope.
 2. **Creative Commons Attribution 4.0 International (CC BY 4.0)** applies to author-original main figures, Supporting Figures, their author-written captions, manuscript tables, Supporting Tables and shareable author-generated statistical results and plotted statistical outputs. The authors license those contributions under https://creativecommons.org/licenses/by/4.0/; the complete legal text is in licenses/CC-BY-4.0.txt. Attribute the seven authors in CITATION.cff, the study title, v2.0.0, the repository and the actual version DOI once assigned; retain source credits and identify modifications.

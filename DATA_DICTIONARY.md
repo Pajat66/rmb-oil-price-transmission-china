@@ -30,7 +30,7 @@ Historic S2 aligned exposures use100[ln(P_t)−ln(P_t−12)] and original window
 
 Formal p2 starts1998-04, N=335−h. S18p1/2/3/4/6 starts1998-08, N=331−h. The initial2015-01 customs difference is missing because the prior month is outside its calendar. Equation-specific masks are in the [sample registry](supporting_information/archive/csv/S17_Final_sample_registry.csv) and [design seals](reference/registries/design_array_seals.json).
 
-## Source/use and raw-unit clarification (R4B)
+## Source/use and raw-unit clarification
 
 All ten inputs have verified official provenance and local hashes; research use and redistribution are separate in [source status](metadata/data_source_status.csv). Retain provider conditions when quoting observations. NBS onward licensing is restricted; EIA/Customs complete monthly sharing remains separately unresolved.
 

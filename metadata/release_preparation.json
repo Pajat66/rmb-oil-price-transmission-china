@@ -1,5 +1,5 @@
 {
-  "status": "READY_FOR_AUTHORIZED_GITHUB_MAIN_PUSH",
+  "status": "GITHUB_MAIN_UPDATED_RELEASE_PENDING",
   "version": "v2.0.0",
   "version_approved": true,
   "licenses_approved": true,
@@ -22,7 +22,7 @@
   "zenodo_metadata": ".zenodo.json",
   "license_record": "licenses/FINAL_LICENSE_APPROVAL.md",
   "data_statement": "docs/DATA_AVAILABILITY_FINAL.md",
-  "final_handoff": "docs/FINAL_RELEASE_HANDOFF.md",
+  "final_handoff": "RELEASE_NOTES.md",
   "archive_route": "EXISTING_ACTIVE_GITHUB_ZENODO_RELEASE_INTEGRATION_ONLY",
   "figure_visual_revision": {
     "date": "2026-10-15",
@@ -36,7 +36,7 @@
       7
     ],
     "status": "REDESIGNED_AND_LOCAL_COPIES_SYNCHRONIZED",
-    "qa": "docs/FIGURE_REDESIGN_QA.md",
+    "qa": "docs/FIGURE_REPRODUCTION.md",
     "publication_executed": false,
     "frozen_results_changed": false
   },
@@ -45,5 +45,13 @@
   "tag_release_zenodo_authorized": false,
   "journal_submission_authorized": false,
   "data_access_matrix": "DATA_ACCESS_MATRIX.csv",
-  "figure2_public_reconstruction": "RULES_PRESENT_EXACT_VINTAGE_AND_PORTABLE_BINDING_UNVERIFIED"
+  "figure2_public_reconstruction": "RULES_PRESENT_EXACT_VINTAGE_AND_PORTABLE_BINDING_UNVERIFIED",
+  "checked_date": "2026-10-15",
+  "github_main_updated": true,
+  "github_main_research_commit": "0bb68d60cdb4251c13e620d119e06f58350d5852",
+  "v2_tag_created": false,
+  "github_release_published": false,
+  "zenodo_new_version_archived": false,
+  "plos_one_new_manuscript_submitted": false,
+  "documentation_update_scope": "DOCUMENTATION_STATUS_PATH_AND_CHECKSUMS_ONLY_NO_SCIENTIFIC_EXECUTION"
 }

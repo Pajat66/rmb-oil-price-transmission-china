@@ -11,9 +11,9 @@
     "validation": "2026-10-15 saved-value/coordinate and final-size visual QA; no estimation or resampling",
     "monthly_third_party_data": "Not required to render this workflow diagram; empirical data construction is documented separately",
     "license_status": "CC-BY-4.0: author-original graphic; underlying provider observations excluded",
-    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REDESIGN_QA.md",
+    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REPRODUCTION.md",
     "data_access_document": "docs/FIGURE_DATA_ACCESS.md",
-    "delivery_state": "FINAL_GITHUB_MAIN_PUSH_AUTHORIZED_RELEASE_ZENODO_PENDING"
+    "delivery_state": "GITHUB_MAIN_UPDATED_RELEASE_PENDING"
   },
   {
     "item": "Figure 2",
@@ -27,9 +27,9 @@
     "validation": "2026-10-15 saved-value/coordinate and final-size visual QA; no estimation or resampling",
     "monthly_third_party_data": "Required for regeneration; excluded except FX series",
     "license_status": "CC-BY-4.0: author-original graphic; underlying provider observations excluded",
-    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REDESIGN_QA.md",
+    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REPRODUCTION.md",
     "data_access_document": "docs/FIGURE_DATA_ACCESS.md",
-    "delivery_state": "FINAL_GITHUB_MAIN_PUSH_AUTHORIZED_RELEASE_ZENODO_PENDING"
+    "delivery_state": "GITHUB_MAIN_UPDATED_RELEASE_PENDING"
   },
   {
     "item": "Figure 3",
@@ -43,9 +43,9 @@
     "validation": "2026-10-15 saved-value/coordinate and final-size visual QA; no estimation or resampling",
     "monthly_third_party_data": "Required for re-estimation; frozen plotted statistics/source CSVs are included for figure review",
     "license_status": "CC-BY-4.0: author-original graphic; underlying provider observations excluded",
-    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REDESIGN_QA.md",
+    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REPRODUCTION.md",
     "data_access_document": "docs/FIGURE_DATA_ACCESS.md",
-    "delivery_state": "FINAL_GITHUB_MAIN_PUSH_AUTHORIZED_RELEASE_ZENODO_PENDING"
+    "delivery_state": "GITHUB_MAIN_UPDATED_RELEASE_PENDING"
   },
   {
     "item": "Figure 4",
@@ -59,9 +59,9 @@
     "validation": "2026-10-15 saved-value/coordinate and final-size visual QA; no estimation or resampling",
     "monthly_third_party_data": "Required for re-estimation; frozen plotted statistics/source CSVs are included for figure review",
     "license_status": "CC-BY-4.0: author-original graphic; underlying provider observations excluded",
-    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REDESIGN_QA.md",
+    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REPRODUCTION.md",
     "data_access_document": "docs/FIGURE_DATA_ACCESS.md",
-    "delivery_state": "FINAL_GITHUB_MAIN_PUSH_AUTHORIZED_RELEASE_ZENODO_PENDING"
+    "delivery_state": "GITHUB_MAIN_UPDATED_RELEASE_PENDING"
   },
   {
     "item": "Figure 5",
@@ -75,9 +75,9 @@
     "validation": "2026-10-15 saved-value/coordinate and final-size visual QA; no estimation or resampling",
     "monthly_third_party_data": "Required for re-estimation; frozen plotted statistics/source CSVs are included for figure review",
     "license_status": "CC-BY-4.0: author-original graphic; underlying provider observations excluded",
-    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REDESIGN_QA.md",
+    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REPRODUCTION.md",
     "data_access_document": "docs/FIGURE_DATA_ACCESS.md",
-    "delivery_state": "FINAL_GITHUB_MAIN_PUSH_AUTHORIZED_RELEASE_ZENODO_PENDING"
+    "delivery_state": "GITHUB_MAIN_UPDATED_RELEASE_PENDING"
   },
   {
     "item": "Figure 6",
@@ -91,9 +91,9 @@
     "validation": "2026-10-15 saved-value/coordinate and final-size visual QA; no estimation or resampling",
     "monthly_third_party_data": "Required for re-estimation; frozen plotted statistics/source CSVs are included for figure review",
     "license_status": "CC-BY-4.0: author-original graphic; underlying provider observations excluded",
-    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REDESIGN_QA.md",
+    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REPRODUCTION.md",
     "data_access_document": "docs/FIGURE_DATA_ACCESS.md",
-    "delivery_state": "FINAL_GITHUB_MAIN_PUSH_AUTHORIZED_RELEASE_ZENODO_PENDING"
+    "delivery_state": "GITHUB_MAIN_UPDATED_RELEASE_PENDING"
   },
   {
     "item": "Figure 7",
@@ -107,8 +107,8 @@
     "validation": "2026-10-15 saved-value/coordinate and final-size visual QA; no estimation or resampling",
     "monthly_third_party_data": "Required for re-estimation; frozen plotted statistics/source CSVs are included for figure review",
     "license_status": "CC-BY-4.0: author-original graphic; underlying provider observations excluded",
-    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REDESIGN_QA.md",
+    "notes": "TIFF 600 dpi RGB/LZW; PNG/SVG/EPS; identical external journal-upload TIFF; see docs/FIGURE_REPRODUCTION.md",
     "data_access_document": "docs/FIGURE_DATA_ACCESS.md",
-    "delivery_state": "FINAL_GITHUB_MAIN_PUSH_AUTHORIZED_RELEASE_ZENODO_PENDING"
+    "delivery_state": "GITHUB_MAIN_UPDATED_RELEASE_PENDING"
   }
 ]

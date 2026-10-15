@@ -1,13 +1,23 @@
-# v2.0.0 file manifest
+# v2.0.0 repository contents
 
-The [file-level register](metadata/public_file_manifest.csv) covers every current release file with actual SHA256, category and scoped licence. The [licence register](licenses/FILE_LICENSES.csv) maps each path to its grant/exception. The [34-item manuscript index](metadata/manuscript_to_files.csv), [SI mapping](metadata/si_file_mapping.csv), seven main TIFFs, six main-table CSV/XLSX pairs and 21 journal SI files are retained.
+The [file manifest](metadata/public_file_manifest.csv) lists every current public file, its category and scoped licence. The [licence register](licenses/FILE_LICENSES.csv) covers the same paths. The [34-item manuscript index](metadata/manuscript_to_files.csv) maps seven main figures, six main tables, 18 Supporting Tables and three Supporting Figures. [SI mappings](metadata/si_file_mapping.csv) describe the 21 journal attachments and their archive sources.
 
-The [checksum index](validation/checksums/files.json) covers all files except itself and metadata/public_file_manifest.csv. Those two indexes deliberately have no circular self-hash; the external R5 release checksum manifest covers them and all other payload files. Git administrative files are excluded from public manifests/archives.
+| Directory | Contents |
+|---|---|
+| [figures](figures/) | Seven main figures in TIFF/PNG/SVG/EPS; included plotted statistics in figures/source |
+| [tables](tables/) | Six CSV/XLSX main-table pairs |
+| [journal_submission](journal_submission/) | 18 Supporting Tables and three Supporting Figures |
+| [supporting_information](supporting_information/) | Frozen supporting workbooks, CSVs and archive mapping |
+| [src](src/), [scripts](scripts/), [config](config/) | Scientific and plotting software, entry points and fixed configurations |
+| [reference](reference/) | Frozen statistical outputs, bootstrap paths and sample/design registries |
+| [data](data/) | Public-domain EXCHUS extract and scientific source metadata |
+| [metadata](metadata/), [validation](validation/) | Captions, item/path mappings, export records and checksums |
+| [docs](docs/), [licenses](licenses/) | Reproduction, data-access, validation, research-history and licence documentation |
 
-All 262 R4C paths are inherited; operative documentation/metadata and the packaging-only verifier are updated, and final licence/release documents are added. Scientific estimation modules, configurations, observation extract, saved statistical results, tables and SI retain their source bytes. The 2026-10-15 figure-only revision updates seven plotting modules, their rendering entry point, shared visual tokens, main-figure files and necessary indexes/documentation. It adds PNG/SVG/EPS alongside the TIFFs; no scientific result is recalculated. Original third-party exports, full mixed monthly inputs, private manuscript/review files, credentials, screenshots and internal preparation reports are not in this current release tree. Historical commits are preserved with their earlier contents and receive no new blanket licence.
+## Checksums and provenance
 
-The [approved licence record](licenses/FINAL_LICENSE_APPROVAL.md), [final Data Availability text](docs/DATA_AVAILABILITY_FINAL.md), [remaining actions](docs/FINAL_AUTHOR_CHECKLIST.md), [release notes](RELEASE_NOTES.md) and [release status](RELEASE_STATUS.json) describe the approved identity and unexecuted publication boundary.
+The [checksum index](validation/checksums/files.json) covers every current file except itself and metadata/public_file_manifest.csv. The public manifest includes both index paths but intentionally leaves their target hashes and sizes empty, preserving the existing non-circular rule. All other rows contain actual byte sizes and SHA256 values. Git objects and administrative files are excluded. Git records the two indexes as ordinary versioned files and provides their historical identities.
 
-Current figure deliverables: [summary](docs/FIGURE_REDESIGN_EXECUTIVE_SUMMARY.md), [outputs](docs/FIGURE_REDESIGN_OUTPUTS.md), [scripts](docs/FIGURE_REDESIGN_SCRIPT_MAP.md), [QA](docs/FIGURE_REDESIGN_QA.md), and [export metadata](metadata/figure_export_status.json). The local prepared ZIP is synchronized from the working tree; earlier R5 Git-tree/diff reports describe the pre-redesign snapshot. No Git staging, commit, push, release or submission was performed by this figure revision.
+The source_path and source_sha256 fields identify the input file at the preceding research-package commit, 0bb68d60cdb4251c13e620d119e06f58350d5852; these are provenance references, not current filesystem paths. New documentation has no baseline source hash. A byte-integrity check does not establish scientific replication.
 
-The final GitHub main preparation adds [DATA_ACCESS_MATRIX.csv](DATA_ACCESS_MATRIX.csv), documents the Figure 2 reconstruction/vintage limitations, and refreshes scoped main-push authorization and all current manifests. The historical pre-redesign staged tree is not the final commit tree. Release/Zenodo/journal actions remain separate.
+See [figure reproduction](docs/FIGURE_REPRODUCTION.md), [validation scope](VALIDATION.md), [approved licence record](licenses/FINAL_LICENSE_APPROVAL.md) and [publication status](RELEASE_NOTES.md#publication-status). Original provider exports and complete mixed monthly inputs remain excluded. Historical commits and tags retain their earlier contents and licence boundaries; this inventory describes the current tree.
