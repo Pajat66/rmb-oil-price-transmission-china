@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-04T08:30:10.796682+00:00",
+  "seed": 2026100402,
+  "bootstrap_B": 5000,
+  "primary": "READ EXACT Phase2B saved primary design matrices; all variables/columns/horizons unchanged",
+  "summary_horizons": [
+    0,
+    3,
+    6,
+    12
+  ],
+  "recursive_initial_N": 120,
+  "rolling_windows": [
+    120,
+    96,
+    144
+  ],
+  "rolling_primary": 120,
+  "window_HAC": 12,
+  "formal_horizons": [
+    0,
+    3,
+    6
+  ],
+  "formal_trim": 0.15,
+  "formal_min_all_horizon_segment_N": 60,
+  "formal_statistic": "sup of all-six-parameter Wald=p*Chow F; transparent RSS implementation; dependent-wild bootstrap calibration, not classical F critical values",
+  "formal_bootstrap": "stable-coefficient null, fixed original X, HC2 adjusted centered residuals times Gaussian MA13 multipliers; Bartlett covariance lag12; reestimate stable and split equations at every candidate in every draw",
+  "break_decision": "BH q<.05 across nine formal sup-Wald tests; raw and Holm retained; candidate argmax is not a detected break otherwise",
+  "parameter_tests": "recursive-residual CUSUM initial60; Hansen full parameter/variance score stability; same null bootstrap; classical values auxiliary; family nine tests per method",
+  "hierarchy": "period and cumulative h3,h6; all outcomes and component horizons on identical origin-window months; full paired horizon/outcome HAC12 influences; intervals pointwise; no pooling overlapping windows as independent tests",
+  "regime_partition": "shock-origin dates, same saved horizon designs; responses may extend beyond origin boundary; do not interpret as clean exclusive outcome regimes",
+  "broad_period": "prefer significant formal-break dates; fallback equal halves of common h12 primary origin calendar, both N>=60; no institutional names",
+  "mechanism": "Link1 exact p3 noquantity design: rolling60 and halves65/65; Link2 baseline fixed saved LP: rolling60 all h0..12, fixed half split from h0 calendar; skip both half equations when either N<60",
+  "placebo": "current outcome on original h0 regressors INCLUDING current oil plus futureoil leads1..3; HAC12; individual lead families of3 per outcome and joint family of3 outcomes",
+  "reverse": "futureoil leads1..3 on current price change plus frozen h0 controls INCLUDING current oil; separate equations, family3 per price outcome",
+  "summary_rule": "TIME_VARYING if corrected supW and corrected CUSUM/Hansen both reject at any horizon or clear rolling CI sign reversal; PARTIALLY_STABLE if single-method corrected rejection or recursive drift; STABLE only no formal rejection, no recursive drift, and rolling signs >=90% same with >50% intervals excluding zero at all summary horizons; otherwise INCONCLUSIVE. These are evidence classifications, not proof of exact stability.",
+  "recursive_drift": "last vs initial120 shock-coefficient contrast with shared-sample full HAC12 covariance; Holm family4 horizons per outcome",
+  "hierarchy_claim": "report positive/negative/cross-zero paired CI fractions at h3,h6; do not infer full-history ordering from point signs",
+  "no_causal_identification": true,
+  "no_institutional_attribution": true,
+  "no_software_installation": true
+}

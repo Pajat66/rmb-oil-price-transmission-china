@@ -1,77 +1,37 @@
-# Replication Package: Transmission of RMB-Denominated Oil Price Shocks to China’s Price System
+# Renminbi-denominated oil-price movements and inflation dynamics across China's price system
 
-This repository contains the data, code, analytical outputs, and supporting materials for the manuscript: “Transmission of RMB-denominated oil price shocks to China’s price system.” It examines how an RMB-denominated oil price—constructed from Brent crude oil and the RMB/USD exchange rate—transmits through crude-oil import costs, PPI, CPI, and related Chinese price indicators.
+**v2.0.0 — final preparation for the authorized GitHub main push; tagged Release and Zenodo archive pending.** The coauthors approved the revised materials, version and scoped MIT/CC BY 4.0 licences. This package supports a **new PLOS ONE manuscript**. Current preparation state: `READY_FOR_AUTHORIZED_GITHUB_MAIN_PUSH`. No new Version DOI has been assigned.
 
-## Overview
+The revised main analysis uses stationary local projections (p=2, h=0–12) for RMB oil-cost movements and changes in year-on-year Fuel/PPI/CPI inflation. Estimates describe conditional dynamic associations. The macro calendar is January 1998–February 2026 (338 months); Customs inputs span January 2015–February 2026 (134 months). RMB oil cost = Brent USD/barrel × CNY/USD; oil movements = 100 calendar log differences; inflation outcomes = adjacent changes in year-on-year indices minus 100. Missing months are preserved.
 
-The study combines a long monthly macroeconomic sample (1998-01 to 2026-02) with a shorter customs-import sample (2015-01 to 2026-02). It evaluates the transmission of external energy-cost shocks into China’s price system, with particular attention to crude-oil import costs, the fuel-and-power purchase price index, PPI, and CPI.
+## Start here
 
-## Paper
+| Material | Location |
+|---|---|
+| Seven main figures: TIFF / PNG / SVG / EPS | [Figures](figures/); [visual redesign and QA](docs/FIGURE_REDESIGN_EXECUTIVE_SUMMARY.md); [Figure 2 source boundary](docs/FIGURE2_RELEASE_STATUS.md) |
+| Six main tables, CSV/XLSX pairs | [Tables](tables/); [latest Word status](docs/MANUSCRIPT_RECONCILIATION.md) |
+| 18 Supporting Tables and three Supporting Figures | [21 journal SI files](journal_submission/); [archive mapping](supporting_information/README.md) |
+| Captions and 34 manuscript items | [Manuscript index](metadata/manuscript_to_files.csv); [captions](metadata/captions.json) |
+| Necessary observations and transformations | [Official sources](DATA_SOURCES.md); [data access matrix](DATA_ACCESS_MATRIX.csv); [data dictionary](DATA_DICTIONARY.md); [data access](data/README.md); [figure observations](docs/FIGURE_DATA_ACCESS.md) |
+| Software and frozen results | [Python sources](src/); [entry points](scripts/); [saved results](reference/); [reproduction guide](REPRODUCTION_GUIDE.md); [validation limits](VALIDATION.md) |
+| Citation and version | [CITATION.cff](CITATION.cff); [change log](CHANGELOG.md); [release notes](RELEASE_NOTES.md); [history](docs/HISTORY.md) |
+| Licence scopes | [LICENSE](LICENSE); [file licence register](licenses/FILE_LICENSES.csv); [third-party exceptions](licenses/THIRD_PARTY_DATA.md) |
+| Manuscript and publication handoff | [Final Data Availability](docs/DATA_AVAILABILITY_FINAL.md); [remaining actions](docs/FINAL_AUTHOR_CHECKLIST.md); [publication sequence](docs/FINAL_RELEASE_HANDOFF.md) |
 
-**Title:** Transmission of RMB-denominated oil price shocks to China’s price system
+## Official observation access
 
-**Authors:** Xuehua Zhou, Baoping Zhang, Zhongfan Li, Yuechao Yao, Hanming Zhang, Huijuan Wang, and Quanbo Yuan
-**Concept DOI (all versions):** [10.5281/zenodo.20714251](https://doi.org/10.5281/zenodo.20714251)
+The [EXCHUS extract](data/analysis_ready/fred_exchus_monthly.csv) is included under its upstream public-domain status with citation requested. Obtain EIA monthly RBRTE, NBS national monthly indices/activity and Customs HS27090000 observations through the exact official procedures, units and date windows in [DATA_SOURCES.md](DATA_SOURCES.md). Historical checksums identify the research vintage; later provider revisions must be documented. EIA/NBS/Customs original exports, complete mixed monthly inputs and the 7,774-row Figure 2 observation source are excluded and are not author-relicensed. Figure 2 requires the individual values, including outliers, transformed with the published calendar/sample rules.
 
-**Current archived release (v1.1.0):** [10.5281/zenodo.22869727](https://doi.org/10.5281/zenodo.22869727)
+The inherited Customs closure is precise: official self-service exports for 2015–2016 matched all 24 monthly quantities and 24 RMB amounts exactly. The remaining 110 months were not newly exported and compared; the earlier 134-month local-validation evidence is separate. No new Customs investigation is required by this release preparation. No concrete necessary observation lacking a documented provider route was identified.
 
-## Data availability and provenance
+## Licences and citation
 
-Raw source files are preserved under `01_raw/` as originally collected and must not be modified during reproduction. Provider terms continue to govern third-party data.
+MIT applies to author-owned software, configuration and associated software documentation. CC BY 4.0 applies to author-original figures/captions, main and supporting tables and shareable generated statistical results. Third-party data, notices and dependencies retain their own terms; [LICENSE](LICENSE) and the per-file register define the limits. The historical MIT notice is unchanged.
 
-| Provider                                     | Repository source material        | Primary role                                             |
-| -------------------------------------------- | --------------------------------- | -------------------------------------------------------- |
-| U.S. Energy Information Administration (EIA) | `01_raw/01_eia_brent/`            | Brent crude-oil price                                    |
-| Federal Reserve Economic Data (FRED)         | `01_raw/02_fx_pbc_fred/`          | RMB/USD exchange rate                                    |
-| National Bureau of Statistics of China       | `01_raw/03_nbs_price/`            | CPI, PPI, purchase-price and industrial-output series    |
-| General Administration of Customs of China   | `01_raw/04_customs_trade/`        | Crude-oil import quantity and value                      |
-| Bank for International Settlements (BIS)     | `01_raw/05_backup_bis_worldbank/` | Backup exchange-rate series where applicable             |
-| World Bank commodity-price data              | `01_raw/05_backup_bis_worldbank/` | Backup/cross-check commodity-price data where applicable |
+Author order: Xuehua Zhou; Baoping Zhang; Zhongfan Li; Yuechao Yao; Hanming Zhang; Huijuan Wang; Quanbo Yuan. Historical v1.1.0 has [Version DOI 10.5281/zenodo.22869727](https://doi.org/10.5281/zenodo.22869727); the existing [Concept DOI 10.5281/zenodo.20714251](https://doi.org/10.5281/zenodo.20714251) identifies the version family. Neither is a new v2.0.0 Version DOI. The existing active GitHub–Zenodo release integration is the sole archive route. [Root metadata](.zenodo.json) explicitly uses Other (Open) for this mixture and describes component scopes, avoiding an automatic blanket CC BY label.
 
-See `00_admin/README_METADATA.md` and `01_raw/README_DATA_SOURCES.md` for file-level documentation.
+## Evidence and remaining actions
 
-## Main variables
+The 2026-10-15 figure-only revision redraws all seven main figures from frozen inputs and synchronizes TIFF/PNG/SVG/EPS, the local submission copies and file indexes. All scientific data, estimates, saved bootstrap paths, six table pairs, 21 SI files and manuscript files remain unchanged. There are 56 Python sources, including the shared plotting visual system. No models, MBB/DWB/S18 or SI processing were rerun. [Redesign outputs](docs/FIGURE_REDESIGN_OUTPUTS.md), [formal scripts](docs/FIGURE_REDESIGN_SCRIPT_MAP.md) and [11-point QA](docs/FIGURE_REDESIGN_QA.md) describe this narrow update. Earlier scientific verification remains limited to its stated scope. The [reproduction guide](REPRODUCTION_GUIDE.md) discloses the untested full execution path and required legal inputs. Reference environment: Python 3.12.7 with versions in [requirements](requirements.txt) and [environment](environment.yml); Arial is not bundled.
 
-Core variables include `brent_usd`, `cny_per_usd`, `oil_rmb`, `cpi_yoy`, `ppi_yoy`, `ppi_purchase_yoy`, `ppi_fuel_power_yoy`, `import_crude_oil_qty_10k_ton`, `import_crude_oil_value_100m_rmb`, `import_crude_oil_unit_price_yuan_per_kg`, `indust_va_yoy`, and `indust_va_cum_yoy`. Definitions, source mapping, and transformations are documented in `00_admin/variable.xlsx` and `00_admin/README_METADATA.md`.
-
-## Methods represented in the deposited code and manuscript
-
-The materials cover distributed-lag models (DLM), ARDL/bounds testing, stepwise mechanism regressions, cumulative lag effects, alternative-variable robustness checks, stage heterogeneity analysis, local projections, and Mantel correlation analysis. This package does not add methods or analyses beyond the submitted manuscript.
-
-## Repository structure
-
-```text
-00_admin/             Source log, variable dictionary, and metadata notes
-01_raw/               Preserved source data
-02_clean/             Cleaned/master analytical datasets
-03_scripts/python/    Python construction, analysis, export, and figure scripts
-03_scripts/R/         R figure scripts
-04_results/           Existing analytical outputs and submission-ready graphics
-05_paper_materials/   Working bibliography/reference materials (not needed to run code)
-```
-
-## Software requirements
-
-Python dependencies are listed in `requirements.txt`; a Conda environment specification is in `environment.yml`. R package requirements are listed in `REPRODUCTION_GUIDE.md`. The scripts use Chinese filenames and selected raw CSV files are read as GBK, so use an environment with appropriate Windows/UTF-8/GBK support when needed.
-
-## Quick reproduction guide
-
-There is intentionally no one-command reproduction wrapper: several scripts overwrite existing analytical outputs if run in place. Work on a fresh copy of the repository, then follow the ordered, input–script–output workflow in `REPRODUCTION_GUIDE.md`.
-
-1. Inspect `00_admin/` and confirm all files in `01_raw/` are present.
-2. Rebuild master files with the two `fill_master_*.py` scripts.
-3. Run `chapter2_preprocess_fixed_py38.py` to create analysis-ready files.
-4. Run only the figure/table/SI scripts needed for the target item.
-5. Use `CONTENTS_MANIFEST.md` to verify the relevant manuscript item and output.
-
-## Manuscript, outputs, and Supporting Information
-
-`CONTENTS_MANIFEST.md` records the verified manuscript–data–script–output mapping and flags entries that need manual confirmation. Figure 10 is the local-projection dynamic-response band and Figure 11 is the Mantel correlation graph. The repository Supporting Information workbook was cross-checked against the submitted Supporting Information package for sheet order, populated cells, formulas, and header content. The current SI workbook is `04_results/supporting_information/S1_Table.xlsx`, with sheets `S1 Table` through `S8 Table`.
-
-## License and citation
-
-Repository-authored code is released under the MIT License; see `LICENSE`. The MIT License applies only to repository-authored code and documentation and does not override third-party data-provider terms. Third-party source datasets and literature remain subject to their original providers’ terms, licenses, and policies. Cite this package using `CITATION.cff` and the DOI above.
-
-## Contact
-
-For questions about the study or deposited materials, contact the corresponding author named in the manuscript.
+Latest saved Word Table 2 Fuel h=12 is already `0.3072[0.1118, 0.5484]`; MathType objects remain present. The Data Availability heading is empty. After separate Release/Zenodo authorization and actual archive creation, fill the real Version DOI in the final statement and insert it manually in Word. Main tables stay in the manuscript; submit seven separate figures and 21 SI files as a new manuscript.

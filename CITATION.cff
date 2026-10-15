@@ -1,6 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this replication package, please cite the associated manuscript and this archived package."
-title: "Transmission of RMB-denominated oil price shocks to China’s price system"
+message: "Cite the v2.0.0 research package. GitHub main publication is authorized; a tagged Release and a new version DOI have not yet been created. MIT covers author software/documentation; CC BY 4.0 covers author-original figures/tables/shareable outputs; third-party observations retain upstream terms. See LICENSE and licenses/FILE_LICENSES.csv."
+type: software
+title: "Renminbi-denominated oil-price movements and inflation dynamics across China's price system"
+version: 2.0.0
+repository-code: "https://github.com/Pajat66/rmb-oil-price-transmission-china"
+license:
+  - MIT
+  - CC-BY-4.0
 authors:
   - family-names: Zhou
     given-names: Xuehua
@@ -16,7 +22,3 @@ authors:
     given-names: Huijuan
   - family-names: Yuan
     given-names: Quanbo
-doi: 10.5281/zenodo.22869727
-version: 1.1.0
-date-released: 2026-09-21
-license: MIT

@@ -1,0 +1,561 @@
+{
+  "PRIMARY_d_cpi_inflation_h0": {
+    "X_sha256": "4c84f108c800c6f4bdffd6fbb80672c08d93af407418297f1ed47ceccb550d76",
+    "Y_sha256": "073b85da979747a1951764d6f512138838a7efd773d7cdbca7d76e1da5181f3f",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 335,
+    "file_sha256": "cf99729bef9bed3078aa3ade5a53d2b141c11cde0ad90913f0c3b5f266b2734f"
+  },
+  "PRIMARY_d_cpi_inflation_h1": {
+    "X_sha256": "8b2e8634193f155c423ae4f98afb91b4dfc6b39e6250de67ed6db6bf886e27ab",
+    "Y_sha256": "e8541bc2c588066cb83fa519b754db03ff67bad4997c59c41445e985afa5cd09",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 334,
+    "file_sha256": "10d371a445e8844df8e2d80add315608cb7e7e7dd413f2bbb613f9a9f385d26a"
+  },
+  "PRIMARY_d_cpi_inflation_h10": {
+    "X_sha256": "63c161089e314501476c8db675164b44613f68d50ee0c7fe224e64c134d8f1a8",
+    "Y_sha256": "2fb7df25fb64a47c61d73fd3deeff7f492b843b673b25b620bb962d222659fec",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 325,
+    "file_sha256": "36b290f8f3ab1f763e724312c109a467e42a67563e623c2db65356e0f6dc6c7a"
+  },
+  "PRIMARY_d_cpi_inflation_h11": {
+    "X_sha256": "17b76c3da3d7e4312a98d04c83753c144aa839205bd4f910f25ab0f307493e4d",
+    "Y_sha256": "f7a1ffec9616cff2009f68b3d0f81b478253a21a5192c4ca4e11a8c0ff9d39ac",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 324,
+    "file_sha256": "99c61c5a80dcf96e4c6aeaeba4e6c1de72488aa5ce383497454d96b0c0c1e3e5"
+  },
+  "PRIMARY_d_cpi_inflation_h12": {
+    "X_sha256": "f24f8b9f111945ddcc67e5ce4dc3496a695533a468b7db5c01d074b4949a9ad1",
+    "Y_sha256": "45ef5324ca5b14f3841020cae772b219aa690453dbe16ac0f94243463322e93e",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 323,
+    "file_sha256": "5be06e478683b401582794a622527c341ac3e65d2d0b35e56e99a7d04d3c77c8"
+  },
+  "PRIMARY_d_cpi_inflation_h2": {
+    "X_sha256": "b84acb7e196b286bcabdcf814b46ae5f8465a13f399256c685b10a5f1eb75ccf",
+    "Y_sha256": "ecdd0c45f5707e5d51f261f29c247f6e6d33f77f788ee1f337cfee3f03dbdb87",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 333,
+    "file_sha256": "439a005daa3806b5eaccab4823ff92ac11a0cfa077758770a8574fb12888198a"
+  },
+  "PRIMARY_d_cpi_inflation_h3": {
+    "X_sha256": "81c60d6a10e521c8033e5fdc60954b1033478c82218d716791fc977158ad0b58",
+    "Y_sha256": "9a0cd0ac47056421be997ddf6049e66de712a328a0e92ab7aa86dee4be2bbb5e",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 332,
+    "file_sha256": "3b0b2e8b18480c60e8125f70f0b4a3bafa9c2501cf734860233ead0236dde45b"
+  },
+  "PRIMARY_d_cpi_inflation_h4": {
+    "X_sha256": "5f50603c3ea7bd16bf1cd26a7a323a75a252f1c18de11f2c6878f55260b3a7df",
+    "Y_sha256": "4821e0a7e68728f3cd0a749f157421fb78a3fc3c37c9daad76f7ef8eaf0a6dde",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 331,
+    "file_sha256": "8af74884190a3798e3fceba273920d3ffef08ded093dbbcf26fabd03d43a9adb"
+  },
+  "PRIMARY_d_cpi_inflation_h5": {
+    "X_sha256": "4439d034d5b8c57f342cbd0194de58fde2a11d121e1d43e06ed1b336ea09ef94",
+    "Y_sha256": "cde5d475b100ad423177e79026850965d30fa44adf843b58bd5d221aea2b353d",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 330,
+    "file_sha256": "f28554af4fff7553b815def25816e8f1e2c878bcbbf2c9e491ac3289b78fc45d"
+  },
+  "PRIMARY_d_cpi_inflation_h6": {
+    "X_sha256": "9665330374872885981e717e9d9b72e140959aa9df6d4ec9e3bc47aec6ed198e",
+    "Y_sha256": "a2e64a39ef6d231128e33691c5c462844df5c9dd7f0ee2ac6406e43096604b82",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 329,
+    "file_sha256": "93861734ddfddd6c52c9b49ab58f24bc4f139bb9a93e9eefab0c341e3e84f79c"
+  },
+  "PRIMARY_d_cpi_inflation_h7": {
+    "X_sha256": "b7a30e54db74d35d3b2ade03cc130a53afce12a282fcf9cb9df3481df5ac1d3a",
+    "Y_sha256": "5798e8279dfb897a6b3dc825f02493c7bcc015c2c9fcdc782e9c82c16ab31e82",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 328,
+    "file_sha256": "7427ae74e6843cd999c748e960e8fad6161c90cd07ce83bb61d33ef7d6d9c150"
+  },
+  "PRIMARY_d_cpi_inflation_h8": {
+    "X_sha256": "21781649980adcc1d43cd04dbd90ddc045e1de8d31fc5ae401fcf59607282aec",
+    "Y_sha256": "4218e9b56701a5a3fdec56852ddeb52ec911574d990d9802111dfe166fbeb146",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 327,
+    "file_sha256": "6fb621c4bfb68ce9165a3a392db0f266c66259b0ec6a78e29d730d4ea406fbe8"
+  },
+  "PRIMARY_d_cpi_inflation_h9": {
+    "X_sha256": "af08de3a43e76c9f2236b29d9f07cd8ecb508392087e5f2b931723b4fb088579",
+    "Y_sha256": "eaa0f70fb0457d49d379ac478d54cfb159a18370211493a2c3b9b9afdc6c36ba",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_cpi_inflation_lag1",
+      "d_cpi_inflation_lag2"
+    ],
+    "N": 326,
+    "file_sha256": "d9f45144ce1df7dc2788cd41dc0c5e11a46302a15412e34ca9f75520b10df33d"
+  },
+  "PRIMARY_d_fuel_power_inflation_h0": {
+    "X_sha256": "bc25a41aecb555ba1ed36b69064b8c62f8e06a1971d6b967d7cc04039e819b74",
+    "Y_sha256": "3eb7a431a3d146619b9d91a50940d99ddbcd22f118793a40f6d6acb40998e513",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 335,
+    "file_sha256": "ee591792b84ce1a4c97fb8260ebacbe0bc338b724bd65bef36f469cb8d7bdea1"
+  },
+  "PRIMARY_d_fuel_power_inflation_h1": {
+    "X_sha256": "5bd975fc290ead5439a41098cc46143ef608da2b56a0ab6ad7c9e600505eb366",
+    "Y_sha256": "8ed244390cd3f71c3c65414114eb1a332866705d83cc497110dc6e80541a3ee4",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 334,
+    "file_sha256": "3a43c687ff7d85608ead36281a94af8632856ef1ff2ec0adbc8dbdc1b9ec7f85"
+  },
+  "PRIMARY_d_fuel_power_inflation_h10": {
+    "X_sha256": "cf6c519823b845c0f30b79d11b346c4d15100a9bccf78ea5d7cc1c443ea37b09",
+    "Y_sha256": "a780ed53fa96076fcc9c48f474d3820606974e833585f005f428d91e2408b9b3",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 325,
+    "file_sha256": "a43096c977a80335514ad6831ec767bd331c8a36fccef60d20bf8cfcf0d06928"
+  },
+  "PRIMARY_d_fuel_power_inflation_h11": {
+    "X_sha256": "9d5e8044356836017f40dcdc4aec3ec64df2f1754c6d813b0bcd8addf8c34fc3",
+    "Y_sha256": "fdb8f37c1cc2c5b7eb66227d925d07c9a9bbdc1449088e7f45c503bbfbb4f315",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 324,
+    "file_sha256": "6d140d3e583389cc05d712b636cb573ef86d8e8784ab3eda90ace45fc4569eb9"
+  },
+  "PRIMARY_d_fuel_power_inflation_h12": {
+    "X_sha256": "299fba6edfabf65c57bd6311e79e201f3c47f708d624dd281cd72f1a186ac9d4",
+    "Y_sha256": "a44de5e43bf332125cef8240765ee2b0581b5259b8a8896f7ac26901a26392fa",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 323,
+    "file_sha256": "ec6c5de372fd23cec4fc8b6f0aef8ada3a1f7b2201bcb67ecffe0ca40c650763"
+  },
+  "PRIMARY_d_fuel_power_inflation_h2": {
+    "X_sha256": "097db9f8ce1fea2b2bfbf626ee395bc2cb1ff853201e0fec1741bc1165348489",
+    "Y_sha256": "7ad8f9869011fa6864978cdb372f3b1a4cc7493d8d987baae75e72aeee4a3535",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 333,
+    "file_sha256": "098b0719d6e160567e5093744d0b00a3378a4ec0d1195fe444641b506686b23c"
+  },
+  "PRIMARY_d_fuel_power_inflation_h3": {
+    "X_sha256": "dbe0ab1b54b7d752ab14e0e74cd386c690f34175491ba4d029e887df0b6b9887",
+    "Y_sha256": "83449d08978071ddcf8d933dd4ab06af52a4c7c230ef0ad698c1fbc60c7b37e1",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 332,
+    "file_sha256": "57f48b3ff252743229613b3e3f50f8a3f62d5f0cb8a4db2c71eb972c43ad0293"
+  },
+  "PRIMARY_d_fuel_power_inflation_h4": {
+    "X_sha256": "489891fd7b3c23724f3032b24c883bb45abcbace53cc3536f8fec607ed6aa44c",
+    "Y_sha256": "2d272388a8b77431ca261882f2f427e12ef7fa4e60f6e03e6dd356ca1aece408",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 331,
+    "file_sha256": "8ac5f8a11d3b382334bfcbecc93b46d7801c5295cc5fd9387d29814ee05525a8"
+  },
+  "PRIMARY_d_fuel_power_inflation_h5": {
+    "X_sha256": "24d35242f9a8102526aba47896e91791be1dc2cc70bc672d6c7d5001aa10f52e",
+    "Y_sha256": "1ec08ec3fe7531ad653bc2bf5b2ec95eb904ae33501e29a05778dd48fad79e0c",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 330,
+    "file_sha256": "d1ec65d8cda70a9bcd9b8ca9e228949ea306d9f42731f0be7ee83fa3934032bb"
+  },
+  "PRIMARY_d_fuel_power_inflation_h6": {
+    "X_sha256": "652388290dd2a67fbdc4ab1e6041fc66bcd82f233afc7a374d89a873aa80ba07",
+    "Y_sha256": "3ecaeeafd50a4019ac2f7c78f2c8266f21a41ffea750ea3b6e6f97b211b5853d",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 329,
+    "file_sha256": "b09bbe3b50da3f6da489a765663169afc26683c844cccd4cbd5e152cf53c6f40"
+  },
+  "PRIMARY_d_fuel_power_inflation_h7": {
+    "X_sha256": "839769f42d9ce35146d7893ecda18fcb4a97c883aaa7bdd3996ecb1ce728bd21",
+    "Y_sha256": "06a0238b037f5c55ce202e78ca219f8c91c8806bf44ee5f4ff52efdf1715d359",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 328,
+    "file_sha256": "dacf3e44795ee15e5c961730a5abc596e50fff952805b7a9743878cf9a4face4"
+  },
+  "PRIMARY_d_fuel_power_inflation_h8": {
+    "X_sha256": "fe8776b87c4f94b04f6077a255eb9e2b481f01feb23cab817a3d7b93515e4889",
+    "Y_sha256": "3fadfd400b4ba834f0183619c7a924dd35f0442e3f45d2193d2a6e44e405ce47",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 327,
+    "file_sha256": "9c3e61457fc68a0b6f8185cc3c804505e186e159f3e415fcc9d4a625aaa74672"
+  },
+  "PRIMARY_d_fuel_power_inflation_h9": {
+    "X_sha256": "136762b6ed008dd2a9cad912221ae85c2834fdffdc51955422124248c6d8a368",
+    "Y_sha256": "0f633ef272dc39dd5c7dd4e97ef350946fdd0416f673a8b5e4b48ad59d3b3a87",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_fuel_power_inflation_lag1",
+      "d_fuel_power_inflation_lag2"
+    ],
+    "N": 326,
+    "file_sha256": "3aaab29c1a2c7f485589a58049484ade51d15355a7699a0289e43aef63ae5587"
+  },
+  "PRIMARY_d_ppi_inflation_h0": {
+    "X_sha256": "d53fa73c58972c5c800be4473b9b84b6c00d66d6301b438074180a76df34a794",
+    "Y_sha256": "c704afcee4f086480c85b078f1facc641f32d0a5128c86de620c7b02ff002ba9",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 335,
+    "file_sha256": "009d93dd87d3d55319d31790e7f0f5001ba9e03bae6e8b29ee4a48b7d672139b"
+  },
+  "PRIMARY_d_ppi_inflation_h1": {
+    "X_sha256": "932c71c3b5744253038d2aaab10e2b08e77ef22afda4cfa13d481bf25f8420a5",
+    "Y_sha256": "9fb75aa5429336e47b54b9a7b68a3becc78c6f942843a09dfccb117512a94969",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 334,
+    "file_sha256": "62cc322a3119e135676cc115e3d87bf38055b2c9772d177ab1c3e5b0cb46115f"
+  },
+  "PRIMARY_d_ppi_inflation_h10": {
+    "X_sha256": "be7f59ee351a75fc777adf214440ec7de69ef6817af4ca9444b0d34e79773429",
+    "Y_sha256": "ca6f5fc6fe399e5c04c72e11e771e8236b6f32d7b4a1d00e21a3d503b4720ffe",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 325,
+    "file_sha256": "2e2787e47f6d7c27ad4eafa35f29b37c2838278890e6b91fca9367a874e005f3"
+  },
+  "PRIMARY_d_ppi_inflation_h11": {
+    "X_sha256": "6c6f96e7051c456eaba3d2630b6bcf71dcfda741465c5c943f11553b598ee381",
+    "Y_sha256": "6a7b8a0c70f957101df30fc7f972469357a66b61df4295225556b8053cf09f77",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 324,
+    "file_sha256": "d7ceb2d329fc635541f96139c991689921aa18e42907a35be71e9de3b508424f"
+  },
+  "PRIMARY_d_ppi_inflation_h12": {
+    "X_sha256": "c43438923ff4a6ac37791dc1a1c73c60236222f5391ff79d97448fb79c0e0ae1",
+    "Y_sha256": "0cadbb61b9d70c998c938f883173979910d1532033587d61b972318ddf8763ed",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 323,
+    "file_sha256": "a5e6ca1dd58df284bbc45d2abb98110f7e2e35556a93b1ecfd51dfbdcc8e49a2"
+  },
+  "PRIMARY_d_ppi_inflation_h2": {
+    "X_sha256": "6cb3ea435322ef35cc493dcead0d91c5320061be7356978c5e47bd7f855e4de9",
+    "Y_sha256": "ab1bc78f366af4b984c9fc9b92d622e442f796aea0c23dad60b58af7531eaec5",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 333,
+    "file_sha256": "9183fac21020e8095591ba042638fd289654e3d2d4288a06b459faa3b1dae866"
+  },
+  "PRIMARY_d_ppi_inflation_h3": {
+    "X_sha256": "17e43355628d6e05023c8e150c9974e41e99ee3093e2b91ccc99621ef732a5ce",
+    "Y_sha256": "96a5e9f74d4c5e1b3249a2cbb3ed7646c61d25c05ea8939473bd0368c3b7a0d6",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 332,
+    "file_sha256": "c2f7604f06b49511c8974ae5eff285df69fe9bdb988e0346aebf0147bf882e57"
+  },
+  "PRIMARY_d_ppi_inflation_h4": {
+    "X_sha256": "a6e0e915fa56948c4cbc7fccd0cbd90fb7ca32e4245d659bc3875a5fa9effb1e",
+    "Y_sha256": "c415d1a8fcebef5143ec4feb47f9d465122c3e6a8f45ba8d9b62d77a6eec5635",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 331,
+    "file_sha256": "bd6d31ecb2b9db89422d2048b06566f40767efffc646ee1cd1351b4b0b1537d8"
+  },
+  "PRIMARY_d_ppi_inflation_h5": {
+    "X_sha256": "4faeff952c77c60c16acbc4f5102377dba73ba49e121b7038bf529b5c5fe29f5",
+    "Y_sha256": "1dc6c9ac87fcabda01476b93a6f853898497d9a080762b5bb2bd36c9dee6fd06",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 330,
+    "file_sha256": "2ca73dc4aff21580b07a790a83b300ed7598caf01926e831f20f8cc9df03ec67"
+  },
+  "PRIMARY_d_ppi_inflation_h6": {
+    "X_sha256": "5c0531e9478a4403351bea8a2c35da95bfe6e029f57b7e33cbe04a9d95522d65",
+    "Y_sha256": "f0a45b42fb0face1411a678ce029d36926b8ea174ddd33fdb9d5507fd02e8a5b",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 329,
+    "file_sha256": "dcff60a5bd5b066bc45e52223a680a00800085fe25ce640bc35b56ceb58c7875"
+  },
+  "PRIMARY_d_ppi_inflation_h7": {
+    "X_sha256": "87883a630e27fc54d4c457b648c1219ca4ddb94691b1390b4699c7a93ed1f087",
+    "Y_sha256": "05dc1ff41334c6e9116e109cde9a0f43e6ec906cc10a24ca2bbec4cbfb191bc8",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 328,
+    "file_sha256": "173a00eadf6ca50d2af91c3ba07e60d086db5fe4421dfc2d1a54dbd90cc7b6f1"
+  },
+  "PRIMARY_d_ppi_inflation_h8": {
+    "X_sha256": "b1ae9cbebc0dc8088aedbe264ed1c0fb27c0bc905935e895a7407f6282552904",
+    "Y_sha256": "806eaba11de2c7d48e98a3f32472c2602eca8e1808ea3df5d49a3aaa4b574974",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 327,
+    "file_sha256": "efd7e111c4fadfaabd954bc78292d9f63537640f85c30fa979636f22233f95ee"
+  },
+  "PRIMARY_d_ppi_inflation_h9": {
+    "X_sha256": "d3f1417d659fdbe482cf6fa19e3924bc485eb797c1f5425bbbcbd44cc20684f7",
+    "Y_sha256": "d16455bf53efb8d503c946ddcb37ec01565fe2470056208d9bb9b80944b8b6e6",
+    "columns": [
+      "const",
+      "dlog_oil_rmb",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "d_ppi_inflation_lag1",
+      "d_ppi_inflation_lag2"
+    ],
+    "N": 326,
+    "file_sha256": "04e16a1a1fed4095f3c453f61a2d11e78a39db7fb5adbdc6f07fc27ceb486efc"
+  },
+  "LINK1": {
+    "X_sha256": "b89218225b929f5f509339093aceb127bfcf33b6e4ad5058e9647924b4cf5704",
+    "Y_sha256": "2dcd0c58b91f6c35d962d85de4413bb543e7f44e4712826ed91d93dac2e9db56",
+    "columns": [
+      "const",
+      "dlog_oil_rmb_lag0",
+      "dlog_oil_rmb_lag1",
+      "dlog_oil_rmb_lag2",
+      "dlog_oil_rmb_lag3"
+    ],
+    "N": 130,
+    "file_sha256": "4146d645d999e1fab6848a888e4db9529d6dee9af581426ca8a47e548bb48580"
+  }
+}

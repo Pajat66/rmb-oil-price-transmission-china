@@ -1,0 +1,47 @@
+{
+  "title": "Renminbi-denominated oil-price movements and inflation dynamics across China's price system",
+  "version": "v2.0.0",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Zhou, Xuehua"
+    },
+    {
+      "name": "Zhang, Baoping"
+    },
+    {
+      "name": "Li, Zhongfan"
+    },
+    {
+      "name": "Yao, Yuechao"
+    },
+    {
+      "name": "Zhang, Hanming"
+    },
+    {
+      "name": "Wang, Huijuan"
+    },
+    {
+      "name": "Yuan, Quanbo"
+    }
+  ],
+  "description": "<p>Revised stationary local-projection research package for a new PLOS ONE manuscript. Seven main figures, six main tables, 18 Supporting Tables, three Supporting Figures, 56 Python sources and saved frozen statistical outputs. The seven main graphics were redrawn from frozen inputs on 2026-10-15; no new numerical estimation or full scientific reproduction is claimed.</p><p>Mixed open material; no blanket grant. MIT: author-owned src/, scripts/, configuration and associated software/reproduction documentation. CC BY 4.0: author-original main and supporting figures/captions, tables and shareable generated statistics/plotting outputs. Included EXCHUS observations: upstream Public Domain, citation requested. Excluded EIA/NBS/Customs raw exports and complete mixed monthly observations retain provider terms. See LICENSE and licenses/FILE_LICENSES.csv. Other (Open) is an umbrella description of this combination, not a new replacement licence.</p>",
+  "access_right": "open",
+  "license": "other-open",
+  "keywords": [
+    "renminbi",
+    "oil prices",
+    "inflation",
+    "China",
+    "local projections",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://doi.org/10.5281/zenodo.22869727",
+      "relation": "isNewVersionOf",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Approved v2.0.0; archive only through existing GitHub release integration. Retain Concept DOI 10.5281/zenodo.20714251. The actual new Version DOI is assigned by Zenodo; do not reuse the old Version DOI. Mixed open material; no blanket grant. MIT: author-owned src/, scripts/, configuration and associated software/reproduction documentation. CC BY 4.0: author-original main and supporting figures/captions, tables and shareable generated statistics/plotting outputs. Included EXCHUS observations: upstream Public Domain, citation requested. Excluded EIA/NBS/Customs raw exports and complete mixed monthly observations retain provider terms. See LICENSE and licenses/FILE_LICENSES.csv. Other (Open) is an umbrella description of this combination, not a new replacement licence."
+}

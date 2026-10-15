@@ -1,0 +1,69 @@
+{
+  "version": "v2.0.0",
+  "title": "Renminbi-denominated oil-price movements and inflation dynamics across China's price system",
+  "creators": [
+    {
+      "name": "Zhou, Xuehua"
+    },
+    {
+      "name": "Zhang, Baoping"
+    },
+    {
+      "name": "Li, Zhongfan"
+    },
+    {
+      "name": "Yao, Yuechao"
+    },
+    {
+      "name": "Zhang, Hanming"
+    },
+    {
+      "name": "Wang, Huijuan"
+    },
+    {
+      "name": "Yuan, Quanbo"
+    }
+  ],
+  "publication_date": null,
+  "version_doi": null,
+  "existing_concept_doi": "10.5281/zenodo.20714251",
+  "historical_version_doi": "10.5281/zenodo.22869727",
+  "archive_route": "EXISTING_GITHUB_ZENODO_RELEASE_INTEGRATION_ONLY",
+  "manual_deposit": false,
+  "active_webhook_verified": {
+    "date": "2026-10-15",
+    "host": "zenodo.org",
+    "active": true,
+    "events": [
+      "release"
+    ]
+  },
+  "root_zenodo_metadata": ".zenodo.json",
+  "umbrella_license_id": "other-open",
+  "umbrella_description": "Mixed open material; no blanket grant. MIT: author-owned src/, scripts/, configuration and associated software/reproduction documentation. CC BY 4.0: author-original main and supporting figures/captions, tables and shareable generated statistics/plotting outputs. Included EXCHUS observations: upstream Public Domain, citation requested. Excluded EIA/NBS/Customs raw exports and complete mixed monthly observations retain provider terms. See LICENSE and licenses/FILE_LICENSES.csv. Other (Open) is an umbrella description of this combination, not a new replacement licence.",
+  "component_rights": [
+    {
+      "id": "mit",
+      "scope": "Author software, configuration and associated documentation"
+    },
+    {
+      "id": "cc-by-4.0",
+      "scope": "Author-original figures/captions, tables and shareable generated statistics"
+    },
+    {
+      "scope": "Upstream public-domain EXCHUS observations; citation requested; no author relicensing"
+    }
+  ],
+  "post_ingestion_checks": [
+    "actual new Version DOI",
+    "existing concept association",
+    "title and seven-author order",
+    "v2.0.0 version",
+    "exact release tree",
+    "mixed rights with explicit scopes"
+  ],
+  "rights_approved": true,
+  "publication_authorized": false,
+  "github_main_push_authorized": true,
+  "tag_release_zenodo_authorized": false
+}

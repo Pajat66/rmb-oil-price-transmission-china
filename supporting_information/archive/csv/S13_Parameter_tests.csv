@@ -1,0 +1,19 @@
+﻿outcome,horizon,test,statistic,bootstrap_p,classical_95_boundary_ratio,classical_reject,N,initial_N,calibration,classical_95_critical,raw_p,fdr_q,holm_p
+d_fuel_power_inflation,0,RECURSIVE_CUSUM,0.3955809505409724,0.8050389922015597,1.0,False,335,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.8050389922015597,0.99500099980004,1.0
+d_fuel_power_inflation,0,HANSEN,1.9247692365447269,0.1651669666066786,,True,335,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.1651669666066786,0.7432513497300541,1.0
+d_fuel_power_inflation,3,RECURSIVE_CUSUM,0.3839643299597641,0.99500099980004,1.0,False,332,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.99500099980004,0.99500099980004,1.0
+d_fuel_power_inflation,3,HANSEN,1.6864913233087602,0.4431113777244551,,False,332,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.4431113777244551,0.7710457908418317,1.0
+d_fuel_power_inflation,6,RECURSIVE_CUSUM,0.4933166809425871,0.9644071185762848,1.0,False,329,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.9644071185762848,0.99500099980004,1.0
+d_fuel_power_inflation,6,HANSEN,1.3215033778737866,0.7710457908418317,,False,329,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.7710457908418317,0.7710457908418317,1.0
+d_ppi_inflation,0,RECURSIVE_CUSUM,0.657141295630872,0.3613277344531094,1.0,False,335,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.3613277344531094,0.99500099980004,1.0
+d_ppi_inflation,0,HANSEN,2.160478246253855,0.1649670065986802,,True,335,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.1649670065986802,0.7432513497300541,1.0
+d_ppi_inflation,3,RECURSIVE_CUSUM,0.5995814688348411,0.9002199560087982,1.0,False,332,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.9002199560087982,0.99500099980004,1.0
+d_ppi_inflation,3,HANSEN,1.5437712764290916,0.5620875824835033,,False,332,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.5620875824835033,0.7710457908418317,1.0
+d_ppi_inflation,6,RECURSIVE_CUSUM,0.724289580626426,0.8312337532493501,1.0,False,329,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.8312337532493501,0.99500099980004,1.0
+d_ppi_inflation,6,HANSEN,1.4371973766874426,0.6670665866826635,,False,329,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.6670665866826635,0.7710457908418317,1.0
+d_cpi_inflation,0,RECURSIVE_CUSUM,0.5248443454685876,0.7434513097380524,1.0,False,335,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.7434513097380524,0.99500099980004,1.0
+d_cpi_inflation,0,HANSEN,1.579484691691511,0.2643471305738852,,False,335,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.2643471305738852,0.7710457908418317,1.0
+d_cpi_inflation,3,RECURSIVE_CUSUM,0.3962938249773177,0.9626074785042992,1.0,False,332,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.9626074785042992,0.99500099980004,1.0
+d_cpi_inflation,3,HANSEN,0.973867167727112,0.7192561487702459,,False,332,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.7192561487702459,0.7710457908418317,1.0
+d_cpi_inflation,6,RECURSIVE_CUSUM,0.5120253194063115,0.8510297940411917,1.0,False,329,60.0,same null dependent-wild bootstrap; BDE classical boundary auxiliary,,0.8510297940411917,0.99500099980004,1.0
+d_cpi_inflation,6,HANSEN,1.52579265199642,0.3515296940611878,,False,329,,same null dependent-wild bootstrap; conventional six-regressor critical auxiliary,1.9,0.3515296940611878,0.7710457908418317,1.0

@@ -1,0 +1,49 @@
+{
+  "status": "READY_FOR_AUTHORIZED_GITHUB_MAIN_PUSH",
+  "version": "v2.0.0",
+  "version_approved": true,
+  "licenses_approved": true,
+  "release_date": null,
+  "new_version_doi": null,
+  "existing_concept_doi": "10.5281/zenodo.20714251",
+  "historical_version_doi": "10.5281/zenodo.22869727",
+  "author_order": [
+    "Xuehua Zhou",
+    "Baoping Zhang",
+    "Zhongfan Li",
+    "Yuechao Yao",
+    "Hanming Zhang",
+    "Huijuan Wang",
+    "Quanbo Yuan"
+  ],
+  "publication_authorized": true,
+  "citation": "CITATION.cff",
+  "release_notes": "RELEASE_NOTES.md",
+  "zenodo_metadata": ".zenodo.json",
+  "license_record": "licenses/FINAL_LICENSE_APPROVAL.md",
+  "data_statement": "docs/DATA_AVAILABILITY_FINAL.md",
+  "final_handoff": "docs/FINAL_RELEASE_HANDOFF.md",
+  "archive_route": "EXISTING_ACTIVE_GITHUB_ZENODO_RELEASE_INTEGRATION_ONLY",
+  "figure_visual_revision": {
+    "date": "2026-10-15",
+    "figures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "status": "REDESIGNED_AND_LOCAL_COPIES_SYNCHRONIZED",
+    "qa": "docs/FIGURE_REDESIGN_QA.md",
+    "publication_executed": false,
+    "frozen_results_changed": false
+  },
+  "publication_authorization_scope": "GITHUB_MAIN_PUSH_ONLY",
+  "github_main_push_authorized": true,
+  "tag_release_zenodo_authorized": false,
+  "journal_submission_authorized": false,
+  "data_access_matrix": "DATA_ACCESS_MATRIX.csv",
+  "figure2_public_reconstruction": "RULES_PRESENT_EXACT_VINTAGE_AND_PORTABLE_BINDING_UNVERIFIED"
+}

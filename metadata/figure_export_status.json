@@ -1,0 +1,490 @@
+{
+  "date": "2026-10-15",
+  "scope": "VISUAL_REDESIGN_AND_LOCAL_SYNCHRONIZATION_ONLY",
+  "new_estimation": false,
+  "new_resampling": false,
+  "frozen_statistics_changed": false,
+  "manuscript_changed": false,
+  "publication_executed": false,
+  "Figure2_monthly_source_included": false,
+  "formats": [
+    "TIFF",
+    "PNG",
+    "SVG",
+    "EPS"
+  ],
+  "visual_review": [
+    "final physical size",
+    "grayscale",
+    "approximate deuteranopia"
+  ],
+  "runtime": {
+    "python": "3.12.7",
+    "matplotlib": "3.9.2",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1"
+  },
+  "scripts": {
+    "src/plotting/figure1_plot.py": "c348747fcc080730e3fa53e24549c2e18f591fc3534ea663327c25f5606f9a22",
+    "src/plotting/figure2_plot.py": "2163d60a6eef36c3f22396e07bef9a5f2bb98ca550de8624eb9330337740f008",
+    "src/plotting/figure3_plot.py": "252418b53a9bd18e0aa21a61db5c143342cdd8d5be18281ee82467e1a6bdaf1b",
+    "src/plotting/figure4_plot.py": "144481b2cc1e66fed2444ed4389701aac8cb272b9438b0f5d4ce5f6cda2b1561",
+    "src/plotting/figure5_plot.py": "40addab77f42d17c1990062ff873464602f62ec7ab075fe558241d73fe9fa735",
+    "src/plotting/figure6_plot.py": "f548d637d81ffe8a59f3b71bc796f213ced91ba327d8b2cba282875a94b963c7",
+    "src/plotting/figure7_plot.py": "a04e25e0d290c49f5abad04ea991c89cfabd7ef3f81c053c96a4f329f9db3144",
+    "src/plotting/visual_system.py": "5531dd5fe02d08d5f75af986ab49166796d3059fa7e0c6b22e696560661db8f5",
+    "scripts/render_figures.py": "a07ccd9025ee1e89ce3f9c3cd881c9041b50f13fef3ca47c690a179f34936bfe"
+  },
+  "figures": [
+    {
+      "figure": 1,
+      "formats": [
+        {
+          "path": "figures/Figure 1.tif",
+          "sha256": "9bea2dc7760b7b0404d2c52c14f6f6b7b890411596de32e8ce70d099673778f5",
+          "bytes": 1439898
+        },
+        {
+          "path": "figures/Figure 1.png",
+          "sha256": "19c57898700f8bdbba28b7328eeb16549e964a01b53501095d24db1cb7670ced",
+          "bytes": 425658
+        },
+        {
+          "path": "figures/Figure 1.svg",
+          "sha256": "19706f73a4ab445fd319ac1407494b670473d87588e04b43e9543dd1381caa30",
+          "bytes": 23815
+        },
+        {
+          "path": "figures/Figure 1.eps",
+          "sha256": "4502e0549af949c711fa1f7f730f544d7c6ac5419f9b66772eb7f21e7a213459",
+          "bytes": 199730
+        }
+      ],
+      "submission_copy": "../submission_package/main_figures/Fig1.tif",
+      "dimensions_mm": [
+        190.0,
+        204.0
+      ],
+      "TIFF_pixels": [
+        4488,
+        4818
+      ],
+      "TIFF_dpi": 600,
+      "TIFF_mode": "RGB",
+      "TIFF_compression": "LZW",
+      "TIFF_frames": 1,
+      "PNG_dpi": 300,
+      "input_hashes": [],
+      "font_range_pt": [
+        8.0,
+        10.0
+      ],
+      "data_integrity": {
+        "before_words": 203,
+        "after_words": 156,
+        "reduction_percent": 23.2,
+        "before_text_objects": 51,
+        "after_text_objects": 41,
+        "connector_text_intersections": 0,
+        "final_geometry": {
+          "visible_text_objects": 41,
+          "font_range_pt": [
+            8.0,
+            10.0
+          ],
+          "clipping_or_text_overlap_errors": [],
+          "text_objects": 41,
+          "word_count": 189,
+          "connectors": "orthogonal; primary fan-out; independent Customs lane",
+          "main_arrow_pt": 1.7,
+          "main_arrow_head_scale": 12,
+          "scientific_graph": "macro→primary; macro+customs→import-cost; primary→comparisons/components/robustness; outputs→interpretation",
+          "formal_stability_inference": "dependent-wild bootstrap"
+        }
+      },
+      "geometry_errors": []
+    },
+    {
+      "figure": 2,
+      "formats": [
+        {
+          "path": "figures/Figure 2.tif",
+          "sha256": "3fcd2a5523e06647c00c40ca7d6f8c1698be0b52c161cd83e26627242b8776bd",
+          "bytes": 1223100
+        },
+        {
+          "path": "figures/Figure 2.png",
+          "sha256": "503d36d09ebbe992328261a82abcc32511b35cb58e02af2a8c8e27187aa618c0",
+          "bytes": 357007
+        },
+        {
+          "path": "figures/Figure 2.svg",
+          "sha256": "7da875e7fa68aabae6a7e363e71a417ec4929cf28a2368b5d375c4fe9c8ea8e8",
+          "bytes": 49485
+        },
+        {
+          "path": "figures/Figure 2.eps",
+          "sha256": "3084118c5c5a8aacb72fc76c28e35a45a1fee25f687263870623b955cc90bae8",
+          "bytes": 191854
+        }
+      ],
+      "submission_copy": "../submission_package/main_figures/Fig2.tif",
+      "dimensions_mm": [
+        190.0,
+        202.0
+      ],
+      "TIFF_pixels": [
+        4488,
+        4771
+      ],
+      "TIFF_dpi": 600,
+      "TIFF_mode": "RGB",
+      "TIFF_compression": "LZW",
+      "TIFF_frames": 1,
+      "PNG_dpi": 300,
+      "input_hashes": [
+        {
+          "file": "figure_2_source.csv",
+          "sha256": "3d7990e01c8212bf5e226adb9c7e0938718e1763d2731f9cca0ca2dbbea9efbf"
+        }
+      ],
+      "font_range_pt": [
+        8.5,
+        10.0
+      ],
+      "data_integrity": {
+        "all_boxplot_statistics_and_outliers_equal": true,
+        "source_rows": 7774,
+        "source_sha256": "3d7990e01c8212bf5e226adb9c7e0938718e1763d2731f9cca0ca2dbbea9efbf",
+        "source_status_counts": "{('LP_shock_origins', 'lag_exclusion'): 12, ('LP_shock_origins', 'lead_exclusion'): 36, ('LP_shock_origins', 'observed'): 1974, ('LP_shock_origins', 'transform_edge'): 6, ('distribution', 'observed'): 1348, ('distribution', 'transform_edge'): 4, ('raw_coverage', 'observed'): 2430, ('raw_coverage', 'outside_coverage'): 612, ('transformed_availability', 'observed'): 1348, ('transformed_availability', 'transform_edge'): 4}"
+      },
+      "geometry_errors": []
+    },
+    {
+      "figure": 3,
+      "formats": [
+        {
+          "path": "figures/Figure 3.tif",
+          "sha256": "4fdb61b3d73636492217874bdcd914f80d0981881c27fc36796fa869fa6bf1d9",
+          "bytes": 846358
+        },
+        {
+          "path": "figures/Figure 3.png",
+          "sha256": "009e41da52dc0b80a72230d3003b429d8835aba9d55aca8903ad7caf0d30def0",
+          "bytes": 266540
+        },
+        {
+          "path": "figures/Figure 3.svg",
+          "sha256": "c6c24075ed4a2c058ed62179d693b9bd68ae09a7b79b6b61ae54feb0ca8687a4",
+          "bytes": 38650
+        },
+        {
+          "path": "figures/Figure 3.eps",
+          "sha256": "6a746c0af2bd9bf3fa65acd66590ced654e0eda59e178a4abf3ef8bd15ae71db",
+          "bytes": 145711
+        }
+      ],
+      "submission_copy": "../submission_package/main_figures/Fig3.tif",
+      "dimensions_mm": [
+        190.0,
+        105.00000000000001
+      ],
+      "TIFF_pixels": [
+        4488,
+        2480
+      ],
+      "TIFF_dpi": 600,
+      "TIFF_mode": "RGB",
+      "TIFF_compression": "LZW",
+      "TIFF_frames": 1,
+      "PNG_dpi": 300,
+      "input_hashes": [
+        {
+          "file": "figure_3_primary_lp_period_source.csv",
+          "sha256": "0521353c02a6c392b285e6780fdd84ea883bacb285e6c7b33952275653086729"
+        }
+      ],
+      "font_range_pt": [
+        8.5,
+        10.0
+      ],
+      "data_integrity": {
+        "old_vs_new_data_fields_equal": [
+          "plotted_arrays",
+          "axis_bounds"
+        ],
+        "old_vs_new_all_plot_coordinates_equal": {
+          "sha256": "b262254385e550faf38cd1f25806cbcde39502f3bee6c3aa1fd4741b06bcf7a0",
+          "objects": {
+            "axes": 6,
+            "lines": 12,
+            "collections": 6,
+            "rectangles": 0
+          }
+        }
+      },
+      "geometry_errors": []
+    },
+    {
+      "figure": 4,
+      "formats": [
+        {
+          "path": "figures/Figure 4.tif",
+          "sha256": "3d773f082e5541626b27f9e3ece60e1cae5b9fb06b470ac11b4d01832d364c76",
+          "bytes": 957040
+        },
+        {
+          "path": "figures/Figure 4.png",
+          "sha256": "22102fe8941aab553453aaf6e9bc408882c863179233b372b03d161fd1b5216a",
+          "bytes": 291894
+        },
+        {
+          "path": "figures/Figure 4.svg",
+          "sha256": "a465096bfa5f8b66bb3c4e440d8566267d4724e404e618dfd753dda9ca595259",
+          "bytes": 40553
+        },
+        {
+          "path": "figures/Figure 4.eps",
+          "sha256": "061656bf2ad168a03e321ea940f918b975356a2fec8aa8a4ff9905f400dfc76c",
+          "bytes": 179451
+        }
+      ],
+      "submission_copy": "../submission_package/main_figures/Fig4.tif",
+      "dimensions_mm": [
+        190.0,
+        201.0
+      ],
+      "TIFF_pixels": [
+        4488,
+        4748
+      ],
+      "TIFF_dpi": 600,
+      "TIFF_mode": "RGB",
+      "TIFF_compression": "LZW",
+      "TIFF_frames": 1,
+      "PNG_dpi": 300,
+      "input_hashes": [
+        {
+          "file": "figure_4_cumulative_contrasts_source.csv",
+          "sha256": "4306722403344af7b544e3e3d4b3b1be4012e18a74c6757004a463ca80b1a82e"
+        }
+      ],
+      "font_range_pt": [
+        8.5,
+        10.0
+      ],
+      "data_integrity": {
+        "old_vs_new_data_fields_equal": [
+          "plotted_arrays",
+          "common_x_limits"
+        ],
+        "old_vs_new_all_plot_coordinates_equal": {
+          "sha256": "b2c2d44b6d363d6104fd004b05cabff15569a7ff5ea31b5543fa5f090fea836c",
+          "objects": {
+            "axes": 2,
+            "lines": 56,
+            "collections": 0,
+            "rectangles": 0
+          }
+        }
+      },
+      "geometry_errors": []
+    },
+    {
+      "figure": 5,
+      "formats": [
+        {
+          "path": "figures/Figure 5.tif",
+          "sha256": "6426674dd145cb904eae24c3b3fc0dfbf5a94f1f19625631e5e0f17e3e8a0829",
+          "bytes": 1055458
+        },
+        {
+          "path": "figures/Figure 5.png",
+          "sha256": "20b7a8638edbc8a15cc96005e77ce22514ad6f728d518c741288a2b4488b8300",
+          "bytes": 258289
+        },
+        {
+          "path": "figures/Figure 5.svg",
+          "sha256": "ff7a5d5a3e3225f7e5566abc9eb4994f4dff0741a0874cd2847c29512e43fcd1",
+          "bytes": 65821
+        },
+        {
+          "path": "figures/Figure 5.eps",
+          "sha256": "f7cb2620922f99171afe382a4cfda576efe2ff839c44254932a8653ed543a495",
+          "bytes": 193179
+        }
+      ],
+      "submission_copy": "../submission_package/main_figures/Fig5.tif",
+      "dimensions_mm": [
+        190.0,
+        216.0
+      ],
+      "TIFF_pixels": [
+        4488,
+        5102
+      ],
+      "TIFF_dpi": 600,
+      "TIFF_mode": "RGB",
+      "TIFF_compression": "LZW",
+      "TIFF_frames": 1,
+      "PNG_dpi": 300,
+      "input_hashes": [
+        {
+          "file": "figure_5_brent_fx_components_source.csv",
+          "sha256": "9403d86dc4bfbe89ac8a9d0218df8f143aa9934c8d0adc39739ac63cddeabbdd"
+        }
+      ],
+      "font_range_pt": [
+        8.5,
+        10.0
+      ],
+      "data_integrity": {
+        "old_vs_new_data_fields_equal": [
+          "plotted_component_arrays",
+          "restriction_matrix",
+          "component_axis_bounds"
+        ]
+      },
+      "geometry_errors": []
+    },
+    {
+      "figure": 6,
+      "formats": [
+        {
+          "path": "figures/Figure 6.tif",
+          "sha256": "e6294637cc256bd6321e19110af4d779d52e14f3f3dc51636cd71fd2c662e0ce",
+          "bytes": 1620372
+        },
+        {
+          "path": "figures/Figure 6.png",
+          "sha256": "95108432f4df173de87db6d30d17e087b9e7a8cbd4ad9a08414509176ed32d90",
+          "bytes": 497312
+        },
+        {
+          "path": "figures/Figure 6.svg",
+          "sha256": "8fc7b3555d7f98b878df86190d72fdafba6a4f9cffaacd578acadf77dbcd346f",
+          "bytes": 2914071
+        },
+        {
+          "path": "figures/Figure 6.eps",
+          "sha256": "53425a535926471cd20d37bd55d4595dd79023ae49b27ae492e60a6472dd2714",
+          "bytes": 2850164
+        }
+      ],
+      "submission_copy": "../submission_package/main_figures/Fig6.tif",
+      "dimensions_mm": [
+        190.0,
+        210.00000000000003
+      ],
+      "TIFF_pixels": [
+        4488,
+        4960
+      ],
+      "TIFF_dpi": 600,
+      "TIFF_mode": "RGB",
+      "TIFF_compression": "LZW",
+      "TIFF_frames": 1,
+      "PNG_dpi": 300,
+      "input_hashes": [
+        {
+          "file": "figure_6_import_cost_innovative_source.csv",
+          "sha256": "375ce388ce6675f8acfdcfcaeaefcac0cadcfaabe92b36726252ef7a9f5e3755"
+        },
+        {
+          "file": "mechanism_link1_final.csv",
+          "sha256": "da318568580748da9d02bad5d4b28cb383393e1e99e131f1d43579ccaa3d8e76"
+        },
+        {
+          "file": "phase2b_bootstrap_paths_short_L12.npz",
+          "sha256": "e696ce5730fcee213041d68377924bd4db0d0ee01147a503a2d437fc32035b09"
+        }
+      ],
+      "font_range_pt": [
+        8.5,
+        10.0
+      ],
+      "data_integrity": {
+        "all_26_density_curves_and_intervals_checked": true,
+        "axis_ranges_unchanged": true,
+        "old_vs_new_all_plot_coordinates_equal": {
+          "sha256": "1f217db93ac7c18fd90daa16ec9b95e863f1243d3659845e7432f5b23a655823",
+          "objects": {
+            "axes": 3,
+            "lines": 87,
+            "collections": 53,
+            "rectangles": 5
+          }
+        }
+      },
+      "geometry_errors": []
+    },
+    {
+      "figure": 7,
+      "formats": [
+        {
+          "path": "figures/Figure 7.tif",
+          "sha256": "3c92e7e8234155db9e33876399fce24cf4f324fc4857a135be806382b8fef08a",
+          "bytes": 2654996
+        },
+        {
+          "path": "figures/Figure 7.png",
+          "sha256": "c6915e5d1dc3557128cbd66a4815e483a40eec48a268383efe2d09f2b5eb4ff2",
+          "bytes": 639353
+        },
+        {
+          "path": "figures/Figure 7.svg",
+          "sha256": "87d052646864065febb515eafe8091660fd2ff955f1ef4cbca8d1bd299db4d6e",
+          "bytes": 781153
+        },
+        {
+          "path": "figures/Figure 7.eps",
+          "sha256": "496f4bba42c29c657388465c964455a13a080ee5c3d1ba444250af82e7b2b5aa",
+          "bytes": 972196
+        }
+      ],
+      "submission_copy": "../submission_package/main_figures/Fig7.tif",
+      "dimensions_mm": [
+        190.0,
+        220.0
+      ],
+      "TIFF_pixels": [
+        4488,
+        5196
+      ],
+      "TIFF_dpi": 600,
+      "TIFF_mode": "RGB",
+      "TIFF_compression": "LZW",
+      "TIFF_frames": 1,
+      "PNG_dpi": 300,
+      "input_hashes": [
+        {
+          "file": "figure_7_temporal_stability_source.csv",
+          "sha256": "a8446d3651df892a4931ad98889fc1230b2df2acd1d4bb93e7236ca921066025"
+        },
+        {
+          "file": "figure_7_temporal_stability_recursive_summary.csv",
+          "sha256": "76a6e7900aba5e9b9760cd0eb8b3a23571c43b279a5da6bd23d4dffdbf716283"
+        }
+      ],
+      "font_range_pt": [
+        8.5,
+        10.0
+      ],
+      "data_integrity": {
+        "formal_27_p_q_pairs_equal": true,
+        "rolling_2529_and_recursive_12_rows_checked": true,
+        "old_vs_new_all_plot_coordinates_equal": {
+          "sha256": "6b49a40f5a0f8e95cb8b4f577cd6da2005313686d80a5c817c05d5f21e3163b6",
+          "objects": {
+            "axes": 6,
+            "lines": 86,
+            "collections": 101,
+            "rectangles": 9
+          }
+        }
+      },
+      "geometry_errors": []
+    }
+  ]
+}

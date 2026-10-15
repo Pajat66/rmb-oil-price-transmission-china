@@ -1,0 +1,45 @@
+{
+  "vintage_status": "EXACT_VINTAGE_UNVERIFIED",
+  "files": {
+    "eia": {
+      "relative_path": "01_eia_brent/EIA_brent_usd_monthly_1987-latest_2026.3.22.csv",
+      "sha256": "2cf214d4194bae4486f26fe7a152439a847bd96a3fddb11d7697484f1383e03d"
+    },
+    "fred": {
+      "relative_path": "02_fx_pbc_fred/FRED_exchus_cny_per_usd_monthly_1981-latest_2026.3.22.xlsx",
+      "sha256": "6e71150a0559ffa71781a2c905d26daa45f939145b78545d20e8ee029a260136"
+    },
+    "cpi_98_15": {
+      "relative_path": "03_nbs_price/98年-15年月度消费价格分类指数.xlsx",
+      "sha256": "256fbf7171ce3adc9fa790f2c5ce5f28230ebcf18cec521a0e213655915b12cb"
+    },
+    "cpi_16_20": {
+      "relative_path": "03_nbs_price/16年-20年月度消费价格分类指数.xlsx",
+      "sha256": "18e94d7fc0ae88c5c71f302a8ba6db570f49da778a83795f59784a960015aff3"
+    },
+    "cpi_21_25": {
+      "relative_path": "03_nbs_price/21年-25年月度消费价格分类指数.xlsx",
+      "sha256": "e51f677e5bff02c56c4de152ab2b8ace512ad1bd8b15847b1ea0ee9dfd003c75"
+    },
+    "cpi_26": {
+      "relative_path": "03_nbs_price/26年1-2月月度消费价格分类指数.xlsx",
+      "sha256": "ec4be3293aea3c8e0107cbef08d432a105f77ad53d82622fd6db819321aef4d5"
+    },
+    "ppi": {
+      "relative_path": "03_nbs_price/98年-26年2月工业生产者出厂价格指数.csv",
+      "sha256": "030163d41bcf91c996ab3bb277b38b689b15e4fd82fb2084a28529c2fc4c661a"
+    },
+    "ppi_purchase": {
+      "relative_path": "03_nbs_price/98年-26年2月工业生产者购入价格指数.csv",
+      "sha256": "399daa3f59e88e2ab606227846fcffe3a4482008e9cbceb0192a940c00d312b6"
+    },
+    "iva": {
+      "relative_path": "03_nbs_price/98年-26年2月规上工业增加值增长速度.csv",
+      "sha256": "c624ff1c473e2822958cdb9fbbe6bd7aac826315819bb738fcc6d922d481a386"
+    },
+    "customs": {
+      "relative_path": "04_customs_trade/15年-26年2月月度原油进口量值数据.xlsx",
+      "sha256": "7f5118ac984400a80fe6253d92412ca971e17975774f77ba86e964d4f6617a06"
+    }
+  }
+}

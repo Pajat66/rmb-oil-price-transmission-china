@@ -1,0 +1,10 @@
+{
+  "status": "FULL_PIPELINE_NOT_END_TO_END_TESTED",
+  "scientific_work_dir_env": "RMB_R3_WORKDIR",
+  "private_documents_required": false,
+  "quick": "python -B scripts/verify_results.py",
+  "plan": "python -B scripts/reproduce_analysis.py plan",
+  "full": "scripts/reproduce.py full --r3-authorized (historical execution opt-in; not executed in R4A)",
+  "S18_CSV_export": "scripts/s18_stage3.py",
+  "figure_source_defaults": "frozen references; explicit rebinding required for new estimates"
+}

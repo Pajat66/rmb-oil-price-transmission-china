@@ -1,0 +1,220 @@
+{
+  "phase2b_inference_summary.csv": {
+    "path": "reference/statistics/phase2b_inference_summary.csv",
+    "sha256": "536807074ab019e69d5d82ee2c7f15327a85663dcdeb6f1487cd356444d820f0",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "lp_final_coefficients.csv": {
+    "path": "reference/statistics/lp_final_coefficients.csv",
+    "sha256": "ea93e0595ba63874f455b8cc0aac3468efcfa7a6e5a42293919487acd25903b9",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "lp_cumulative_response.csv": {
+    "path": "reference/statistics/lp_cumulative_response.csv",
+    "sha256": "8b1e190a0a5c142033cec07b198c3978600d5f30a556fb541b689efa931707e3",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "lp_bootstrap_ci.csv": {
+    "path": "reference/statistics/lp_bootstrap_ci.csv",
+    "sha256": "b1e18846fa6692246620aa809148883eb5bcc909feca2cca4dda793cb9aaf0e2",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "lp_joint_tests.csv": {
+    "path": "reference/statistics/lp_joint_tests.csv",
+    "sha256": "757682f98e6cb929a21e37d07a0c15eed5d2a88447f665e37b664e4234640577",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "price_hierarchy_tests.csv": {
+    "path": "reference/statistics/price_hierarchy_tests.csv",
+    "sha256": "965d9e6a97a0eef9e38b19318eaf4748322877e344d466132e5dd075ff609598",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "relative_pass_through_bootstrap.csv": {
+    "path": "reference/statistics/relative_pass_through_bootstrap.csv",
+    "sha256": "c85f33566d3f14f66d59d5a87a925d43f3a17f21377130bd173f51187fea5ac2",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "lp_composite_components.csv": {
+    "path": "reference/statistics/lp_composite_components.csv",
+    "sha256": "de815226f3e0652cd55059d765f2843b91857293dd56dfadf5fb85a81ab351fa",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "multicollinearity_diagnostics.csv": {
+    "path": "reference/statistics/multicollinearity_diagnostics.csv",
+    "sha256": "edaf8fbd9a63747f1caac5075101b30375c071e4f3b8df1fbe82bf2aa34073cc",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "mechanism_link1_final.csv": {
+    "path": "reference/statistics/mechanism_link1_final.csv",
+    "sha256": "da318568580748da9d02bad5d4b28cb383393e1e99e131f1d43579ccaa3d8e76",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "mechanism_lp_fuel.csv": {
+    "path": "reference/statistics/mechanism_lp_fuel.csv",
+    "sha256": "0b51a7465a65553bec8ed1db07b32582203a3ed7c20566b1048266d733bba88b",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "mechanism_lp_ppi.csv": {
+    "path": "reference/statistics/mechanism_lp_ppi.csv",
+    "sha256": "6b9b34e9f63fcfe113246310b9d2a7d3b3889a6d00b40a8533994d60337cd9c3",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "terminal_cpi_lp.csv": {
+    "path": "reference/statistics/terminal_cpi_lp.csv",
+    "sha256": "7f92340485b2b59be39d8d80c10dffc86c34464c6ec30618afa69d6c1af2f988",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "structural_stability_summary.csv": {
+    "path": "supporting_information/archive/csv/S13_Final_status.csv",
+    "sha256": "9cde0a8e920eb057d964488560a31a6a609dcb53c99e23b846c0ff282edd77bf",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "recursive_lp_coefficients.csv": {
+    "path": "reference/statistics/recursive_lp_coefficients.csv",
+    "sha256": "46dada3ae48c3b029f646e30bbfce74d672806b41a264fde9316164969742419",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "rolling_lp_coefficients.csv": {
+    "path": "reference/statistics/rolling_lp_coefficients.csv",
+    "sha256": "d95efd557089d5db66cabef33fc8ab9f1246638f597e4db5c22b194e2dc3a259",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "structural_break_supwald.csv": {
+    "path": "reference/statistics/structural_break_supwald.csv",
+    "sha256": "e267b8bf865f2011c96d6136a26cdd7694a0f0b312a6c077bf54893eecc4c9d0",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "parameter_stability_tests.csv": {
+    "path": "reference/statistics/parameter_stability_tests.csv",
+    "sha256": "662a1f007ab2ca348698ca0e616ef21b27ea310f9758c572866721f6a1d6eb44",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "hierarchy_stability.csv": {
+    "path": "reference/statistics/hierarchy_stability.csv",
+    "sha256": "4896449e5c3dad85632194d23f48aa89ad71c481b3fe98324743d3f7223573ad",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "mechanism_link1_stability.csv": {
+    "path": "reference/statistics/mechanism_link1_stability.csv",
+    "sha256": "71e8f379b101317fe9396f9adbc8d7b256606f18be4a3b1dcee1659962d7f583",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "mechanism_link2_stability.csv": {
+    "path": "reference/statistics/mechanism_link2_stability.csv",
+    "sha256": "7f05b3f96608c60e1679641439413b45dc877fa06dc19c7ca4e0d30b73c8864a",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "future_shock_placebo.csv": {
+    "path": "reference/statistics/future_shock_placebo.csv",
+    "sha256": "d1400868124223229d756ccd001a9f241a297134ea02b99809ae0cbda5ce6a37",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "reverse_predictive_diagnostic.csv": {
+    "path": "reference/statistics/reverse_predictive_diagnostic.csv",
+    "sha256": "1bf4c6e1b433cffa09a2da5c3416ed41c9a74a79d619ec376b79d53cc12a5946",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2b_all_lp_cumulative_hac.csv": {
+    "path": "reference/statistics/phase2b_all_lp_cumulative_hac.csv",
+    "sha256": "e64286d9b996c11c097f6a6f26e553e131fb94eb8a0c3ab5b9e496b0e75ac9ac",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2b_all_lp_cumulative_bootstrap.csv": {
+    "path": "reference/statistics/phase2b_all_lp_cumulative_bootstrap.csv",
+    "sha256": "0ce3554c4ed65a8ae179da27b062e9d081cf95eba1b29f3dcd0eed4393f22991",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2b_all_lp_period_results.csv": {
+    "path": "reference/statistics/phase2b_all_lp_period_results.csv",
+    "sha256": "55814186a09634e5d7b75605bbf5f58a0add54516ab965e3e94f0751a36a6de0",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2b_all_lp_bootstrap_ci.csv": {
+    "path": "reference/statistics/phase2b_all_lp_bootstrap_ci.csv",
+    "sha256": "b5d56110bf5df67c73433455598a00a9028397761f41fa1b74ddb2ecdfa74d79",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2c_recursive_endpoint_drift.csv": {
+    "path": "reference/statistics/phase2c_recursive_endpoint_drift.csv",
+    "sha256": "d1e55c0feb0c6544dd8fc51f33c3b1c7a0509dbe3099096a4f2427a253f9c384",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2c_rolling_evidence_summary.csv": {
+    "path": "reference/statistics/phase2c_rolling_evidence_summary.csv",
+    "sha256": "049d61d1c847829122710fceb461b9ce2e59cd31b26834e20bacfec7a1b0eb3f",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2c_hierarchy_evidence_summary.csv": {
+    "path": "reference/statistics/phase2c_hierarchy_evidence_summary.csv",
+    "sha256": "69312bf648224439f3dde023a57b8bc1fe4f9b0cba0a76057c7b9b77e9d8c637",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "break_subsample_lp.csv": {
+    "path": "reference/statistics/break_subsample_lp.csv",
+    "sha256": "174085a79109c73ea5a4e158640bc2cec72d1d6cd3711700f4bdaa4489b82a97",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "broad_period_sensitivity.csv": {
+    "path": "reference/statistics/broad_period_sensitivity.csv",
+    "sha256": "1c17694d274ecae65580a4670a45bb006fab268555fe1fc10144d1125f5f6857",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "phase2c_break_cumulative.csv": {
+    "path": "reference/statistics/phase2c_break_cumulative.csv",
+    "sha256": "6e1d0257e084bc5f9a0aaf1ff6298619e74d29c161ce714afe36e0763b9db8a3",
+    "role": "FROZEN_COMPARISON_ONLY"
+  },
+  "stationarity_full.csv": {
+    "path": "reference/statistics/stationarity_full.csv",
+    "sha256": "f59b17eb8cab8b9dd6f126f4d3717a4a2e91059babd0cf788f22ecb0a182d50e",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "transformed_stationarity_full.csv": {
+    "path": "reference/statistics/transformed_stationarity_full.csv",
+    "sha256": "4d93ada0865de4bfa4ada2977581fed47066d866dce0dd900389b7b284e570a0",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "yoy_aligned_stationarity_full.csv": {
+    "path": "reference/statistics/yoy_aligned_stationarity_full.csv",
+    "sha256": "fef883335d650d3e1b5839abcea1a641cd78378bd6ea623ebfbe63a6dde8b539",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "long_dlm_lag_grid_0_12.csv": {
+    "path": "reference/statistics/long_dlm_lag_grid_0_12.csv",
+    "sha256": "804514e2b3d28b23765e91f191976e19c7bd541e670d37424eefd40ca47fae40",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "long_dlm_lag_grid_0_18_sensitivity.csv": {
+    "path": "reference/statistics/long_dlm_lag_grid_0_18_sensitivity.csv",
+    "sha256": "cf1cf68b94c60129246f28469a6c78d59d55c8b3e160fef00f61676c9bc502e3",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "long_dynamic_dlm_grid.csv": {
+    "path": "reference/statistics/long_dynamic_dlm_grid.csv",
+    "sha256": "abdfa106d45923d995ff094d7f66e2c014e4cfa083272810dfde41d8a10cedea",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "long_dynamic_dlm_diagnostics.csv": {
+    "path": "reference/statistics/long_dynamic_dlm_diagnostics.csv",
+    "sha256": "518ae57d3dfdba22908accb510b4efc4eea4c1f95f8da62a9056ddb5335c648e",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "table3_lag_selection_full.csv": {
+    "path": "reference/statistics/table3_lag_selection_full.csv",
+    "sha256": "42c6165719ef34b45cef5ec3e7fbcaa82198d7861b702c95797853e60086182a",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "table3_lag_selection_summary.csv": {
+    "path": "reference/statistics/table3_lag_selection_summary.csv",
+    "sha256": "f03a2b2539f25e95063b125223fd30d0d7e5c5524ae1628f1d1966186c6b1b34",
+    "role": "HISTORICAL_REFERENCE"
+  },
+  "phase2c_frozen_input_registry.csv": {
+    "source_sha256": "672301d21d2dd9c9bdf9b1b6480177c04dab4748cf0fca92522e63899a885d1b",
+    "role": "GENERATE_PRIVATE_PROVENANCE_AT_R3"
+  },
+  "source_log_resolution.csv": {
+    "source_sha256": "d4efd896da4ede8b1ad5e347abfcc04000309967c8f8d96eb173fc89619a0a86",
+    "role": "GENERATE_PRIVATE_PROVENANCE_AT_R3"
+  }
+}

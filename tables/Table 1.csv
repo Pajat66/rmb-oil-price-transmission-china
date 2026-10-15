@@ -1,0 +1,11 @@
+﻿variable,definition,transformation,units,canonical_period,source
+dlog_oil_rmb,Local-currency oil cost,100 x calendar log difference of Brent USD x CNY/USD,Approx. monthly percent change,1998-01 to 2026-02,"EIA Brent; FRED EXCHUS exchange rate (Board of Governors of the Federal Reserve System, US)"
+dlog_brent,Brent crude oil,100 x calendar log difference,Approx. monthly percent change,1998-01 to 2026-02,EIA
+dlog_fx,CNY per USD,100 x calendar log difference,Approx. monthly percent change,1998-01 to 2026-02,"FRED, EXCHUS (Board of Governors of the Federal Reserve System, US)"
+d_fuel_power_inflation,Fuel-and-power purchase price inflation,Calendar difference of year-on-year index minus 100,Percentage-point change in YoY inflation,1998-01 to 2026-02,NBS
+d_ppi_inflation,Producer price inflation,Calendar difference of year-on-year index minus 100,Percentage-point change in YoY inflation,1998-01 to 2026-02,NBS
+d_cpi_inflation,Consumer price inflation,Calendar difference of year-on-year index minus 100,Percentage-point change in YoY inflation,1998-01 to 2026-02,NBS
+dlog_import_unit_price,Crude-oil import unit price (RMB/kg),100 x calendar log difference,Approx. monthly percent change,2015-01 to 2026-02,China Customs
+dlog_import_quantity,"Crude-oil import quantity (10,000 tonnes)",100 x calendar log difference,Approx. monthly percent change,2015-01 to 2026-02,China Customs
+indust_va_yoy,Industrial value added growth,Observed reported YoY growth; not a primary control,Percent growth,1998-01 to 2026-02,NBS
+indust_va_cum_yoy,Cumulative industrial value added growth,Observed cumulative YoY growth; not substituted for monthly growth,Percent growth,1998-01 to 2026-02,NBS

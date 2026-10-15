@@ -1,0 +1,88 @@
+{
+  "status": "CANDIDATE_NOT_PUBLISHED",
+  "formal": {
+    "p": 2,
+    "h": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "equations": 39,
+    "start": "1998-04",
+    "N_h0": 335,
+    "N_h12": 323,
+    "B": 5000,
+    "seed": 20261004,
+    "blocks": [
+      12,
+      6,
+      18
+    ]
+  },
+  "s18": {
+    "p": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "equations": 195,
+    "start": "1998-08",
+    "N_h0": 331,
+    "N_h12": 319,
+    "B": 5000,
+    "seed": 2026101202,
+    "block": 12
+  },
+  "stability": {
+    "formal_h": [
+      0,
+      3,
+      6
+    ],
+    "descriptive_h": [
+      0,
+      3,
+      6,
+      12
+    ],
+    "B": 5000,
+    "seed": 2026100402,
+    "rolling": [
+      120,
+      96,
+      144
+    ],
+    "recursive_initial": 120
+  },
+  "execution_order": [
+    "prepare-data",
+    "main-lp",
+    "stability (includes S15)",
+    "s18_stage1",
+    "s18_stage2",
+    "s18_stage3",
+    "tables/SI export",
+    "figures export",
+    "R3 comparison"
+  ],
+  "pending": [
+    "DATA_RIGHTS_AND_ACCESS",
+    "FIGURE2_LICENSE_HOLD",
+    "AUTHOR_LICENSE_DECISION",
+    "MANUSCRIPT_TABLE2_ROUNDING",
+    "FULL_MBB_DWB_S18_REESTIMATION_AND_FIGURE_REBUILD"
+  ],
+  "verified_subset": "Data/design validation and primary39 OLS/HAC previously verified; no R4A estimation"
+}

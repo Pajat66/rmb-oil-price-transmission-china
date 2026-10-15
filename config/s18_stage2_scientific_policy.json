@@ -1,0 +1,140 @@
+{
+  "candidate_p": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "outcome_variables": [
+    "d_fuel_power_inflation",
+    "d_ppi_inflation",
+    "d_cpi_inflation"
+  ],
+  "outcomes": [
+    "Fuel",
+    "PPI",
+    "CPI"
+  ],
+  "period_horizons": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "cumulative_horizons": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "summary_horizons": [
+    3,
+    6,
+    12
+  ],
+  "baseline_p": 2,
+  "seed": 2026101202,
+  "seed_sequence_entropy": [
+    2026101202,
+    12,
+    0
+  ],
+  "QA_seed": 2026101299,
+  "QA_repetitions": 24,
+  "B_effective_target": 5000,
+  "block_length": 12,
+  "calendar_N": 338,
+  "calendar_start": "1998-01",
+  "calendar_end": "2026-02",
+  "sampling": "Noncircular moving-block pairs of full calendar-indexed preconstructed regression vectors. Draw ceil(calendar_N/L) independent block starts uniformly from 0..calendar_N-L; concatenate contiguous length-L blocks and truncate to calendar_N. One shared index vector across all 195 equations. Restrict each vector using frozen horizon-specific Stage1 valid mask; do not reconstruct lags/leads at joins.",
+  "shared_horizon_N": "N* varies by draw and horizon after exclusion of source-calendar invalid rows, as in original Phase2B. At any draw-h it is exactly identical across p and outcomes. No independent resampling of shorter horizon-specific calendars.",
+  "adaptation": "Replace original per-model p2 masks by frozen Stage1 p6 common masks and expand dictionary to all five p. Same calendar length, noncircular construction, row multiplicities and full weighted OLS solve. New seed gives independent stream. No original script or save interface run.",
+  "failure_policy": {
+    "global_validity": "A draw is accepted only if all 195 fits have N*>k, full Gram rank and finite solved coefficients; rejection is global, never equation-specific",
+    "target": 5000,
+    "max_attempts": 10000,
+    "batch": 250,
+    "replenishment": "Use subsequent draws from same RNG stream until 5000 globally valid paired repetitions or 10000 attempts. Record all attempted indices and failures, accepted-attempt IDs; no zero imputation. Stop inference if target not met.",
+    "report": "Record rejection rate and numerical conditions. Globally rejected draws imply conditioning on global estimability; disclose even if replenished."
+  },
+  "regression": "Each draw fully refits OLS with weighted normal equations using row multiplicities, algebraically equivalent to duplicated-pairs OLS. Precheck full rank; no pseudoinverse for weighted solve.",
+  "cumulative": "Within the same accepted repetition, sum shock coefficients for h=0..H; retain Stage1 horizon-specific samples",
+  "stage_contrasts": "Within repetition subtract paired cumulative outcomes for Fuel–PPI, Fuel–CPI, PPI–CPI at H3/6/12",
+  "cross_p": "Within repetition subtract cumulative alternative p minus common-sample p2 at H3/6/12, alternatives 1/3/4/6",
+  "interval": "95% pointwise percentile, numpy quantile linear/type7, ddof1 bootstrap SE; NOT HAC CI, NOT simultaneous band, NOT FDR-adjusted CI",
+  "scalar_test": "Two-sided null-centered: (1 + count(abs(draw - original_common_point) >= abs(original_common_point)))/(B_effective+1). Plus-one correction; p decisions and percentile CI need not be inverses.",
+  "families": {
+    "cumulative": "Each outcome-p has 13 cumulative H tests: 15 separate families",
+    "stage": "Each p has all 9 contrasts (3 pairs x 3 H): 5 separate families",
+    "cross_p": "Each outcome has 12 differences (4 alternatives x H3/6/12): 3 separate families",
+    "joint": "Each outcome-p has short/medium/late/all windows: 15 separate four-test families"
+  },
+  "multiplicity": {
+    "primary": "BH-FDR",
+    "sensitivity": "Holm",
+    "alpha": 0.05,
+    "no_cross_question_pooling": true
+  },
+  "joint": {
+    "windows": {
+      "short": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "medium": [
+        4,
+        5,
+        6
+      ],
+      "late": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "all": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "method": "Same Phase2B full-path sample covariance and centered-bootstrap Wald calibration: W=b'Cov(draws)^(-1)b; centered repetitions evaluated in same metric; plus-one tail probability",
+    "gate": "First reproduce existing Phase2B L12 joint outputs from frozen paths. Require full rank, positive covariance for each window; if singular, NOT EVALUATED with reason, never use a pseudoinverse to mask rank.",
+    "clarification": "Vector zero test, not a cumulative sum test. Existing pinv equals ordinary inverse only under verified full rank; Stage2 uses solve.",
+    "reuse_status": "To be established by dry-run and frozen-output reconciliation"
+  },
+  "interpretation": "Support flag requires positive point, pointwise CI above zero and BH q<.05; Holm reported separately. Do not apply original multi-block ROBUST_ASSOCIATION label because only L12 is authorized. Inconsistent CI/test or Holm sensitivity disclosed."
+}

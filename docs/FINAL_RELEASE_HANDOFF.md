@@ -1,0 +1,15 @@
+# Publication handoff for approved v2.0.0
+
+The revised materials, version and scoped licences are approved. The final prepared payload is authorized for a normal GitHub main push. A new tag, Release, deposit and journal submission are outside this authorization.
+
+**Sole archive route: the existing GitHub–Zenodo release integration.** A read-only GitHub hooks request on 2026-10-15 returned an active zenodo.org webhook for the release event. The public v1.1.0 record confirms Version DOI 10.5281/zenodo.22869727 and Concept DOI 10.5281/zenodo.20714251. The Zenodo account-settings page required login; the GitHub-side live webhook is independently verified. Do not create a manual deposit or upload a duplicate ZIP if the integration is delayed or fails; inspect the same integration job/record and resolve it there.
+
+For the current authorized operation, refresh staging from the final working tree, check the unchanged remote baseline, commit the reviewed exact payload and push main normally while preserving history and old tags. Restore the correct public push URL for this operation. Stop after remote-content verification. Only after separate explicit Release/Zenodo authorization, set the actual release date, refresh any affected manifests and publish one GitHub v2.0.0 Release targeting the reviewed commit. Do not create a v2.0.0 tag or Release during the main-push operation.
+
+The active root .zenodo.json uses the valid Zenodo **Other (Open)** licence identifier and states the component scopes explicitly: MIT software/documentation, CC BY 4.0 original figures/tables/shareable outputs, upstream public-domain EXCHUS and excluded provider observations. This avoids Zenodo's default single CC BY label. After automatic ingestion, inspect the same record and add/display MIT and CC BY 4.0 component rights with their scope descriptions if the UI exposes multiple rights. Do not assign either grant to all bundled material or to old provider inputs.
+
+Confirm title, ordered seven creators, version v2.0.0, exact archived file tree, the actual new Version DOI and association with existing Concept DOI 10.5281/zenodo.20714251. If the integration creates an unexpected record family, stop and resolve the linkage with Zenodo on that record; do not publish a second manual record. Update GitHub Release description and Word with the actual DOI. CFF may receive a follow-up default-branch metadata commit with that DOI; do not move the released v2.0.0 tag or silently replace its archived files.
+
+Submit a new PLOS ONE manuscript only after the archive and manual Word insertion are complete. Upload seven Fig1.tif–Fig7.tif files and 21 SI files; retain six main tables in Word. Caption/file identities follow the upload manifest. The submission notes and machine manifests are not journal uploads.
+
+Official documentation: [GitHub integration](https://help.zenodo.org/docs/github/enable-repository/), [metadata priority](https://help.zenodo.org/docs/github/describe-software/zenodo-json/), [mixed licences](https://help.zenodo.org/docs/deposit/describe-records/licenses/), [PLOS data policy](https://journals.plos.org/plosone/s/data-availability).

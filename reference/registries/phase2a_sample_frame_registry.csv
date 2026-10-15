@@ -1,0 +1,3 @@
+﻿sample,source,raw_start,raw_end,raw_N,customs_available,role
+CORE_TRANSMISSION_LONG,01_data/long_sample_canonical.csv,1998-01,2026-02,338,False,primary transmission
+MECHANISM_SHORT,01_data/short_sample_canonical.csv,2015-01,2026-02,134,True,customs mechanism and historical comparison

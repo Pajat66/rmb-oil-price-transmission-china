@@ -1,62 +1,12 @@
-﻿# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Python cache
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-.ipynb_checkpoints/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-
-# R temporary files
-.Rhistory
-.RData
-.Rproj.user/
-*.Rproj
-
-# IDE/editor files
-.vscode/
-.idea/
-
-# Office temporary files
-~$*.docx
-~$*.xlsx
-~$*.pptx
-*.tmp
-*.bak
-
-# Logs
-*.log
-
-# Local environments
-.env
 .venv/
-venv/
-env/
-
-# Temporary/cache outputs
-04_results/**/temp/
-04_results/**/tmp/
-04_results/**/cache/
-temp_check/
-**/temp_check/
-
-# Internal repository audit reports
-docs/repository_audit/
-
-# Third-party literature PDFs
-05_paper_materials/references/*.pdf
-
-# Oversized duplicate publication figures
-04_results/figures_english/*.tif
-04_results/figures_english/*.tiff
-
-# Local backup archives
-*.zip
-*.rar
-*.7z
+node_modules/
+.env
+.env.*
+private_raw/
+private_work/
+new_scientific_work/
+*.docx
+*.doc
+*.log

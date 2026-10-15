@@ -1,0 +1,6 @@
+# Preserve the exact scientific and release payload bytes across platforms.
+* -text
+# Keep CRLF and benign final blank lines in the frozen cross-platform payload.
+* whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
+# Matplotlib SVG path strings contain deliberate trailing separator spaces.
+figures/*.svg -whitespace

@@ -1,0 +1,102 @@
+{
+  "seed": 20261004,
+  "replications": 5000,
+  "block_lengths": [
+    12,
+    6,
+    18
+  ],
+  "primary_block": 12,
+  "horizons": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "shock": "dlog_oil_rmb",
+  "outcomes": [
+    "d_fuel_power_inflation",
+    "d_ppi_inflation",
+    "d_cpi_inflation"
+  ],
+  "shock_lags": [
+    1,
+    2
+  ],
+  "outcome_lags": [
+    1,
+    2
+  ],
+  "hac_primary": "max(12,h+1)",
+  "hac_sensitivity": [
+    "max(6,h+1)",
+    "12+h"
+  ],
+  "kernel": "Bartlett",
+  "hac_small_sample_correction": true,
+  "hac_use_t": false,
+  "cumulative_estimand": "sum of horizon-specific period coefficients, retaining Phase2A samples",
+  "bootstrap": "noncircular moving-block pairs of calendar-indexed design vectors; full OLS refit via exact row multiplicities; shared indices within sample",
+  "joint_windows": {
+    "all": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "short": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "medium": [
+      4,
+      5,
+      6
+    ],
+    "late": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "hierarchy_horizons": [
+    3,
+    6,
+    12
+  ],
+  "share_horizons": [
+    3,
+    6
+  ],
+  "primary_multiplicity": "BH within each outcome 13 period horizons",
+  "holm": "sensitivity",
+  "mechanism_families": "each shock/outcome/control specification separately; Link1 four oil lag coefficients within each quantity/bandwidth specification; cumulative and joint tests separate singleton families",
+  "extra_families": "hierarchy nine contrasts; joint four windows per primary outcome; no cross-question pooling",
+  "wording_policy": "ROBUST_ASSOCIATION requires primary q<.05 and primary bootstrap percentile CI excluding zero and stable CI sign in both block sensitivities and HAC sensitivities; SUGGESTIVE_ASSOCIATION if primary raw p<.05 or primary bootstrap CI excludes zero; otherwise NO_CLEAR_EVIDENCE; shares DESCRIPTIVE_ONLY",
+  "share_width_policy": "delete headline percentages if primary percentile interval width exceeds 20 percentage points; no structural weights",
+  "limitations": "pointwise intervals; joint/hierarchy/secondary tests distinct questions; no structural break or causal identification",
+  "created_utc": "2026-10-04T08:06:12.289225+00:00"
+}

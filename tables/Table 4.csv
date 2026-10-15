@@ -1,0 +1,4 @@
+﻿Outcome,restriction_tested,minimum_adjusted_q,rejected_horizons,interpretation
+Fuel,"Current Brent coefficient = current FX coefficient; composite lags1,2 retained",0.966227834806954,none,Compatible with a parsimonious local-currency representation. Nonrejection does not prove equality.
+PPI,"Current Brent coefficient = current FX coefficient; composite lags1,2 retained",0.994873112634554,none,Compatible with a parsimonious local-currency representation. Nonrejection does not prove equality.
+CPI,"Current Brent coefficient = current FX coefficient; composite lags1,2 retained",0.8385639234320591,none,Compatible with a parsimonious local-currency representation. Nonrejection does not prove equality.

@@ -1,0 +1,101 @@
+{
+  "formal_baseline_p": 2,
+  "candidate_p": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "outcomes": [
+    "d_fuel_power_inflation",
+    "d_ppi_inflation",
+    "d_cpi_inflation"
+  ],
+  "shock": "dlog_oil_rmb",
+  "horizons": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "representative_wald_horizons": [
+    0,
+    1,
+    3,
+    6,
+    12
+  ],
+  "cumulative_summary_horizons": [
+    3,
+    6,
+    12
+  ],
+  "expected_equations": 195,
+  "expected_wald_tests": 45,
+  "calendar": "Validate intact true monthly calendar before creating all lags 1..6 and leads 0..12; no row shifting after dropping missingness",
+  "common_sample": "At each h independently, intersect current shock, shock lags 1..6, own-outcome lags 1..6 for all three outcomes, and all three responses at lead h. Require identical origin months for all 15 equations at that h. Do not intersect response leads across h.",
+  "transformation": "Reconstruct 100*calendar difference of log(oil_rmb); inflation=index-100; d_inflation=calendar first difference; compare against saved transformed inputs",
+  "design": "response y[t+h]; const, shock[t], shock lags 1..p, own outcome lags 1..p; k=2+2*p; no other controls; no future explanatory values",
+  "hac": {
+    "kernel": "bartlett",
+    "maxlags": "max(12,h+1)",
+    "use_correction": true,
+    "correction": "N/(N-k)",
+    "use_t": false,
+    "ci_level": 0.95,
+    "period_p": "two-sided standard normal"
+  },
+  "information_criteria": {
+    "likelihood": "Gaussian OLS working log likelihood; variance ML estimate RSS/N; serial correlation is not modeled in this working likelihood",
+    "log_likelihood": "-N/2 * (log(2*pi)+1+log(RSS/N))",
+    "k": "regression mean parameters including intercept, k=2+2p",
+    "variance_parameter": "Profiled scale estimated but excluded from penalty, matching statsmodels OLS info_criteria dk_params=0 and existing table3/phase2a9 implementation. Adding scale adds constants within outcome-h and cannot alter ranking.",
+    "AIC": "-2*ll+2*k",
+    "BIC": "-2*ll+log(N)*k",
+    "HQIC": "-2*ll+2*log(log(N))*k",
+    "comparisons": "Only within outcome, h, identical sample and identical response; exact minima; ties listed, display first smallest p only for deterministic sorting; delta_to_min and value_minus_p2 saved; no global winner vote"
+  },
+  "wald": {
+    "expanded_p": [
+      3,
+      4,
+      6
+    ],
+    "null": "All shock and own-outcome lag coefficients 3..p equal zero",
+    "restrictions": {
+      "3": 2,
+      "4": 4,
+      "6": 8
+    },
+    "statistic": "(R beta)' solve(R V_HAC R', R beta)",
+    "reference": "asymptotic chi-square with full restriction rank; no F calibration",
+    "identification": "Check R full row rank; restricted covariance symmetric positive definite and full rank; use solve, never pseudoinverse; any failure blocks conclusions",
+    "multiplicity": "BH-FDR within outcome: 3 expanded p x 5 representative h = 15 tests; Holm same family; no outcome pooling",
+    "alpha": 0.05,
+    "nonrejection": "No sufficient evidence of additional conditional lag effects; does not prove p=2 correct"
+  },
+  "cumulative": "Sum h-specific period coefficients through H as in Phase2B, with h-specific endpoint samples; descriptive points only. No cumulative CI, cumulative p, joint covariance or paired contrast inference.",
+  "baseline_reference": "Recompute original p2 with original full valid sample using extracted build/hac only; verify saved coefficients and HAC outputs, original design CSVs and registry. Common p2 differs solely by extra origin-month restriction.",
+  "implementation_differences": [
+    "Standalone calendar-key lookup logic mirrors phase15_common; p is parameterized instead of fixed 1,2",
+    "All outcomes and candidate p use the per-h p6 common origin sample",
+    "Additional OLS fit metrics and HAC chi-square Wald restrictions saved",
+    "Only original build and hac function AST nodes and calendar functions executed in a restricted QA namespace; no original module imports or main runs",
+    "No use of original boot, cov_path, diagnostics, finalize, or output functions"
+  ],
+  "methodology_links": [
+    "https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.info_criteria.html",
+    "https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.get_robustcov_results.html",
+    "https://www.statsmodels.org/stable/generated/statsmodels.regression.linear_model.RegressionResults.wald_test.html"
+  ]
+}
