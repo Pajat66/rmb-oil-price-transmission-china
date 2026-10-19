@@ -1,6 +1,6 @@
 # v2.0.0 repository contents
 
-The [file manifest](metadata/public_file_manifest.csv) lists every current public file, its category and scoped licence. The [licence register](licenses/FILE_LICENSES.csv) covers the same paths. The [34-item manuscript index](metadata/manuscript_to_files.csv) maps seven main figures, six main tables, 18 Supporting Tables and three Supporting Figures. [SI mappings](metadata/si_file_mapping.csv) describe the 21 journal attachments and their archive sources.
+This document and the linked [file manifest](metadata/public_file_manifest.csv), [licence register](licenses/FILE_LICENSES.csv), [checksum index](validation/checksums/files.json), [34-item manuscript index](metadata/manuscript_to_files.csv) and [SI mappings](metadata/si_file_mapping.csv) describe the fixed v2.0.0 snapshot at commit 96770433002895f72c94ac5548b9fcdea2f6d0ea. References below to "current" mean that snapshot, including its 18 Supporting Tables and three Supporting Figures. The main branch additionally includes [S1 Data](journal_submission/S1_Data.xlsx), bringing the current journal SI total to 22; see the [current material list](README.md#repository-guide). The historical indexes do not cover S1 Data or later documentation changes. The original scripts/verify_results.py checks the fixed snapshot and is not a verifier for these post-release additions.
 
 | Directory | Contents |
 |---|---|

@@ -1,6 +1,6 @@
 # Supporting Information
 
-[journal_submission](../journal_submission) contains exactly21 numbered attachments:18 XLSX tables and3 TIFF figures. [Current captions](../metadata/captions.json) and [sheet mapping](../metadata/si_file_mapping.csv) connect them to the latest Word. Captions are already at the manuscript end; do not upload a separate caption file.
+The fixed v2.0.0 release contains 21 numbered attachments in [journal_submission](../journal_submission): 18 XLSX Supporting Tables and three TIFF Supporting Figures, indexed by the [v2.0.0 captions](../metadata/captions.json) and [sheet mapping](../metadata/si_file_mapping.csv). The main branch additionally includes [S1 Data](../journal_submission/S1_Data.xlsx) for separate PLOS ONE Supporting Information submission, bringing the current total to 22 files. The archive and validation descriptions below refer to the original 21 table/figure attachments; S1 Data is listed separately in the [current repository guide](../README.md#repository-guide).
 
 archive/ retains SUPPORTING_INFORMATION_TABLES.xlsx forS1–S17, S18_LP_lag_order_sensitivity.xlsx and36 table-sheet CSVs. Archive and split attachments package the same overlapping scientific evidence, not independent datasets.
 
