@@ -1,0 +1,435 @@
+{
+  "date": "2026-10-30",
+  "scope": "POST_RELEASE_FIGURE3_LABEL_LAYOUT_ONLY",
+  "base_commit": "f3c88d5ce7cc804bd7d0906485533d2a17d0b9f4",
+  "new_estimation": false,
+  "new_resampling": false,
+  "full_research_reproduction": false,
+  "change": {
+    "old_label": "BH\nq < 0.05",
+    "new_label": "BH q < 0.05",
+    "old_anchor_mm": [
+      4,
+      86
+    ],
+    "new_anchor_mm": [
+      4,
+      91
+    ]
+  },
+  "visual_spec": "Preserve the 190 x 105 mm, three-outcome LP line/ribbon design, 95% pointwise HAC intervals, independent y scales, h=0..12 and BH q<0.05 squares; change only label layout.",
+  "runtime": {
+    "python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "pymupdf": "1.28.2",
+    "ghostscript": "10.08.0"
+  },
+  "render_command": "D:/anaconda/python.exe -B -X utf8 scripts/render_figures.py --figure 3 --output-dir <empty external directory>",
+  "render_receipt": {
+    "status": "PLOTTED_FROM_SAVED_STATISTICS_NOT_FULL_REPRODUCTION",
+    "figure": "3",
+    "inputs": [
+      {
+        "file": "figure_3_primary_lp_period_source.csv",
+        "sha256": "0521353c02a6c392b285e6780fdd84ea883bacb285e6c7b33952275653086729"
+      }
+    ],
+    "checks": {
+      "font": "Arial",
+      "font_path": "C:\\Windows\\Fonts\\arial.ttf",
+      "canvas_mm": [
+        190.0,
+        105.0
+      ],
+      "geometry": {
+        "checked_text_objects": 43,
+        "font_range_pt": [
+          8.5,
+          10
+        ],
+        "clipping_or_text_overlap_errors": [],
+        "BH_label_min_square_clearance_pt": 8.354915951279002
+      },
+      "axis_bounds": {
+        "d_fuel_power_inflation": {
+          "xlim": [
+            -0.35,
+            12.35
+          ],
+          "ylim": [
+            -0.07359012892959085,
+            0.17479530680198524
+          ],
+          "confidence_limits_inside_axis": true
+        },
+        "d_ppi_inflation": {
+          "xlim": [
+            -0.35,
+            12.35
+          ],
+          "ylim": [
+            -0.034798961145938806,
+            0.048534714681043714
+          ],
+          "confidence_limits_inside_axis": true
+        },
+        "d_cpi_inflation": {
+          "xlim": [
+            -0.35,
+            12.35
+          ],
+          "ylim": [
+            -0.012933987184079624,
+            0.01670908846509664
+          ],
+          "confidence_limits_inside_axis": true
+        }
+      },
+      "plotted_arrays": {
+        "d_fuel_power_inflation": {
+          "horizon": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "estimate": [
+            0.03603541110218946,
+            0.12130816670972935,
+            0.08240450001525537,
+            0.028714247765246583,
+            0.013205066207751498,
+            0.003201449694648544,
+            0.022591931380777336,
+            0.019348248909789353,
+            0.008860821476220217,
+            0.016240901669985604,
+            -0.008558916242325264,
+            -0.0056742413351991185,
+            -0.03049785464529771
+          ],
+          "ci_low": [
+            0.01293850748082859,
+            0.08495105666792699,
+            0.04282509451815713,
+            -0.013024137398108347,
+            -0.02387113847100003,
+            -0.02273772886098533,
+            -0.0059887769111878,
+            -0.010231156290994615,
+            -0.02061497674647469,
+            -0.009823557005100007,
+            -0.027992065032479432,
+            -0.024309554256337965,
+            -0.05646009887913733
+          ],
+          "ci_high": [
+            0.059132314723550336,
+            0.15766527675153172,
+            0.12198390551235361,
+            0.07045263292860152,
+            0.05028127088650303,
+            0.02914062825028242,
+            0.05117263967274247,
+            0.04892765411057332,
+            0.03833661969891512,
+            0.042305360345071215,
+            0.010874232547828905,
+            0.012961071585939728,
+            -0.004535610411458089
+          ],
+          "BH_marked_horizons": [
+            0,
+            1,
+            2
+          ]
+        },
+        "d_ppi_inflation": {
+          "horizon": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "estimate": [
+            0.01302006092624344,
+            0.030749470571676738,
+            0.016549516561191677,
+            0.008130176599364367,
+            0.002391557920819953,
+            0.0020069148268000315,
+            0.006084073202955553,
+            0.005519041507666485,
+            0.002254711938342059,
+            0.00266246755426585,
+            -0.00013137994556093233,
+            -0.006497389616644569,
+            -0.01902560125870565
+          ],
+          "ci_low": [
+            0.005874118715456361,
+            0.018711376519343032,
+            0.002917226987934656,
+            -0.007010564942154412,
+            -0.008914055855541732,
+            -0.00827748276105452,
+            -0.004583591770702509,
+            -0.005860577079810236,
+            -0.007848340883355922,
+            -0.005237517298787277,
+            -0.006938648738467302,
+            -0.015008450631760796,
+            -0.029051811088905526
+          ],
+          "ci_high": [
+            0.020166003137030517,
+            0.04278756462401044,
+            0.030181806134448697,
+            0.023270918140883147,
+            0.01369717169718164,
+            0.012291312414654584,
+            0.016751738176613615,
+            0.016898660095143205,
+            0.012357764760040042,
+            0.010562452407318977,
+            0.0066758888473454365,
+            0.002013671398471659,
+            -0.008999391428505775
+          ],
+          "BH_marked_horizons": [
+            0,
+            1,
+            12
+          ]
+        },
+        "d_cpi_inflation": {
+          "horizon": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "estimate": [
+            0.006063046091208071,
+            0.00959145421725953,
+            0.00553913263118481,
+            0.0022339984331723696,
+            0.004094640600468991,
+            8.102183563639073e-05,
+            0.0051695862289123555,
+            0.0025722114635870854,
+            -0.002890826328333227,
+            0.000652002423071645,
+            0.003360211315007507,
+            -0.00010732312281094429,
+            -0.006030398213143759
+          ],
+          "ci_low": [
+            0.0002710958823979523,
+            0.0045181700141932,
+            -0.0023300852384864432,
+            -0.005338794864319496,
+            -0.003220851925127488,
+            -0.004047301659468385,
+            -0.0013814185145960018,
+            -0.006581751750682532,
+            -0.009003415350227292,
+            -0.00590150141806614,
+            -0.0017343830006494717,
+            -0.004053106228471801,
+            -0.010889637139308846
+          ],
+          "ci_high": [
+            0.01185499630001819,
+            0.014664738420325861,
+            0.013408350500856063,
+            0.009806791730664236,
+            0.01141013312606547,
+            0.004209345330741166,
+            0.011720590972420713,
+            0.011726174677856702,
+            0.0032217626935608376,
+            0.00720550626420943,
+            0.008454805630664485,
+            0.003838459982849913,
+            -0.0011711592869786715
+          ],
+          "BH_marked_horizons": [
+            1
+          ]
+        }
+      },
+      "band_export": "Opaque tint preblended on white; no EPS transparency flattening",
+      "point_estimates_bounds_and_BH_markers_match_source": true,
+      "final_geometry": {
+        "visible_text_objects": 43,
+        "font_range_pt": [
+          8.5,
+          10.0
+        ],
+        "clipping_or_text_overlap_errors": []
+      },
+      "evidence_digest": {
+        "sha256": "b262254385e550faf38cd1f25806cbcde39502f3bee6c3aa1fd4741b06bcf7a0",
+        "objects": {
+          "axes": 6,
+          "lines": 12,
+          "collections": 6,
+          "rectangles": 0
+        }
+      },
+      "exports": {
+        "TIFF_dpi": 600,
+        "PNG_dpi": 300,
+        "TIFF_mode": "RGB",
+        "TIFF_compression": "LZW",
+        "dimensions_mm": [
+          190.0,
+          105.00000000000001
+        ],
+        "formats": [
+          "TIFF",
+          "PNG",
+          "SVG",
+          "EPS"
+        ]
+      }
+    },
+    "new_estimation": false
+  },
+  "formats": [
+    {
+      "path": "figures/Figure 3.png",
+      "sha256": "34f1c31e5c02095466c32c15ea906c7d48922954cd9f4896ac7d815f5bb58333",
+      "bytes": 266618,
+      "pixels": [
+        2244,
+        1240
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "mode": "RGBA",
+      "frames": 1
+    },
+    {
+      "path": "figures/Figure 3.tif",
+      "sha256": "7f87f86d47623f45a13f54d5481539d1d05db6fd99d9b16b2915a24e7d8e7155",
+      "bytes": 845926,
+      "pixels": [
+        4488,
+        2480
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "mode": "RGB",
+      "frames": 1,
+      "compression": "LZW"
+    },
+    {
+      "path": "figures/Figure 3.svg",
+      "sha256": "f5696cd41c2532d5681e3e4f20a5c77967472e6760bd1b2f7331f8ae8ef95fd3",
+      "bytes": 38560
+    },
+    {
+      "path": "figures/Figure 3.eps",
+      "sha256": "66042106920bebad58d3b203be75c3900235b89e845d8994adffd6abddd4bfb1",
+      "bytes": 70154
+    }
+  ],
+  "independent_checks": {
+    "all_39_rows_match_saved_statistics": true,
+    "all_78_CI_endpoints_match": true,
+    "BH_flags_match_saved_q": true,
+    "baseline_plotted_arrays_and_axes_equal": true,
+    "historical_coordinate_digest_equal": true,
+    "SVG_all_path_attributes_unchanged": true,
+    "PNG_pixel_difference_bbox": [
+      48,
+      980,
+      234,
+      1091
+    ],
+    "PNG_changes_confined_to_label": true,
+    "SVG_read_and_rendered_with_CairoSVG": true,
+    "EPS_read_and_rendered_with_Ghostscript": true,
+    "EPS_single_line_label_glyphs_match_Arial_font_cmap": true,
+    "SVG_EPS_no_raster_images": true,
+    "EPS_font_embedded_as_vector_Type3_glyphs": true
+  },
+  "EPS_compatibility_fix": "Figure 3 alone uses vector Type 3 glyphs after apply_style; Type 42 text appeared blank in independent Ghostscript 10.04.0 and 10.08.0 rendering. No rasterization of evidence or fonts.",
+  "PLOS_requirements": {
+    "source": "https://journals.plos.org/plosone/s/figures",
+    "checked_date": "2026-10-30",
+    "canvas_mm": [
+      190,
+      105
+    ],
+    "font_pt": [
+      8.5,
+      10
+    ],
+    "TIFF_RGB_single_frame_LZW_600dpi": true,
+    "all_files_below_10_MB": true,
+    "submission_formats": [
+      "TIFF",
+      "EPS"
+    ],
+    "preview_and_editable_formats": [
+      "PNG",
+      "SVG"
+    ],
+    "online_NAAS_run": false
+  },
+  "frozen_archive": {
+    "tag": "v2.0.0",
+    "tag_object": "18d1b9d145737e39b1a5215dda73cbc07717be3f",
+    "peeled_commit": "96770433002895f72c94ac5548b9fcdea2f6d0ea",
+    "Zenodo_DOI": "10.5281/zenodo.23388839",
+    "changed": false
+  },
+  "historical_metadata": "metadata/figure_export_status.json is unchanged historical evidence, not current Figure 3 export validation.",
+  "scripts": {
+    "src/plotting/figure3_plot.py": "3e38d1b50d58f803547c4bec8c479f60b0b1da1409fe023be614b642c0a847de",
+    "src/plotting/visual_system.py": "5531dd5fe02d08d5f75af986ab49166796d3059fa7e0c6b22e696560661db8f5",
+    "scripts/render_figures.py": "a07ccd9025ee1e89ce3f9c3cd881c9041b50f13fef3ca47c690a179f34936bfe"
+  },
+  "visual_review": {
+    "date": "2026-10-30",
+    "PNG_and_TIFF": "PASS: full figure, single-line label, no clipping or overlap",
+    "SVG": "PASS: CairoSVG independent render, editable text retained",
+    "EPS": "PASS: Ghostscript independent render, vector glyphs visible",
+    "grayscale": "PASS: panels and evidence retain legibility",
+    "unresolved_issues": []
+  }
+}

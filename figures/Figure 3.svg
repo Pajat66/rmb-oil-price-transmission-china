@@ -870,8 +870,7 @@ L 521.574803 68.031496
    <text style="fill: #202729; font-family: Arial; font-size: 10px; font-weight: 700; text-anchor: start" x="394.015748" y="62.115059" transform="rotate(-0 394.015748 62.115059)">(C) CPI</text>
   </g>
   <g id="text_41">
-   <text style="fill: #202729; font-family: Arial; font-size: 8.5px; font-weight: 400" transform="translate(11.338583 241.466598)">BH</text>
-   <text style="fill: #202729; font-family: Arial; font-size: 8.5px; font-weight: 400" transform="translate(11.338583 250.487223)">q &lt; 0.05</text>
+   <text style="fill: #202729; font-family: Arial; font-size: 8.5px; font-weight: 400; text-anchor: start" x="11.338583" y="260.162756" transform="rotate(-0 11.338583 260.162756)">BH q &lt; 0.05</text>
   </g>
   <g id="text_42">
    <text style="fill: #202729; font-family: Arial; font-size: 9px; font-weight: 400; text-anchor: middle" x="283.464567" y="268.785443" transform="rotate(-0 283.464567 268.785443)">Horizon h (months)</text>

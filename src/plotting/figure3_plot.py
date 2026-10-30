@@ -56,6 +56,8 @@ def draw(rows):
         'pdf.fonttype':42,'axes.linewidth':.6,'axes.edgecolor':'#506774','axes.labelcolor':INK,
         'xtick.color':INK,'ytick.color':INK,'text.color':INK,'savefig.facecolor':'white'})
     apply_style()
+    # Vector glyph outlines avoid blank Type 42 text in independent EPS readers.
+    plt.rcParams['ps.fonttype']=3
     fig=plt.figure(figsize=(WIDTH/25.4,HEIGHT/25.4),dpi=300,facecolor='white')
     def txt(x,y,s,size=8.5,weight='normal',ha='left'):
         fig.text(x/WIDTH,1-y/HEIGHT,s,fontsize=size,fontweight=weight,ha=ha,va='center')
@@ -106,10 +108,24 @@ def draw(rows):
         plotted[y]={'horizon':x.tolist(),'estimate':estimate.tolist(),'ci_low':lo.tolist(),'ci_high':hi.tolist(),
             'BH_marked_horizons':x[significant].tolist()}
         bounds[y]={'xlim':list(ax.get_xlim()),'ylim':list(ax.get_ylim()),'confidence_limits_inside_axis':True}
-    txt(4,86,'BH\nq < 0.05',8.5)
+    # Keep the single-line label below the evidence row, clear of Fuel squares.
+    txt(4,91,'BH q < 0.05',8.5)
     txt(100,94,'Horizon h (months)',9,ha='center')
     txt(4,102,"Squares: BH q < 0.05 within each outcome’s 13-horizon family")
     geometry=text_geometry(fig)
+    label=next(t for t in fig.texts if t.get_text()=='BH q < 0.05')
+    box=label.get_window_extent(fig.canvas.get_renderer())
+    clearances=[]
+    for evidence in fig.axes[1::2]:
+        marks=evidence.collections[0]
+        half=(np.sqrt(marks.get_sizes()[0])+marks.get_linewidths()[0])*fig.dpi/144
+        for x,y in evidence.transData.transform(marks.get_offsets()):
+            if box.x0 < x+half and box.x1 > x-half:
+                gap=max(box.y0-(y+half),(y-half)-box.y1)
+                if gap < fig.dpi/72:
+                    raise ValueError('BH label must clear significance squares by at least 1 pt')
+                clearances.append(float(gap*72/fig.dpi))
+    geometry['BH_label_min_square_clearance_pt']=min(clearances) if clearances else None
     return fig,{'font':'Arial','font_path':font,'canvas_mm':[WIDTH,HEIGHT],
         'geometry':geometry,'axis_bounds':bounds,'plotted_arrays':plotted,
         'band_export':'Opaque tint preblended on white; no EPS transparency flattening',
