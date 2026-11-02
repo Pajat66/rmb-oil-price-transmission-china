@@ -1,0 +1,85 @@
+{
+  "source": "figures/Figure 1.pdf; author-created Canva PDF, single page",
+  "source_page_pt": [
+    595.276,
+    841.89
+  ],
+  "source_content_bbox_approx_pt": [
+    50.25,
+    40.75,
+    503.25,
+    784.25
+  ],
+  "crop_bbox_pt": [
+    46.25,
+    36.75,
+    507.25,
+    788.25
+  ],
+  "crop_size_pt": [
+    461,
+    751.5
+  ],
+  "final_canvas_pt": [
+    386.467,
+    630
+  ],
+  "uniform_scale": 0.8383233532934131,
+  "files": {
+    "Figure 1.pdf": {
+      "bytes": 129028,
+      "sha256": "868bb7c5d1cef9ac9152b252fff52128aa5ed3f9a5f68d60ac5fea8fb5e5f237"
+    },
+    "Figure 1.png": {
+      "bytes": 374321,
+      "sha256": "53b32d658d188a4132584bf9157719de25f7def5d96e8bb39cfd6520e37e54d5"
+    },
+    "Figure 1.tif": {
+      "bytes": 559650,
+      "sha256": "5fa3499af2b3d6faa39c12e58620a3da46deff9911477ee222cb08180e40f040"
+    },
+    "Figure 1.svg": {
+      "bytes": 337772,
+      "sha256": "a2f8f3cfca0499cbebf72e03b1842318c2cab689716ae18f03a37c37ec39bce0"
+    },
+    "Figure 1.eps": {
+      "bytes": 923697,
+      "sha256": "6c25605aef56ec976aef907a2d5b8c65c1c3fa4b296e8e2d06d8bad34f60bb0c"
+    }
+  },
+  "raster": {
+    "pixels": [
+      1611,
+      2625
+    ],
+    "dpi": 300,
+    "mode": "RGB, 8 bits per channel",
+    "tiff_compression": "LZW",
+    "tiff_frames": 1,
+    "png_tiff_pixels": "identical"
+  },
+  "vector": {
+    "svg": "336 paths, glyphs outlined, no embedded image",
+    "eps": "Ghostscript eps2write; independent Ghostscript render checked"
+  },
+  "tools": {
+    "PyMuPDF": "1.28.2",
+    "Pillow": "10.4.0",
+    "Ghostscript": "10.08.0",
+    "svg_independent_renderer": "Google Chrome"
+  },
+  "checks": [
+    "Source science labels inspected against requested study design; Link 1 states stationary distributed-lag model (3 lags).",
+    "PDF, PNG, TIFF, Chrome SVG and Ghostscript EPS previews inspected; diagram, arrows, shadows, dashed borders and labels retained.",
+    "PNG and TIFF pixels identical; EPS preview width rounds to 1610 pixels versus 1611 for PNG at 300 dpi.",
+    "SVG independent Chrome render retains source stroke widths; PyMuPDF SVG rendering shows thicker strokes, a renderer-dependent limitation.",
+    "Ghostscript substituted ChromeSansMM for an extracted space; visible text inspection showed no lost characters.",
+    "Date and FUEL/Fuel formatting preserved from source."
+  ],
+  "limitations": [
+    "Author accepted Inter font and approximately 7.0–7.3 pt small text at 8.75 inch height; these do not meet PLOS font and 8–12 pt requirements.",
+    "SVG text is paths and is not editable or text-searchable.",
+    "No NAAS assessment, complete research reproduction or re-estimation was performed."
+  ],
+  "scope": "Diagram export only; no model, data, statistical inference, other figures, manuscript, release or tag changed."
+}
