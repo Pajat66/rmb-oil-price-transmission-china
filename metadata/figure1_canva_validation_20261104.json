@@ -1,0 +1,201 @@
+{
+  "validation_date": "2026-11-04",
+  "source": {
+    "name": "figures/Figure 1.pdf",
+    "sha256": "83dc995f6748ea15392120ba434521cda4a3ac461e8c2b75cc53caac2985c67e",
+    "bytes": 146425,
+    "page_count": 1,
+    "page_format": "A4 portrait",
+    "identity_authorization": "Author explicitly authorized the only current figures-directory PDF; expected-hash gate waived. Name already Figure 1.pdf.",
+    "original_local_backup": "D:\\Anew_file\\统计建模\\PLOS ONE\\投稿\\figure1_20261104_work\\source_original.pdf",
+    "archive_note": "Committed PDF is the same author artwork cropped and uniformly scaled, not byte-identical to original source."
+  },
+  "geometry": {
+    "source_page_pt": [
+      0.0,
+      0.0,
+      595.2760009765625,
+      841.8900146484375
+    ],
+    "source_content_bbox_pt": [
+      44.0,
+      40.5,
+      504.5,
+      783.5
+    ],
+    "crop_bbox_pt": [
+      40.0,
+      36.5,
+      508.5,
+      787.5
+    ],
+    "crop_size_pt": [
+      468.5,
+      751.0
+    ],
+    "final_canvas_pt": [
+      393.0159912109375,
+      630.0
+    ],
+    "uniform_scale": 0.8388814913448736,
+    "source_min_font_pt": 8.4603853225708,
+    "final_min_font_pt": 7.097260656750472,
+    "fonts": [
+      "Inter-Bold",
+      "Inter-Regular"
+    ]
+  },
+  "files": {
+    "Figure 1.eps": {
+      "bytes": 1098264,
+      "sha256": "6ca4aca4f60b97cd3a9cf96c12b550c62f615c16a66d2ee07c94c1f283e3a305"
+    },
+    "Figure 1.pdf": {
+      "bytes": 86526,
+      "sha256": "fbb6b6cc033c33b79b920433df9d3bfff587808639d18369f5983d3a22cc06ad"
+    },
+    "Figure 1.png": {
+      "bytes": 387510,
+      "sha256": "19ee58fa44d704a8e3fbddff778bbf318dd1b6c3382ad2187d0c85c080063a9a",
+      "pixels": [
+        1638,
+        2625
+      ],
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "mode": "RGB",
+      "frames": 1
+    },
+    "Figure 1.svg": {
+      "bytes": 337209,
+      "sha256": "919a3f8c3050abde05d2377aab1284a4415e3b06f715437c8afcfa47abca7df8"
+    },
+    "Figure 1.tif": {
+      "bytes": 1445486,
+      "sha256": "631acd28619a3a0fc918d54a40813a6d107a9500c7136814f87a1ffa28654a4d",
+      "pixels": [
+        3276,
+        5250
+      ],
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "mode": "RGB",
+      "frames": 1
+    }
+  },
+  "tools": {
+    "Python": "3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]",
+    "PyMuPDF": "1.28.2",
+    "Pillow": "10.4.0",
+    "numpy": "1.26.4",
+    "CairoSVG": "2.9.1",
+    "cairo": "1.18.4",
+    "Ghostscript": "10.08.0"
+  },
+  "export_recipe": {
+    "pdf": "PyMuPDF new_page; show_pdf_page with clip [40,36.5,508.5,787.5], uniform scale 630/751, garbage=4 deflate=True; white source background.",
+    "png": "PyMuPDF csRGB alpha=False Matrix(300/72,300/72); Pillow RGB PNG dpi=(300,300).",
+    "tiff": "Independent direct vector PDF render Matrix(600/72,600/72), csRGB alpha=False; Pillow RGB TIFF compression=tiff_lzw dpi=(600,600). No upsampling.",
+    "svg": "PyMuPDF get_svg_image(text_as_path=True); root width=393.016pt height=630pt, unchanged viewBox.",
+    "eps": "Outlined SVG -> CairoSVG svg2ps at output_width=393.0159912109375*96/72 and output_height=630*96/72 -> Ghostscript eps2write. Restore exact HiResBoundingBox 0 0 393.015991 630; integer BoundingBox 0 0 394 630 encloses it. No nonuniform scaling.",
+    "eps_command": "gswin64c -dSAFER -dBATCH -dNOPAUSE -sDEVICE=eps2write -sOutputFile=<output.eps> <vector.ps>",
+    "independent_svg_render": "CairoSVG svg2png at 1638 x 2625; independently inspected.",
+    "independent_eps_render": "gswin64c -dSAFER -dBATCH -dNOPAUSE -dEPSCrop -sDEVICE=png16m -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -r300 -sOutputFile=<preview.png> <output.eps>"
+  },
+  "science_checks": {
+    "status": "No serious scientific conflict found; source wording preserved.",
+    "data": "338 months Jan1998-Feb2026; 134 months Jan2015-Feb2026; EIA Brent, FRED CNY/USD, NBS and Customs; RMB cost=Brent*CNY/USD; complete monthly calendar/missing values; changes and ADF/KPSS.",
+    "primary": "Stationary LP Fuel/PPI/CPI h=0-12 fixed lag controls; period HAC, cumulative pairs MBB; BH-FDR/Holm.",
+    "link1": "Stationary distributed-lag model with HAC; source does not print the three-lag count. Retained src/science/table_assembly.py documents fixed stationary p3 / HAC12 lag sum 0..3, no frozen bootstrap CI. No change to source text or computation.",
+    "link2": "Stationary LP Fuel/PPI, HAC + pairs MBB.",
+    "comparisons": "Current Brent/FX equality and HAC tests; period/cumulative, paired contrasts/joint tests; rolling/recursive, HAC/MBB/quantity sensitivity; placebo/reverse-predictive; dependent-wild bootstrap formal tests.",
+    "interpretation": "Conditional dynamic associations; no identified causal effects.",
+    "terminology_limit": "Source abbreviates moving-block pairs bootstrap as pairs MBB; does not spell out configuration sensitivity or fixed p3."
+  },
+  "quality": {
+    "source_output_text_tokens_equal": true,
+    "tiff_pdf_600dpi_pixels_identical": true,
+    "tiff_tags": {
+      "256": "3276",
+      "257": "5250",
+      "258": "(8, 8, 8)",
+      "259": "5",
+      "262": "2",
+      "277": "3",
+      "282": "600.0",
+      "283": "600.0",
+      "296": "2"
+    },
+    "svg_paths": 338,
+    "svg_images": 0,
+    "source_images": 0,
+    "output_images": 0,
+    "sizes": {
+      "Figure 1.eps": 1098264,
+      "Figure 1.pdf": 86526,
+      "Figure 1.png": 387510,
+      "Figure 1.svg": 337209,
+      "Figure 1.tif": 1445486
+    },
+    "preview_metrics": {
+      "svg": {
+        "native_pixels": [
+          1638,
+          2625
+        ],
+        "mean_absolute_rgb_error": 1.6797381243095528,
+        "fraction_pixels_any_channel_diff_gt32": 0.019254142682714113
+      },
+      "eps": {
+        "native_pixels": [
+          1638,
+          2625
+        ],
+        "mean_absolute_rgb_error": 1.8457115723782391,
+        "fraction_pixels_any_channel_diff_gt32": 0.02250130821559393
+      },
+      "source": {
+        "native_pixels": [
+          1639,
+          2626
+        ],
+        "mean_absolute_rgb_error": 2.982450840165126,
+        "fraction_pixels_any_channel_diff_gt32": 0.03397964997964998
+      }
+    },
+    "eps_vector_paths": 1076,
+    "eps_images": 0,
+    "png_tiff_comparison": "PNG300 and TIFF600 come from direct renders of the same PDF at their true DPI. TIFF600 pixels equal direct PDF600 exactly; TIFF600 LANCZOS-downsample to PNG300 MAE=1.3392/255 due to rendering/sampling.",
+    "visual_review": "Original A4, cropped PDF/PNG, TIFF, independently rendered SVG/EPS, four-format contact sheet, detail crops, 96ppi print-size approximation inspected. No lost modules, text, arrows, borders or shadows observed. Text tokens in original and final PDF match; order differs due to source nested objects. Colours and arrow directions preserved. Renderer antialiasing differs.",
+    "crop_integrity": "Original 144dpi nonwhite threshold<250 bbox [44,40.5,504.5,783.5]; expanded by 4pt on all sides. Rounded rectangles, shadows, dashed lines all within bounds. Retained vector PDF contains all original text and no image object. Direct source-clip render rounding accounts for 1px and edge differences.",
+    "tiff_technical_requirements": "PASS RGB 8/8/8, no alpha, single frame, LZW tag259=5, 600dpi, 3276x5250, 1445486 bytes <10MB; physical size 5.4586x8.75in.",
+    "full_plos_compliance": false
+  },
+  "unresolved_risks": [
+    "Source uses Inter rather than Arial/Times/Symbol; minimum text approx 7.097pt at final 8.75in height, below PLOS 8pt. Small text remains small at print size despite sharp 600dpi rendering. No claim of full journal compliance.",
+    "Macro date uses dots, Customs date uses a different separator; FUEL/Fuel capitalization differs. Preserved.",
+    "sensitivity and Placebo have a small middle-dot separator but the association with quantity sensitivity remains potentially unclear. Preserved.",
+    "Link 1 fixed three-lag count is omitted from this source schematic; retained study documentation confirms p3.",
+    "SVG and EPS text is outlined: no font substitution but no editable/searchable text.",
+    "No NAAS assessment or journal upload. Final placement may shrink text further.",
+    "Direct Ghostscript PDF-to-EPS trial rasterized all artwork and was rejected; only the outlined-SVG/Cairo vector route was accepted."
+  ],
+  "plos_guidance": {
+    "url": "https://journals.plos.org/plosone/s/figures",
+    "checked_date": "2026-11-04",
+    "requirements": "300-600dpi; RGB8; LZW single-page no alpha TIFF; <10MB; max height8.75in; Arial/Times/Symbol8-12pt"
+  },
+  "scope": "No statistical model executed or re-estimated; no new bootstrap draws; only Figure1 five files, two Figure docs and this added metadata record. Other tracked data/statistics/manuscript/tables/figures unchanged.",
+  "history": {
+    "baseline_main": "431e7eb9aec5b2b2a1ef8414027b3a869f72b034",
+    "v2_tag_object": "18d1b9d145737e39b1a5215dda73cbc07717be3f",
+    "v2_commit": "96770433002895f72c94ac5548b9fcdea2f6d0ea",
+    "release_id": 413561123,
+    "zenodo_version_doi": "10.5281/zenodo.23388839",
+    "note": "Post-release main-branch revision only; historical release/tag/Zenodo archive unchanged, does not contain this update."
+  }
+}
