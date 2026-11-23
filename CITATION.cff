@@ -1,12 +1,9 @@
 cff-version: 1.2.0
-message: "Cite the v2.0.0 research package. The research package is available on GitHub main; a v2.0.0 tag, GitHub Release and new version DOI have not yet been created. MIT covers author software/documentation; CC BY 4.0 covers author-original figures/tables/shareable outputs; third-party observations retain upstream terms. See LICENSE and licenses/FILE_LICENSES.csv."
+message: "Cite this version of the October 2026 replication package."
 type: software
 title: "Renminbi-denominated oil-price movements and inflation dynamics across China's price system"
-version: 2.0.0
+version: 3.0.0
 repository-code: "https://github.com/Pajat66/rmb-oil-price-transmission-china"
-license:
-  - MIT
-  - CC-BY-4.0
 authors:
   - family-names: Zhou
     given-names: Xuehua

@@ -11,19 +11,19 @@
     },
     "cpi_98_15": {
       "relative_path": "03_nbs_price/98年-15年月度消费价格分类指数.xlsx",
-      "sha256": "256fbf7171ce3adc9fa790f2c5ce5f28230ebcf18cec521a0e213655915b12cb"
+      "sha256": "2888c0e92959734a79eea68facf344bdf3a110ae2a40a5e350b36451cf38a75c"
     },
     "cpi_16_20": {
       "relative_path": "03_nbs_price/16年-20年月度消费价格分类指数.xlsx",
-      "sha256": "18e94d7fc0ae88c5c71f302a8ba6db570f49da778a83795f59784a960015aff3"
+      "sha256": "5e59f7297ad587c592e967e70d59f59770934f9645463ce729c4058a2b9b9e87"
     },
     "cpi_21_25": {
       "relative_path": "03_nbs_price/21年-25年月度消费价格分类指数.xlsx",
-      "sha256": "e51f677e5bff02c56c4de152ab2b8ace512ad1bd8b15847b1ea0ee9dfd003c75"
+      "sha256": "e2d9d7fdd049a49f016c9606a58c0418c93100e84f0a9ae6768568b6c414bfd3"
     },
     "cpi_26": {
       "relative_path": "03_nbs_price/26年1-2月月度消费价格分类指数.xlsx",
-      "sha256": "ec4be3293aea3c8e0107cbef08d432a105f77ad53d82622fd6db819321aef4d5"
+      "sha256": "33db63bfedd5b3b4eeea910365efd939d33267aea09e585bc5baeb2611e4586b"
     },
     "ppi": {
       "relative_path": "03_nbs_price/98年-26年2月工业生产者出厂价格指数.csv",
@@ -39,7 +39,7 @@
     },
     "customs": {
       "relative_path": "04_customs_trade/15年-26年2月月度原油进口量值数据.xlsx",
-      "sha256": "7f5118ac984400a80fe6253d92412ca971e17975774f77ba86e964d4f6617a06"
+      "sha256": "f7290d2e29c385b2cbcc7c4285fde3c2b74e6861eefbd428333dd700a16bf729"
     }
   }
 }

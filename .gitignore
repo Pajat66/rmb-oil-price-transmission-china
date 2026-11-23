@@ -1,12 +1,5 @@
 __pycache__/
 *.py[cod]
 .venv/
-node_modules/
-.env
-.env.*
-private_raw/
-private_work/
-new_scientific_work/
-*.docx
-*.doc
-*.log
+/run/
+/local_runs/

@@ -1,0 +1,16 @@
+{
+  "customs_direction": "imports supplied by author; query flags not persisted in CSV",
+  "historical_end": "2026-02",
+  "new_sha256": {
+    "Europe Brent Spot Price FOB.xls": "9b596cbb57a90df0e8537c829ad3bd2e4546f61a33ea19e313ce2cf813f66f53",
+    "FRED.xlsx": "ea707497df248066fa27a27ce10d24e7aee50f02dfa684727bb69359ee31bc1f",
+    "交通通信细分类补充数据.xlsx": "bef8b9f57bef189882fdeae477e021d2b772797f3523d1e92e036e5b3ae116b7",
+    "工业生产者出厂价格指数.xlsx": "1a1d6176fb7c1342e37c517138f41d781014333c017e7a2c57126d34c52c3aa9",
+    "工业生产者购进价格指数 (上年同月=100).xlsx": "cbe2d487557418e0ee1b890d7b409ef833a17a4afecceb223000ece5d3a2876b",
+    "核心 CPI 数据.xlsx": "3a19f802e3ab4e5bcb9059660794c688c77ccb97ee08807906ca4fe78f7e6c66",
+    "海关数据.csv": "fb890956bba0412f0701ba5395a974f4886edddc4ef94cd6b316a4668ab59746",
+    "规模以上工业增加值当月同比.xlsx": "5c97e8d2c78d2ad73b28bf2046407d05c6cae0a2fced7ef47645da3d516fe1e8",
+    "规模以上工业增加值累计同比.xlsx": "d312a1a1c57a189baf5958d47cd74ff654f66558bec87332fa1a351da3d2e85b"
+  },
+  "vintage": "2026-10"
+}

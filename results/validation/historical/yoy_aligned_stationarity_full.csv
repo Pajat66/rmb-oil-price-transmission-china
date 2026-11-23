@@ -1,0 +1,905 @@
+﻿window,sample,variable,test,deterministic,series_N,sample_start,sample_end,sample_hash,lag_rule,warnings,statistic,p_value,selected_lag,effective_N,critical_1pct,critical_5pct,critical_10pct,p_value_is_bound,test_status,vintage
+long_core,long,oil_rmb_yoy_pct,ADF,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-3.41074774119636,0.010597893114598918,12,301,-3.452263435801039,-2.871190526189069,-2.571911967527952,False,TESTED,2026-02
+long_core,long,oil_rmb_yoy_pct,KPSS,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.19959807373814387,0.1,10,314,0.739,0.463,0.347,True,TESTED,2026-02
+long_core,long,oil_rmb_yoy_pct,ADF,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-3.4395107852720668,0.046328523413909535,12,301,-3.9891654349033057,-3.4251774443348975,-3.1356841756951854,False,TESTED,2026-02
+long_core,long,oil_rmb_yoy_pct,KPSS,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06458490236356242,0.1,10,314,0.216,0.146,0.119,True,TESTED,2026-02
+long_core,long,brent_yoy_pct,ADF,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-3.370067140801862,0.012022600629128933,12,301,-3.452263435801039,-2.871190526189069,-2.571911967527952,False,TESTED,2026-02
+long_core,long,brent_yoy_pct,KPSS,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.23654522801917616,0.1,10,314,0.739,0.463,0.347,True,TESTED,2026-02
+long_core,long,brent_yoy_pct,ADF,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-3.421537197129969,0.0485762208876489,12,301,-3.9891654349033057,-3.4251774443348975,-3.1356841756951854,False,TESTED,2026-02
+long_core,long,brent_yoy_pct,KPSS,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.05854587045757392,0.1,10,314,0.216,0.146,0.119,True,TESTED,2026-02
+long_core,long,fx_yoy_pct,ADF,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-2.9116064284580205,0.044014879285024455,12,301,-3.452263435801039,-2.871190526189069,-2.571911967527952,False,TESTED,2026-02
+long_core,long,fx_yoy_pct,KPSS,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,,0.4076185858062931,0.07387129922142538,10,314,0.739,0.463,0.347,False,TESTED,2026-02
+long_core,long,fx_yoy_pct,ADF,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-3.0365487864556684,0.12214772207342045,12,301,-3.9891654349033057,-3.4251774443348975,-3.1356841756951854,False,TESTED,2026-02
+long_core,long,fx_yoy_pct,KPSS,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,,0.12851986747193578,0.08237061579271152,10,314,0.216,0.146,0.119,False,TESTED,2026-02
+long_core,long,fuel_power_inflation,ADF,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-2.4817964572565008,0.11996649894432249,12,301,-3.452263435801039,-2.871190526189069,-2.571911967527952,False,TESTED,2026-02
+long_core,long,fuel_power_inflation,KPSS,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2819362770842507,0.1,10,314,0.739,0.463,0.347,True,TESTED,2026-02
+long_core,long,fuel_power_inflation,ADF,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-2.651165843643026,0.25691259357249907,12,301,-3.9891654349033057,-3.4251774443348975,-3.1356841756951854,False,TESTED,2026-02
+long_core,long,fuel_power_inflation,KPSS,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06140397612486736,0.1,10,314,0.216,0.146,0.119,True,TESTED,2026-02
+long_core,long,ppi_inflation,ADF,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-2.684047366454196,0.07683968575143466,12,301,-3.452263435801039,-2.871190526189069,-2.571911967527952,False,TESTED,2026-02
+long_core,long,ppi_inflation,KPSS,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.187724729823083,0.1,10,314,0.739,0.463,0.347,True,TESTED,2026-02
+long_core,long,ppi_inflation,ADF,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-2.8247828331928235,0.1879909503610151,12,301,-3.9891654349033057,-3.4251774443348975,-3.1356841756951854,False,TESTED,2026-02
+long_core,long,ppi_inflation,KPSS,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06604528532906684,0.1,10,314,0.216,0.146,0.119,True,TESTED,2026-02
+long_core,long,cpi_inflation,ADF,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-2.841072475597362,0.052642131562328685,12,301,-3.452263435801039,-2.871190526189069,-2.571911967527952,False,TESTED,2026-02
+long_core,long,cpi_inflation,KPSS,c,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.28346925035361087,0.1,10,314,0.739,0.463,0.347,True,TESTED,2026-02
+long_core,long,cpi_inflation,ADF,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,AIC; maxlag12,,-2.9527178284927564,0.1457832865589826,12,301,-3.9891654349033057,-3.4251774443348975,-3.1356841756951854,False,TESTED,2026-02
+long_core,long,cpi_inflation,KPSS,ct,314,2000-01,2026-02,80249231c4b4c1f327461715cf0812b8d8facbe619b43e8b4305d2388a2961b2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.23560737225261735,0.01,10,314,0.216,0.146,0.119,True,TESTED,2026-02
+short_refit,short,oil_rmb_yoy_pct,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.63025357069906,0.08690427355728814,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_refit,short,oil_rmb_yoy_pct,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.20718861695035948,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,oil_rmb_yoy_pct,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.498934224969551,0.32849535003232333,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_refit,short,oil_rmb_yoy_pct,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.1484417939481307,0.04796517170989108,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_refit,short,brent_yoy_pct,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.6580511616919438,0.08158275859549102,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_refit,short,brent_yoy_pct,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.21201841148841888,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,brent_yoy_pct,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5286724136763703,0.31377848307653217,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_refit,short,brent_yoy_pct,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.14915268946561006,0.047372758778658285,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_refit,short,fx_yoy_pct,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5117611257916255,0.11263887784478438,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_refit,short,fx_yoy_pct,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10360986082199833,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,fx_yoy_pct,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5291593580329477,0.31354026599811724,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_refit,short,fx_yoy_pct,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08189116252360203,0.1,6,134,0.216,0.146,0.119,True,TESTED,2026-02
+short_refit,short,fuel_power_inflation,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.583085022547757,0.09654388658926039,11,122,-3.4851223522012855,-2.88553750045158,-2.5795685622144586,False,TESTED,2026-02
+short_refit,short,fuel_power_inflation,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.16854421166628167,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,fuel_power_inflation,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5718291136046005,0.2930276388876423,11,122,-4.034959588225446,-3.44710896788718,-3.1485194734361026,False,TESTED,2026-02
+short_refit,short,fuel_power_inflation,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.16774876804910463,0.03187602662574614,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_refit,short,ppi_inflation,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.398401562208563,0.14218806428711583,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_refit,short,ppi_inflation,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1972901285347793,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,ppi_inflation,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.692080942216994,0.239385326279827,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_refit,short,ppi_inflation,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.1848042484981231,0.021698406813203834,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_refit,short,cpi_inflation,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-1.1021403496007554,0.714217604112948,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_refit,short,cpi_inflation,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.7486319729428726,0.01,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,cpi_inflation,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.10877913989762,0.5411771856102487,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_refit,short,cpi_inflation,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.20237021784056877,0.01511116830978671,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_refit,short,import_unit_price_yoy_pct,ADF,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-1.7375446527640224,0.41187948346766556,12,109,-3.49181775886872,-2.8884437992971588,-2.5811201893779985,False,TESTED,2026-02
+short_refit,short,import_unit_price_yoy_pct,KPSS,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10380277161256976,0.1,6,122,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,import_unit_price_yoy_pct,ADF,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-1.824181171501633,0.6929832238945781,12,109,-4.044322283462378,-3.4515644781777084,-3.151118741781072,False,TESTED,2026-02
+short_refit,short,import_unit_price_yoy_pct,KPSS,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08846712270834674,0.1,6,122,0.216,0.146,0.119,True,TESTED,2026-02
+short_refit,short,import_quantity_yoy_pct,ADF,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.72623343131048,0.06960770695948339,12,109,-3.49181775886872,-2.8884437992971588,-2.5811201893779985,False,TESTED,2026-02
+short_refit,short,import_quantity_yoy_pct,KPSS,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,,0.5095399140645619,0.03951803737284642,4,122,0.739,0.463,0.347,False,TESTED,2026-02
+short_refit,short,import_quantity_yoy_pct,ADF,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.7950768938156987,0.19875852955439194,12,109,-4.044322283462378,-3.4515644781777084,-3.151118741781072,False,TESTED,2026-02
+short_refit,short,import_quantity_yoy_pct,KPSS,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,,0.1300620523552387,0.07951471786066905,4,122,0.216,0.146,0.119,False,TESTED,2026-02
+short_refit,short,import_value_yoy_pct,ADF,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.156071080263449,0.2225734681238214,12,109,-3.49181775886872,-2.8884437992971588,-2.5811201893779985,False,TESTED,2026-02
+short_refit,short,import_value_yoy_pct,KPSS,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1753490020853809,0.1,6,122,0.739,0.463,0.347,True,TESTED,2026-02
+short_refit,short,import_value_yoy_pct,ADF,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.3565870536025013,0.40293827269761007,12,109,-4.044322283462378,-3.4515644781777084,-3.151118741781072,False,TESTED,2026-02
+short_refit,short,import_value_yoy_pct,KPSS,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0899723728413615,0.1,5,122,0.216,0.146,0.119,True,TESTED,2026-02
+short_round1,short,oil_rmb_yoy_pct,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-1.8479515762246201,0.35692810026109506,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,oil_rmb_yoy_pct,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1854974626589041,0.1,5,116,0.739,0.463,0.347,True,TESTED,2026-02
+short_round1,short,oil_rmb_yoy_pct,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-1.9616861808828387,0.6221395992486445,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,oil_rmb_yoy_pct,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10040892244463587,0.1,5,116,0.216,0.146,0.119,True,TESTED,2026-02
+short_round1,short,brent_yoy_pct,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-1.9434322476454742,0.3119129643437135,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,brent_yoy_pct,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.17027230458207146,0.1,5,116,0.739,0.463,0.347,True,TESTED,2026-02
+short_round1,short,brent_yoy_pct,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.063077989398147,0.5666998470711656,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,brent_yoy_pct,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09388142430537447,0.1,5,116,0.216,0.146,0.119,True,TESTED,2026-02
+short_round1,short,fx_yoy_pct,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.3706596873401447,0.15018928205363546,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,fx_yoy_pct,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0834861475757013,0.1,6,116,0.739,0.463,0.347,True,TESTED,2026-02
+short_round1,short,fx_yoy_pct,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.3390807094707853,0.4124656323473149,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,fx_yoy_pct,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0860747295327911,0.1,6,116,0.216,0.146,0.119,True,TESTED,2026-02
+short_round1,short,fuel_power_inflation,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-1.8752888174240676,0.3437738153834,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,fuel_power_inflation,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.237676100517644,0.1,6,116,0.739,0.463,0.347,True,TESTED,2026-02
+short_round1,short,fuel_power_inflation,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.1094665038828886,0.540791733450118,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,fuel_power_inflation,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,,0.13158222389514976,0.07669958537935229,6,116,0.216,0.146,0.119,False,TESTED,2026-02
+short_round1,short,ppi_inflation,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-1.8279503112816236,0.36667606459782187,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,ppi_inflation,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,,0.464776915923488,0.04959979371092613,6,116,0.739,0.463,0.347,False,TESTED,2026-02
+short_round1,short,ppi_inflation,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.4053950029792626,0.3767546778932731,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,ppi_inflation,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10167415023096973,0.1,6,116,0.216,0.146,0.119,True,TESTED,2026-02
+short_round1,short,cpi_inflation,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-0.8931760448992889,0.7902113366190235,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,cpi_inflation,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.7949179276488719,0.01,6,116,0.739,0.463,0.347,True,TESTED,2026-02
+short_round1,short,cpi_inflation,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.1354425676977913,0.5262012624170852,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,cpi_inflation,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,,0.13230494101918647,0.07536122033483986,6,116,0.216,0.146,0.119,False,TESTED,2026-02
+short_round1,short,import_unit_price_yoy_pct,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-1.7455889937642772,0.4077898071715378,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,import_unit_price_yoy_pct,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.17128353876715605,0.1,6,116,0.739,0.463,0.347,True,TESTED,2026-02
+short_round1,short,import_unit_price_yoy_pct,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-1.949705626532376,0.6285406321923548,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,import_unit_price_yoy_pct,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08567280609389566,0.1,6,116,0.216,0.146,0.119,True,TESTED,2026-02
+short_round1,short,import_quantity_yoy_pct,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.702106072443697,0.07367453504432363,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,import_quantity_yoy_pct,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,,0.4022881421965176,0.07616890422563896,4,116,0.739,0.463,0.347,False,TESTED,2026-02
+short_round1,short,import_quantity_yoy_pct,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.7611291839199588,0.2115871553907197,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,import_quantity_yoy_pct,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,,0.1284830238812981,0.08243884466426278,4,116,0.216,0.146,0.119,False,TESTED,2026-02
+short_round1,short,import_value_yoy_pct,ADF,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.058180541839855,0.2616593129689679,12,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-02
+short_round1,short,import_value_yoy_pct,KPSS,c,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.3366878158860791,0.1,5,116,0.739,0.463,0.347,True,TESTED,2026-02
+short_round1,short,import_value_yoy_pct,ADF,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,AIC; maxlag12,,-2.3561204640000843,0.40319134219876257,12,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-02
+short_round1,short,import_value_yoy_pct,KPSS,ct,116,2016-07,2026-02,e9efe7a1fbe1b71ea530aad6ba8ea6ab95cef11edd9a87f101e2d39b96c8fcc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09443497025199374,0.1,5,116,0.216,0.146,0.119,True,TESTED,2026-02
+short_round2,short,oil_rmb_yoy_pct,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.996247669536643,0.288220785114296,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,oil_rmb_yoy_pct,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1936960571852977,0.1,5,110,0.739,0.463,0.347,True,TESTED,2026-02
+short_round2,short,oil_rmb_yoy_pct,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.9766269899453153,0.6141061146049337,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,oil_rmb_yoy_pct,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10938998025543463,0.1,5,110,0.216,0.146,0.119,True,TESTED,2026-02
+short_round2,short,brent_yoy_pct,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-2.0849006728790402,0.2506293004625454,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,brent_yoy_pct,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.18784606283242264,0.1,5,110,0.739,0.463,0.347,True,TESTED,2026-02
+short_round2,short,brent_yoy_pct,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-2.038411622558174,0.5803638774635619,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,brent_yoy_pct,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1019005370602819,0.1,5,110,0.216,0.146,0.119,True,TESTED,2026-02
+short_round2,short,fx_yoy_pct,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-2.1822204390770374,0.21276157589173095,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,fx_yoy_pct,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08769033298607512,0.1,6,110,0.739,0.463,0.347,True,TESTED,2026-02
+short_round2,short,fx_yoy_pct,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.9831185595926293,0.6105989377618252,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,fx_yoy_pct,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07978136784045221,0.1,6,110,0.216,0.146,0.119,True,TESTED,2026-02
+short_round2,short,fuel_power_inflation,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-3.915533483244968,0.0019234571824329597,8,101,-3.4968181663902103,-2.8906107514600103,-2.5822770483285953,False,TESTED,2026-02
+short_round2,short,fuel_power_inflation,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.26757735979124264,0.1,6,110,0.739,0.463,0.347,True,TESTED,2026-02
+short_round2,short,fuel_power_inflation,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-4.1131311612214985,0.006032809733161699,8,101,-4.051321648595896,-3.454889141998309,-3.1530564880069027,False,TESTED,2026-02
+short_round2,short,fuel_power_inflation,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,,0.13595977978875695,0.06859300039119082,6,110,0.216,0.146,0.119,False,TESTED,2026-02
+short_round2,short,ppi_inflation,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.7632639760224755,0.3988465114779639,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,ppi_inflation,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,,0.4985809133871257,0.04198628076866539,6,110,0.739,0.463,0.347,False,TESTED,2026-02
+short_round2,short,ppi_inflation,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.9163408041682464,0.6461597320904,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,ppi_inflation,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1068453109173461,0.1,6,110,0.216,0.146,0.119,True,TESTED,2026-02
+short_round2,short,cpi_inflation,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-0.8979112837913322,0.7886594836350846,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,cpi_inflation,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.7804493674837137,0.01,6,110,0.739,0.463,0.347,True,TESTED,2026-02
+short_round2,short,cpi_inflation,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.9718337478490344,0.6166893334993145,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,cpi_inflation,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,,0.12473590310135278,0.08937795721971706,5,110,0.216,0.146,0.119,False,TESTED,2026-02
+short_round2,short,import_unit_price_yoy_pct,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.685330359632054,0.4386861243056596,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,import_unit_price_yoy_pct,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.23300981563352546,0.1,5,110,0.739,0.463,0.347,True,TESTED,2026-02
+short_round2,short,import_unit_price_yoy_pct,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-1.7619606972527195,0.7228049796783587,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,import_unit_price_yoy_pct,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1078931442680998,0.1,5,110,0.216,0.146,0.119,True,TESTED,2026-02
+short_round2,short,import_quantity_yoy_pct,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-2.7183679406222936,0.07091338774303889,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,import_quantity_yoy_pct,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.31224306526056556,0.1,4,110,0.739,0.463,0.347,True,TESTED,2026-02
+short_round2,short,import_quantity_yoy_pct,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-2.684383499419345,0.2426237414705953,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,import_quantity_yoy_pct,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,,0.12687584829170767,0.0854150957560969,4,110,0.216,0.146,0.119,False,TESTED,2026-02
+short_round2,short,import_value_yoy_pct,ADF,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-2.2267160478829426,0.1966923327520092,12,97,-3.4996365338407074,-2.8918307730370025,-2.5829283377617176,False,TESTED,2026-02
+short_round2,short,import_value_yoy_pct,KPSS,c,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,,0.37720224954325055,0.08698178898997821,5,110,0.739,0.463,0.347,False,TESTED,2026-02
+short_round2,short,import_value_yoy_pct,ADF,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,AIC; maxlag12,,-2.3300748770891224,0.41739146297031926,12,97,-4.055269281670434,-3.456761928280994,-3.154147345270431,False,TESTED,2026-02
+short_round2,short,import_value_yoy_pct,KPSS,ct,110,2017-01,2026-02,f534e4196da88ff959d1c6c213250f7d81a8900d18e99a45565ce2b28a5737ce,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11470531795052101,0.1,5,110,0.216,0.146,0.119,True,TESTED,2026-02
+long_almon,long,oil_rmb_yoy_pct,ADF,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-3.21058335086069,0.019380188472834233,12,295,-3.452713099849546,-2.871387839457783,-2.5720171933352485,False,TESTED,2026-02
+long_almon,long,oil_rmb_yoy_pct,KPSS,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.12949664392941465,0.1,10,308,0.739,0.463,0.347,True,TESTED,2026-02
+long_almon,long,oil_rmb_yoy_pct,ADF,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-3.2661961990650235,0.07199970879593724,12,295,-3.9897903649837616,-3.425478311521626,-3.1358607194990724,False,TESTED,2026-02
+long_almon,long,oil_rmb_yoy_pct,KPSS,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.05809794407209603,0.1,10,308,0.216,0.146,0.119,True,TESTED,2026-02
+long_almon,long,brent_yoy_pct,ADF,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-3.184971620599882,0.020871228050135728,12,295,-3.452713099849546,-2.871387839457783,-2.5720171933352485,False,TESTED,2026-02
+long_almon,long,brent_yoy_pct,KPSS,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.16424635052750589,0.1,10,308,0.739,0.463,0.347,True,TESTED,2026-02
+long_almon,long,brent_yoy_pct,ADF,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-3.270798405832715,0.07119459508190756,12,295,-3.9897903649837616,-3.425478311521626,-3.1358607194990724,False,TESTED,2026-02
+long_almon,long,brent_yoy_pct,KPSS,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.05631423330340687,0.1,10,308,0.216,0.146,0.119,True,TESTED,2026-02
+long_almon,long,fx_yoy_pct,ADF,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-2.8825602305591684,0.04741391583059516,12,295,-3.452713099849546,-2.871387839457783,-2.5720171933352485,False,TESTED,2026-02
+long_almon,long,fx_yoy_pct,KPSS,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,,0.42182720808520774,0.0677468930667208,10,308,0.739,0.463,0.347,False,TESTED,2026-02
+long_almon,long,fx_yoy_pct,ADF,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-3.025165415635803,0.1251806777168713,12,295,-3.9897903649837616,-3.425478311521626,-3.1358607194990724,False,TESTED,2026-02
+long_almon,long,fx_yoy_pct,KPSS,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,,0.12080575013511996,0.09665601826829637,10,308,0.216,0.146,0.119,False,TESTED,2026-02
+long_almon,long,fuel_power_inflation,ADF,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-2.4335691666556625,0.13248500863438029,12,295,-3.452713099849546,-2.871387839457783,-2.5720171933352485,False,TESTED,2026-02
+long_almon,long,fuel_power_inflation,KPSS,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2494389882469986,0.1,10,308,0.739,0.463,0.347,True,TESTED,2026-02
+long_almon,long,fuel_power_inflation,ADF,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-2.6394119102455282,0.2620889669262493,12,295,-3.9897903649837616,-3.425478311521626,-3.1358607194990724,False,TESTED,2026-02
+long_almon,long,fuel_power_inflation,KPSS,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06300608248329005,0.1,10,308,0.216,0.146,0.119,True,TESTED,2026-02
+long_almon,long,ppi_inflation,ADF,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-2.6425907623566776,0.08451017388381715,12,295,-3.452713099849546,-2.871387839457783,-2.5720171933352485,False,TESTED,2026-02
+long_almon,long,ppi_inflation,KPSS,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1872074204801441,0.1,10,308,0.739,0.463,0.347,True,TESTED,2026-02
+long_almon,long,ppi_inflation,ADF,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-2.7870582526996714,0.20173842513586066,12,295,-3.9897903649837616,-3.425478311521626,-3.1358607194990724,False,TESTED,2026-02
+long_almon,long,ppi_inflation,KPSS,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06628206086298326,0.1,10,308,0.216,0.146,0.119,True,TESTED,2026-02
+long_almon,long,cpi_inflation,ADF,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-2.7869437667992085,0.0601630962361982,12,295,-3.452713099849546,-2.871387839457783,-2.5720171933352485,False,TESTED,2026-02
+long_almon,long,cpi_inflation,KPSS,c,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.29457287843659385,0.1,10,308,0.739,0.463,0.347,True,TESTED,2026-02
+long_almon,long,cpi_inflation,ADF,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,AIC; maxlag12,,-2.9292033833195465,0.1529610717422596,12,295,-3.9897903649837616,-3.425478311521626,-3.1358607194990724,False,TESTED,2026-02
+long_almon,long,cpi_inflation,KPSS,ct,308,2000-07,2026-02,5897f3d2525759ae7043683ca2458525fc8e381321d425c39e22b9442c9c190c,statsmodels auto,,0.21211590902530914,0.011456534115509074,10,308,0.216,0.146,0.119,False,TESTED,2026-02
+short_almon,short,oil_rmb_yoy_pct,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.9195342986600854,0.3229280929127285,12,91,-3.50434289821397,-2.8938659630479413,-2.5840147047458037,False,TESTED,2026-02
+short_almon,short,oil_rmb_yoy_pct,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.15445905439593519,0.1,5,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,oil_rmb_yoy_pct,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.8945310664608064,0.657498398631748,12,91,-4.061865559807901,-3.4598875383872256,-3.155966861981154,False,TESTED,2026-02
+short_almon,short,oil_rmb_yoy_pct,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11444818089081302,0.1,5,104,0.216,0.146,0.119,True,TESTED,2026-02
+short_almon,short,brent_yoy_pct,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.996466423269906,0.2881245955119117,12,91,-3.50434289821397,-2.8938659630479413,-2.5840147047458037,False,TESTED,2026-02
+short_almon,short,brent_yoy_pct,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1559577185031894,0.1,5,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,brent_yoy_pct,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.9587123026580266,0.6237319692354858,12,91,-4.061865559807901,-3.4598875383872256,-3.155966861981154,False,TESTED,2026-02
+short_almon,short,brent_yoy_pct,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10688362123069779,0.1,5,104,0.216,0.146,0.119,True,TESTED,2026-02
+short_almon,short,fx_yoy_pct,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.9896285812817307,0.2911390384192828,12,91,-3.50434289821397,-2.8938659630479413,-2.5840147047458037,False,TESTED,2026-02
+short_almon,short,fx_yoy_pct,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.14071225598709386,0.1,5,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,fx_yoy_pct,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.927620725615583,0.6402386780484943,12,91,-4.061865559807901,-3.4598875383872256,-3.155966861981154,False,TESTED,2026-02
+short_almon,short,fx_yoy_pct,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09637171899792951,0.1,5,104,0.216,0.146,0.119,True,TESTED,2026-02
+short_almon,short,fuel_power_inflation,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-3.829894896338524,0.0026158412560326584,8,95,-3.5011373281819504,-2.8924800524857854,-2.5832749307479226,False,TESTED,2026-02
+short_almon,short,fuel_power_inflation,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.26345591572890464,0.1,5,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,fuel_power_inflation,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-4.022327496742527,0.008172067718055603,8,95,-4.057372178160081,-3.4577588776789616,-3.154727848082811,False,TESTED,2026-02
+short_almon,short,fuel_power_inflation,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,,0.17011388322735302,0.029905097310539145,5,104,0.216,0.146,0.119,False,TESTED,2026-02
+short_almon,short,ppi_inflation,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.8895988325886153,0.3369698570844813,12,91,-3.50434289821397,-2.8938659630479413,-2.5840147047458037,False,TESTED,2026-02
+short_almon,short,ppi_inflation,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,,0.4642454802467856,0.04971948643090415,5,104,0.739,0.463,0.347,False,TESTED,2026-02
+short_almon,short,ppi_inflation,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-1.8982882720554732,0.6555556964384837,12,91,-4.061865559807901,-3.4598875383872256,-3.155966861981154,False,TESTED,2026-02
+short_almon,short,ppi_inflation,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,,0.1305216351792437,0.0786636385569561,5,104,0.216,0.146,0.119,False,TESTED,2026-02
+short_almon,short,cpi_inflation,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-0.9012829991209745,0.7875496140082845,12,91,-3.50434289821397,-2.8938659630479413,-2.5840147047458037,False,TESTED,2026-02
+short_almon,short,cpi_inflation,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.9313083060087917,0.01,5,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,cpi_inflation,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-2.258408562582697,0.4570774844048001,12,91,-4.061865559807901,-3.4598875383872256,-3.155966861981154,False,TESTED,2026-02
+short_almon,short,cpi_inflation,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0876652823875682,0.1,5,104,0.216,0.146,0.119,True,TESTED,2026-02
+short_almon,short,import_unit_price_yoy_pct,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-2.3742833934170564,0.14912665623640114,2,101,-3.4968181663902103,-2.8906107514600103,-2.5822770483285953,False,TESTED,2026-02
+short_almon,short,import_unit_price_yoy_pct,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1653106737710449,0.1,5,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,import_unit_price_yoy_pct,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-2.430315254010956,0.3636304629572714,2,101,-4.051321648595896,-3.454889141998309,-3.1530564880069027,False,TESTED,2026-02
+short_almon,short,import_unit_price_yoy_pct,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1102061351135764,0.1,5,104,0.216,0.146,0.119,True,TESTED,2026-02
+short_almon,short,import_quantity_yoy_pct,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-2.433891253439258,0.13239839707289042,12,91,-3.50434289821397,-2.8938659630479413,-2.5840147047458037,False,TESTED,2026-02
+short_almon,short,import_quantity_yoy_pct,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2174839812133439,0.1,4,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,import_quantity_yoy_pct,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-2.499640619139632,0.32814199702926133,12,91,-4.061865559807901,-3.4598875383872256,-3.155966861981154,False,TESTED,2026-02
+short_almon,short,import_quantity_yoy_pct,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,,0.120879573001752,0.0965193092560148,4,104,0.216,0.146,0.119,False,TESTED,2026-02
+short_almon,short,import_value_yoy_pct,ADF,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-2.224892795199809,0.19733516187561534,12,91,-3.50434289821397,-2.8938659630479413,-2.5840147047458037,False,TESTED,2026-02
+short_almon,short,import_value_yoy_pct,KPSS,c,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2388415120398125,0.1,5,104,0.739,0.463,0.347,True,TESTED,2026-02
+short_almon,short,import_value_yoy_pct,ADF,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,AIC; maxlag12,,-2.262227193195593,0.454944972036255,12,91,-4.061865559807901,-3.4598875383872256,-3.155966861981154,False,TESTED,2026-02
+short_almon,short,import_value_yoy_pct,KPSS,ct,104,2017-07,2026-02,5cfba2528f1f244b571f7590ddff8ac34b50f457ae0c533e508a8bd3e37c83e8,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10866601597416788,0.1,5,104,0.216,0.146,0.119,True,TESTED,2026-02
+long_full_valid,long,oil_rmb_yoy_pct,ADF,c,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,AIC; maxlag12,,-3.4706951889598274,0.008772382134993028,12,313,-3.4514162625887037,-2.8708187088091406,-2.5717136883095675,False,TESTED,2026-02
+long_full_valid,long,oil_rmb_yoy_pct,KPSS,c,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2481649565847101,0.1,10,326,0.739,0.463,0.347,True,TESTED,2026-02
+long_full_valid,long,oil_rmb_yoy_pct,ADF,ct,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,AIC; maxlag12,,-3.5333854125207433,0.0359519022463122,12,313,-3.9879881905523544,-3.4246105500194575,-3.1353514964080214,False,TESTED,2026-02
+long_full_valid,long,oil_rmb_yoy_pct,KPSS,ct,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0655167016937193,0.1,10,326,0.216,0.146,0.119,True,TESTED,2026-02
+long_full_valid,long,brent_yoy_pct,ADF,c,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,AIC; maxlag12,,-3.444339175112933,0.009537080846354332,12,313,-3.4514162625887037,-2.8708187088091406,-2.5717136883095675,False,TESTED,2026-02
+long_full_valid,long,brent_yoy_pct,KPSS,c,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.28323924290889,0.1,10,326,0.739,0.463,0.347,True,TESTED,2026-02
+long_full_valid,long,brent_yoy_pct,ADF,ct,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,AIC; maxlag12,,-3.530756596255345,0.03621315004611108,12,313,-3.9879881905523544,-3.4246105500194575,-3.1353514964080214,False,TESTED,2026-02
+long_full_valid,long,brent_yoy_pct,KPSS,ct,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.057724242531776555,0.1,10,326,0.216,0.146,0.119,True,TESTED,2026-02
+long_full_valid,long,fx_yoy_pct,ADF,c,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,AIC; maxlag12,,-2.969004317919049,0.0378921535054957,12,313,-3.4514162625887037,-2.8708187088091406,-2.5717136883095675,False,TESTED,2026-02
+long_full_valid,long,fx_yoy_pct,KPSS,c,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,statsmodels auto,,0.38690036403275035,0.08280156722726278,10,326,0.739,0.463,0.347,False,TESTED,2026-02
+long_full_valid,long,fx_yoy_pct,ADF,ct,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,AIC; maxlag12,,-3.0627450437863195,0.11537456899570758,12,313,-3.9879881905523544,-3.4246105500194575,-3.1353514964080214,False,TESTED,2026-02
+long_full_valid,long,fx_yoy_pct,KPSS,ct,326,1999-01,2026-02,3d0831ea2cf37e4dffda67b469b960a861db4bf41d8ab2c845637db32e7be648,statsmodels auto,,0.14084007542144905,0.05955541588620545,10,326,0.216,0.146,0.119,False,TESTED,2026-02
+long_full_valid,long,fuel_power_inflation,ADF,c,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,AIC; maxlag12,,-2.7599530279606252,0.06422579960072775,12,325,-3.450632157720528,-2.870474482366864,-2.5715301325443787,False,TESTED,2026-02
+long_full_valid,long,fuel_power_inflation,KPSS,c,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.18464887437778074,0.1,11,338,0.739,0.463,0.347,True,TESTED,2026-02
+long_full_valid,long,fuel_power_inflation,ADF,ct,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,AIC; maxlag12,,-2.9904125559598516,0.1347811692120615,12,325,-3.986898741156122,-3.4240857927792443,-3.135043504014565,False,TESTED,2026-02
+long_full_valid,long,fuel_power_inflation,KPSS,ct,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06441141023662061,0.1,11,338,0.216,0.146,0.119,True,TESTED,2026-02
+long_full_valid,long,ppi_inflation,ADF,c,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,AIC; maxlag12,,-3.0875040388744366,0.027491873039579093,12,325,-3.450632157720528,-2.870474482366864,-2.5715301325443787,False,TESTED,2026-02
+long_full_valid,long,ppi_inflation,KPSS,c,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11176022506847769,0.1,11,338,0.739,0.463,0.347,True,TESTED,2026-02
+long_full_valid,long,ppi_inflation,ADF,ct,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,AIC; maxlag12,,-3.1397313087422885,0.0970933944190493,12,325,-3.986898741156122,-3.4240857927792443,-3.135043504014565,False,TESTED,2026-02
+long_full_valid,long,ppi_inflation,KPSS,ct,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10497433624278116,0.1,11,338,0.216,0.146,0.119,True,TESTED,2026-02
+long_full_valid,long,cpi_inflation,ADF,c,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,AIC; maxlag12,,-2.875315426233664,0.048294698283271806,12,325,-3.450632157720528,-2.870474482366864,-2.5715301325443787,False,TESTED,2026-02
+long_full_valid,long,cpi_inflation,KPSS,c,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.3397511168931539,0.1,11,338,0.739,0.463,0.347,True,TESTED,2026-02
+long_full_valid,long,cpi_inflation,ADF,ct,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,AIC; maxlag12,,-2.8188227321896187,0.19011698158502488,12,325,-3.986898741156122,-3.4240857927792443,-3.135043504014565,False,TESTED,2026-02
+long_full_valid,long,cpi_inflation,KPSS,ct,338,1998-01,2026-02,74053539bc031f17fd3b6761383bcea37a27b0c71bf29861ffc54d8a8770893b,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.32531083608558176,0.01,11,338,0.216,0.146,0.119,True,TESTED,2026-02
+short_full_valid,short,oil_rmb_yoy_pct,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.63025357069906,0.08690427355728814,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_full_valid,short,oil_rmb_yoy_pct,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.20718861695035948,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,oil_rmb_yoy_pct,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.498934224969551,0.32849535003232333,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_full_valid,short,oil_rmb_yoy_pct,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.1484417939481307,0.04796517170989108,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_full_valid,short,brent_yoy_pct,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.6580511616919438,0.08158275859549102,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_full_valid,short,brent_yoy_pct,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.21201841148841888,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,brent_yoy_pct,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5286724136763703,0.31377848307653217,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_full_valid,short,brent_yoy_pct,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.14915268946561006,0.047372758778658285,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_full_valid,short,fx_yoy_pct,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5117611257916255,0.11263887784478438,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_full_valid,short,fx_yoy_pct,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10360986082199833,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,fx_yoy_pct,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5291593580329477,0.31354026599811724,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_full_valid,short,fx_yoy_pct,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08189116252360203,0.1,6,134,0.216,0.146,0.119,True,TESTED,2026-02
+short_full_valid,short,fuel_power_inflation,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.583085022547757,0.09654388658926039,11,122,-3.4851223522012855,-2.88553750045158,-2.5795685622144586,False,TESTED,2026-02
+short_full_valid,short,fuel_power_inflation,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.16854421166628167,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,fuel_power_inflation,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.5718291136046005,0.2930276388876423,11,122,-4.034959588225446,-3.44710896788718,-3.1485194734361026,False,TESTED,2026-02
+short_full_valid,short,fuel_power_inflation,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.16774876804910463,0.03187602662574614,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_full_valid,short,ppi_inflation,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.398401562208563,0.14218806428711583,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_full_valid,short,ppi_inflation,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1972901285347793,0.1,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,ppi_inflation,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.692080942216994,0.239385326279827,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_full_valid,short,ppi_inflation,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.1848042484981231,0.021698406813203834,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_full_valid,short,cpi_inflation,ADF,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-1.1021403496007554,0.714217604112948,12,121,-3.485585145896754,-2.885738566292665,-2.5796759080663887,False,TESTED,2026-02
+short_full_valid,short,cpi_inflation,KPSS,c,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.7486319729428726,0.01,6,134,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,cpi_inflation,ADF,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,AIC; maxlag12,,-2.10877913989762,0.5411771856102487,12,121,-4.035606405915461,-3.447417080919031,-3.148699310749108,False,TESTED,2026-02
+short_full_valid,short,cpi_inflation,KPSS,ct,134,2015-01,2026-02,8fd38f5be2950a632dac5f483f92c32964722f85d423d55173b75188e96a37e3,statsmodels auto,,0.20237021784056877,0.01511116830978671,6,134,0.216,0.146,0.119,False,TESTED,2026-02
+short_full_valid,short,import_unit_price_yoy_pct,ADF,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-1.7375446527640224,0.41187948346766556,12,109,-3.49181775886872,-2.8884437992971588,-2.5811201893779985,False,TESTED,2026-02
+short_full_valid,short,import_unit_price_yoy_pct,KPSS,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10380277161256976,0.1,6,122,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,import_unit_price_yoy_pct,ADF,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-1.824181171501633,0.6929832238945781,12,109,-4.044322283462378,-3.4515644781777084,-3.151118741781072,False,TESTED,2026-02
+short_full_valid,short,import_unit_price_yoy_pct,KPSS,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08846712270834674,0.1,6,122,0.216,0.146,0.119,True,TESTED,2026-02
+short_full_valid,short,import_quantity_yoy_pct,ADF,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.72623343131048,0.06960770695948339,12,109,-3.49181775886872,-2.8884437992971588,-2.5811201893779985,False,TESTED,2026-02
+short_full_valid,short,import_quantity_yoy_pct,KPSS,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,,0.5095399140645619,0.03951803737284642,4,122,0.739,0.463,0.347,False,TESTED,2026-02
+short_full_valid,short,import_quantity_yoy_pct,ADF,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.7950768938156987,0.19875852955439194,12,109,-4.044322283462378,-3.4515644781777084,-3.151118741781072,False,TESTED,2026-02
+short_full_valid,short,import_quantity_yoy_pct,KPSS,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,,0.1300620523552387,0.07951471786066905,4,122,0.216,0.146,0.119,False,TESTED,2026-02
+short_full_valid,short,import_value_yoy_pct,ADF,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.156071080263449,0.2225734681238214,12,109,-3.49181775886872,-2.8884437992971588,-2.5811201893779985,False,TESTED,2026-02
+short_full_valid,short,import_value_yoy_pct,KPSS,c,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1753490020853809,0.1,6,122,0.739,0.463,0.347,True,TESTED,2026-02
+short_full_valid,short,import_value_yoy_pct,ADF,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,AIC; maxlag12,,-2.3565870536025013,0.40293827269761007,12,109,-4.044322283462378,-3.4515644781777084,-3.151118741781072,False,TESTED,2026-02
+short_full_valid,short,import_value_yoy_pct,KPSS,ct,122,2016-01,2026-02,315810a9918a83ea5c53094666b2ea1e12ba0ff0827d1250ef7aa3d769c5ef06,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0899723728413615,0.1,5,122,0.216,0.146,0.119,True,TESTED,2026-02
+long_core,long,oil_rmb_yoy_pct,ADF,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-3.4973297579707148,0.008055936938506234,12,309,-3.45169128009473,-2.8709394227049154,-2.5717780602423517,False,TESTED,2026-10
+long_core,long,oil_rmb_yoy_pct,KPSS,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.16095611434995297,0.1,10,322,0.739,0.463,0.347,True,TESTED,2026-10
+long_core,long,oil_rmb_yoy_pct,ADF,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-3.4449282600009106,0.045668264843096745,12,309,-3.988370339948011,-3.4247945887812645,-3.1354595037461324,False,TESTED,2026-10
+long_core,long,oil_rmb_yoy_pct,KPSS,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07565606578777516,0.1,10,322,0.216,0.146,0.119,True,TESTED,2026-10
+long_core,long,brent_yoy_pct,ADF,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-3.4298261680453637,0.009983160895002495,12,309,-3.45169128009473,-2.8709394227049154,-2.5717780602423517,False,TESTED,2026-10
+long_core,long,brent_yoy_pct,KPSS,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.18375018961953832,0.1,10,322,0.739,0.463,0.347,True,TESTED,2026-10
+long_core,long,brent_yoy_pct,ADF,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-3.3783571293293893,0.05434742537418523,12,309,-3.988370339948011,-3.4247945887812645,-3.1354595037461324,False,TESTED,2026-10
+long_core,long,brent_yoy_pct,KPSS,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07126456063837852,0.1,10,322,0.216,0.146,0.119,True,TESTED,2026-10
+long_core,long,fx_yoy_pct,ADF,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-2.923705660715237,0.04265998357246623,12,309,-3.45169128009473,-2.8709394227049154,-2.5717780602423517,False,TESTED,2026-10
+long_core,long,fx_yoy_pct,KPSS,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2960370636309493,0.1,10,322,0.739,0.463,0.347,True,TESTED,2026-10
+long_core,long,fx_yoy_pct,ADF,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-3.0004096160005944,0.13196650177188968,12,309,-3.988370339948011,-3.4247945887812645,-3.1354595037461324,False,TESTED,2026-10
+long_core,long,fx_yoy_pct,KPSS,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,,0.12079055929516906,0.09668414945339063,10,322,0.216,0.146,0.119,False,TESTED,2026-10
+long_core,long,fuel_power_inflation,ADF,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-2.824935100908819,0.05479929595721382,12,309,-3.45169128009473,-2.8709394227049154,-2.5717780602423517,False,TESTED,2026-10
+long_core,long,fuel_power_inflation,KPSS,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.24823671285421423,0.1,10,322,0.739,0.463,0.347,True,TESTED,2026-10
+long_core,long,fuel_power_inflation,ADF,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-2.8067407454099533,0.1944796511449905,12,309,-3.988370339948011,-3.4247945887812645,-3.1354595037461324,False,TESTED,2026-10
+long_core,long,fuel_power_inflation,KPSS,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06126360291501752,0.1,10,322,0.216,0.146,0.119,True,TESTED,2026-10
+long_core,long,ppi_inflation,ADF,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-2.8524553961184953,0.051162722223553996,12,309,-3.45169128009473,-2.8709394227049154,-2.5717780602423517,False,TESTED,2026-10
+long_core,long,ppi_inflation,KPSS,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.15521779301243976,0.1,10,322,0.739,0.463,0.347,True,TESTED,2026-10
+long_core,long,ppi_inflation,ADF,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-2.9119348268481424,0.1583875181223588,12,309,-3.988370339948011,-3.4247945887812645,-3.1354595037461324,False,TESTED,2026-10
+long_core,long,ppi_inflation,KPSS,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.061701064758844265,0.1,10,322,0.216,0.146,0.119,True,TESTED,2026-10
+long_core,long,cpi_inflation,ADF,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-2.736289760244221,0.06796630590361744,12,309,-3.45169128009473,-2.8709394227049154,-2.5717780602423517,False,TESTED,2026-10
+long_core,long,cpi_inflation,KPSS,c,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.3069978821128847,0.1,10,322,0.739,0.463,0.347,True,TESTED,2026-10
+long_core,long,cpi_inflation,ADF,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,AIC; maxlag12,,-2.921691705736935,0.1553053319247164,12,309,-3.988370339948011,-3.4247945887812645,-3.1354595037461324,False,TESTED,2026-10
+long_core,long,cpi_inflation,KPSS,ct,322,2000-01,2026-10,a89d5fca91fdcfdbdc7ee46e0e5506913003cbfdb2f8990b01e5f4c5d2853331,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.23816431919103573,0.01,10,322,0.216,0.146,0.119,True,TESTED,2026-10
+short_refit,short,oil_rmb_yoy_pct,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.7282485770309237,0.06927628889091345,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_refit,short,oil_rmb_yoy_pct,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.21383113543088353,0.1,7,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_refit,short,oil_rmb_yoy_pct,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.6727654825975593,0.2475636770748239,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_refit,short,oil_rmb_yoy_pct,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11132449514243623,0.1,7,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_refit,short,brent_yoy_pct,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.699322190225172,0.07415563319304382,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_refit,short,brent_yoy_pct,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2272312136432939,0.1,7,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_refit,short,brent_yoy_pct,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.6491229885918512,0.2578077871295411,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_refit,short,brent_yoy_pct,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10936018547010161,0.1,7,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_refit,short,fx_yoy_pct,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.475823685622898,0.12146803552827362,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_refit,short,fx_yoy_pct,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1522557379472644,0.1,8,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_refit,short,fx_yoy_pct,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.5520680115956296,0.3024372463722085,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_refit,short,fx_yoy_pct,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06989378897879565,0.1,8,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_refit,short,fuel_power_inflation,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-4.592990126284486,0.00013306750531380843,8,133,-3.480500383888377,-2.8835279559405045,-2.578495716547007,False,TESTED,2026-10
+short_refit,short,fuel_power_inflation,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11878685889308362,0.1,8,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_refit,short,fuel_power_inflation,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-4.577489727324694,0.001124327609067998,8,133,-4.028502544757224,-3.4440306386960673,-3.146722003543258,False,TESTED,2026-10
+short_refit,short,fuel_power_inflation,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11473660257304688,0.1,8,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_refit,short,ppi_inflation,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.5808351181975624,0.09702330357922906,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_refit,short,ppi_inflation,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.12290590865426551,0.1,8,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_refit,short,ppi_inflation,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.7081686187822114,0.23270653608863234,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_refit,short,ppi_inflation,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,,0.1241703225822498,0.09042532855138924,8,142,0.216,0.146,0.119,False,TESTED,2026-10
+short_refit,short,cpi_inflation,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-1.0812717500715288,0.7224824400000489,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_refit,short,cpi_inflation,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,,0.658379321745833,0.017329152568560633,8,142,0.739,0.463,0.347,False,TESTED,2026-10
+short_refit,short,cpi_inflation,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.2008839303845407,0.48935302942173126,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_refit,short,cpi_inflation,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,,0.14885226756202305,0.047623110364980785,8,142,0.216,0.146,0.119,False,TESTED,2026-10
+short_refit,short,import_unit_price_yoy_pct,ADF,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-1.9965926946286607,0.28806907939066184,12,117,-3.487517288664615,-2.8865777180380032,-2.5801239192052012,False,TESTED,2026-10
+short_refit,short,import_unit_price_yoy_pct,KPSS,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06853017247120512,0.1,6,130,0.739,0.463,0.347,True,TESTED,2026-10
+short_refit,short,import_unit_price_yoy_pct,ADF,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-1.9115116610792817,0.6486830354628198,12,117,-4.038307389431779,-3.448703208559121,-3.149449845280976,False,TESTED,2026-10
+short_refit,short,import_unit_price_yoy_pct,KPSS,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06866676787292071,0.1,6,130,0.216,0.146,0.119,True,TESTED,2026-10
+short_refit,short,import_quantity_yoy_pct,ADF,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-1.972726850256401,0.2986579406713877,12,117,-3.487517288664615,-2.8865777180380032,-2.5801239192052012,False,TESTED,2026-10
+short_refit,short,import_quantity_yoy_pct,KPSS,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,,0.7189505070573639,0.011822681176603286,5,130,0.739,0.463,0.347,False,TESTED,2026-10
+short_refit,short,import_quantity_yoy_pct,ADF,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-2.9623666128488897,0.14290815922329014,12,117,-4.038307389431779,-3.448703208559121,-3.149449845280976,False,TESTED,2026-10
+short_refit,short,import_quantity_yoy_pct,KPSS,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06512881398053487,0.1,5,130,0.216,0.146,0.119,True,TESTED,2026-10
+short_refit,short,import_value_yoy_pct,ADF,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-3.644500338185407,0.004965100777424874,0,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_refit,short,import_value_yoy_pct,KPSS,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.19259494073567407,0.1,6,130,0.739,0.463,0.347,True,TESTED,2026-10
+short_refit,short,import_value_yoy_pct,ADF,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-2.4203146892751355,0.3688757749398968,12,117,-4.038307389431779,-3.448703208559121,-3.149449845280976,False,TESTED,2026-10
+short_refit,short,import_value_yoy_pct,KPSS,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07506320219587455,0.1,6,130,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,oil_rmb_yoy_pct,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.05693933294262,0.26217810213986975,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,oil_rmb_yoy_pct,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10601353631558214,0.1,5,124,0.739,0.463,0.347,True,TESTED,2026-10
+short_round1,short,oil_rmb_yoy_pct,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.0286740915326007,0.5857311029428696,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,oil_rmb_yoy_pct,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07969298502311976,0.1,5,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,brent_yoy_pct,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.0915116495496515,0.24794148027759283,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,brent_yoy_pct,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08236699985489507,0.1,6,124,0.739,0.463,0.347,True,TESTED,2026-10
+short_round1,short,brent_yoy_pct,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.0660964612490655,0.5650216647871351,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,brent_yoy_pct,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07679191713273865,0.1,5,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,fx_yoy_pct,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.341611647484759,0.1588982596978255,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,fx_yoy_pct,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.13077256912367352,0.1,6,124,0.739,0.463,0.347,True,TESTED,2026-10
+short_round1,short,fx_yoy_pct,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.334941472563674,0.4147276322607498,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,fx_yoy_pct,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09522014714667908,0.1,6,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,fuel_power_inflation,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.20499153930236,0.20443880673447973,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,fuel_power_inflation,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.17692406501957253,0.1,6,124,0.739,0.463,0.347,True,TESTED,2026-10
+short_round1,short,fuel_power_inflation,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.215058290961981,0.48137990681226034,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,fuel_power_inflation,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09963967762007063,0.1,6,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,ppi_inflation,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.059021536136953,0.2613081232750594,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,ppi_inflation,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,,0.34904626764016417,0.09911798808613613,6,124,0.739,0.463,0.347,False,TESTED,2026-10
+short_round1,short,ppi_inflation,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.30607484560145,0.43059268976259046,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,ppi_inflation,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08150100502530853,0.1,6,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,cpi_inflation,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-0.886518496016568,0.7923796443544224,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,cpi_inflation,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.8258195171560606,0.01,6,124,0.739,0.463,0.347,True,TESTED,2026-10
+short_round1,short,cpi_inflation,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.1968943286269154,0.4915986503809443,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,cpi_inflation,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11343520277127989,0.1,6,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,import_unit_price_yoy_pct,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.0175596026523612,0.2789272924629213,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,import_unit_price_yoy_pct,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10526649952239772,0.1,6,124,0.739,0.463,0.347,True,TESTED,2026-10
+short_round1,short,import_unit_price_yoy_pct,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.016839292381541,0.5922314700885573,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,import_unit_price_yoy_pct,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0685939123965188,0.1,6,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,import_quantity_yoy_pct,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-1.991125230131166,0.290477882591074,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,import_quantity_yoy_pct,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,,0.6244943296628804,0.020409606394283596,5,124,0.739,0.463,0.347,False,TESTED,2026-10
+short_round1,short,import_quantity_yoy_pct,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.876357801577474,0.1703126028499644,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,import_quantity_yoy_pct,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06838877668435346,0.1,5,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round1,short,import_value_yoy_pct,ADF,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.2864656143655044,0.17637024190378758,12,111,-3.490683082754047,-2.8879516565798817,-2.5808574442009578,False,TESTED,2026-10
+short_round1,short,import_value_yoy_pct,KPSS,c,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.328894961257776,0.1,6,124,0.739,0.463,0.347,True,TESTED,2026-10
+short_round1,short,import_value_yoy_pct,ADF,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,AIC; maxlag12,,-2.410376669106258,0.3741169598230991,12,111,-4.042734832692444,-3.4508097122615675,-3.1506786195618557,False,TESTED,2026-10
+short_round1,short,import_value_yoy_pct,KPSS,ct,124,2016-07,2026-10,9a23bedd22a8d211c3327066b7996e21092465de541b2753183f36030ca4297e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08548371625812731,0.1,5,124,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,oil_rmb_yoy_pct,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.2070313161107458,0.2037033997366915,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,oil_rmb_yoy_pct,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11250335363923757,0.1,5,118,0.739,0.463,0.347,True,TESTED,2026-10
+short_round2,short,oil_rmb_yoy_pct,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.0718687083549256,0.561809110455909,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,oil_rmb_yoy_pct,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08667370260189744,0.1,5,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,brent_yoy_pct,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.232692608944159,0.1945945612774002,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,brent_yoy_pct,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10278825119883893,0.1,5,118,0.739,0.463,0.347,True,TESTED,2026-10
+short_round2,short,brent_yoy_pct,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.0795030319942787,0.5575537930248141,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,brent_yoy_pct,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08423882824731685,0.1,5,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,fx_yoy_pct,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.1075964761813926,0.24147101215199712,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,fx_yoy_pct,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10535491647600038,0.1,6,118,0.739,0.463,0.347,True,TESTED,2026-10
+short_round2,short,fx_yoy_pct,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.0689058464343333,0.5634586367114499,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,fx_yoy_pct,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09938934900623382,0.1,6,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,fuel_power_inflation,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-4.314351984150861,0.00041946706232890655,8,109,-3.49181775886872,-2.8884437992971588,-2.5811201893779985,False,TESTED,2026-10
+short_round2,short,fuel_power_inflation,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.20196693006633415,0.1,6,118,0.739,0.463,0.347,True,TESTED,2026-10
+short_round2,short,fuel_power_inflation,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-4.238150217357741,0.003917902659237498,8,109,-4.044322283462378,-3.4515644781777084,-3.151118741781072,False,TESTED,2026-10
+short_round2,short,fuel_power_inflation,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10313858441248941,0.1,6,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,ppi_inflation,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-1.9845329773493519,0.2933957546196621,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,ppi_inflation,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,,0.37687751976084227,0.08712175872377488,6,118,0.739,0.463,0.347,False,TESTED,2026-10
+short_round2,short,ppi_inflation,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-1.8465011542957506,0.6819160678231431,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,ppi_inflation,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08916419954127987,0.1,6,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,cpi_inflation,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-0.9020429674284366,0.7872988946572906,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,cpi_inflation,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.8032953715436222,0.01,6,118,0.739,0.463,0.347,True,TESTED,2026-10
+short_round2,short,cpi_inflation,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.0093463426654634,0.5963332548260319,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,cpi_inflation,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10019728128277354,0.1,6,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,import_unit_price_yoy_pct,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-1.9633048283519363,0.30289069927075873,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,import_unit_price_yoy_pct,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.13494603642956404,0.1,6,118,0.739,0.463,0.347,True,TESTED,2026-10
+short_round2,short,import_unit_price_yoy_pct,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-1.8368156378544156,0.6867413451588595,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,import_unit_price_yoy_pct,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07982660918862157,0.1,6,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,import_quantity_yoy_pct,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.113269938536792,0.23921227956793145,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,import_quantity_yoy_pct,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,,0.5406479784975357,0.032511716554609084,5,118,0.739,0.463,0.347,False,TESTED,2026-10
+short_round2,short,import_quantity_yoy_pct,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.784200923326436,0.20280779617426542,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,import_quantity_yoy_pct,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07199825912395032,0.1,5,118,0.216,0.146,0.119,True,TESTED,2026-10
+short_round2,short,import_value_yoy_pct,ADF,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.4586725089272945,0.12585620050391622,12,105,-3.4942202045135513,-2.889485291005291,-2.5816762131519275,False,TESTED,2026-10
+short_round2,short,import_value_yoy_pct,KPSS,c,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,,0.40454171584507304,0.07519753627367542,5,118,0.739,0.463,0.347,False,TESTED,2026-10
+short_round2,short,import_value_yoy_pct,ADF,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,AIC; maxlag12,,-2.3836082449015796,0.38836882800189054,12,105,-4.047684391534392,-3.4531621209372636,-3.1520501036605117,False,TESTED,2026-10
+short_round2,short,import_value_yoy_pct,KPSS,ct,118,2017-01,2026-10,2e22f64d4c1085b02b87e6f57c8567c67214f36532e23155c75703fce5f26cc2,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10371497201699173,0.1,5,118,0.216,0.146,0.119,True,TESTED,2026-10
+long_almon,long,oil_rmb_yoy_pct,ADF,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-3.292395489624049,0.015221837236410657,12,303,-3.4521175397304784,-2.8711265007266666,-2.571877823851692,False,TESTED,2026-10
+long_almon,long,oil_rmb_yoy_pct,KPSS,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10196205470181827,0.1,10,316,0.739,0.463,0.347,True,TESTED,2026-10
+long_almon,long,oil_rmb_yoy_pct,ADF,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-3.2791791216931134,0.06974696692524508,12,303,-3.9889626832421174,-3.4250798217949754,-3.135626889644655,False,TESTED,2026-10
+long_almon,long,oil_rmb_yoy_pct,KPSS,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06661581453097706,0.1,10,316,0.216,0.146,0.119,True,TESTED,2026-10
+long_almon,long,brent_yoy_pct,ADF,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-3.239972595187996,0.017784407320912167,12,303,-3.4521175397304784,-2.8711265007266666,-2.571877823851692,False,TESTED,2026-10
+long_almon,long,brent_yoy_pct,KPSS,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.12293950098654138,0.1,10,316,0.739,0.463,0.347,True,TESTED,2026-10
+long_almon,long,brent_yoy_pct,ADF,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-3.2322174487726776,0.07817100960541314,12,303,-3.9889626832421174,-3.4250798217949754,-3.135626889644655,False,TESTED,2026-10
+long_almon,long,brent_yoy_pct,KPSS,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0663182042201318,0.1,10,316,0.216,0.146,0.119,True,TESTED,2026-10
+long_almon,long,fx_yoy_pct,ADF,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.8956716553137904,0.04585364520808942,12,303,-3.4521175397304784,-2.8711265007266666,-2.571877823851692,False,TESTED,2026-10
+long_almon,long,fx_yoy_pct,KPSS,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.3077733429495951,0.1,10,316,0.739,0.463,0.347,True,TESTED,2026-10
+long_almon,long,fx_yoy_pct,ADF,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.9853856939120633,0.13621275165952695,12,303,-3.9889626832421174,-3.4250798217949754,-3.135626889644655,False,TESTED,2026-10
+long_almon,long,fx_yoy_pct,KPSS,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11623999954532051,0.1,10,316,0.216,0.146,0.119,True,TESTED,2026-10
+long_almon,long,fuel_power_inflation,ADF,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.776844582656888,0.061658236275810345,12,303,-3.4521175397304784,-2.8711265007266666,-2.571877823851692,False,TESTED,2026-10
+long_almon,long,fuel_power_inflation,KPSS,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2172444438799815,0.1,10,316,0.739,0.463,0.347,True,TESTED,2026-10
+long_almon,long,fuel_power_inflation,ADF,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.8001443723957795,0.19689142075107335,12,303,-3.9889626832421174,-3.4250798217949754,-3.135626889644655,False,TESTED,2026-10
+long_almon,long,fuel_power_inflation,KPSS,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06228668144616699,0.1,10,316,0.216,0.146,0.119,True,TESTED,2026-10
+long_almon,long,ppi_inflation,ADF,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.8140780441204347,0.05629078835173665,12,303,-3.4521175397304784,-2.8711265007266666,-2.571877823851692,False,TESTED,2026-10
+long_almon,long,ppi_inflation,KPSS,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.15478445989709735,0.1,10,316,0.739,0.463,0.347,True,TESTED,2026-10
+long_almon,long,ppi_inflation,ADF,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.871821077372847,0.17181607232884977,12,303,-3.9889626832421174,-3.4250798217949754,-3.135626889644655,False,TESTED,2026-10
+long_almon,long,ppi_inflation,KPSS,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06223640610124641,0.1,10,316,0.216,0.146,0.119,True,TESTED,2026-10
+long_almon,long,cpi_inflation,ADF,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.6837996100328634,0.0768838428798349,12,303,-3.4521175397304784,-2.8711265007266666,-2.571877823851692,False,TESTED,2026-10
+long_almon,long,cpi_inflation,KPSS,c,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.3229847927249688,0.1,10,316,0.739,0.463,0.347,True,TESTED,2026-10
+long_almon,long,cpi_inflation,ADF,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,AIC; maxlag12,,-2.904259636993866,0.16084172959595183,12,303,-3.9889626832421174,-3.4250798217949754,-3.135626889644655,False,TESTED,2026-10
+long_almon,long,cpi_inflation,KPSS,ct,316,2000-07,2026-10,f360be9267749be3a82cc31777751dd7716dcf8f5feca160acb2a23df9cd234c,statsmodels auto,,0.21373298418709916,0.010850130929837816,10,316,0.216,0.146,0.119,False,TESTED,2026-10
+short_almon,short,oil_rmb_yoy_pct,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.108530495540709,0.2410983105504687,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,oil_rmb_yoy_pct,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09110957914703327,0.1,5,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,oil_rmb_yoy_pct,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.023662515475841,0.5884869144193547,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,oil_rmb_yoy_pct,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0862975905017607,0.1,5,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,brent_yoy_pct,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.1175876080494884,0.23750159488415762,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,brent_yoy_pct,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08840409768641952,0.1,5,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,brent_yoy_pct,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.034196908417316,0.5826889878993523,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,brent_yoy_pct,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.0843320452927718,0.1,5,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,fx_yoy_pct,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.0032037567839547,0.28517013268365293,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,fx_yoy_pct,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11260053432731981,0.1,6,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,fx_yoy_pct,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.011425546292075,0.5951961677107308,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,fx_yoy_pct,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11391761823856975,0.1,6,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,fuel_power_inflation,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-4.2172525844064594,0.0006159661805726317,8,103,-3.4954932834550623,-2.8900369024285117,-2.5819706975209726,False,TESTED,2026-10
+short_almon,short,fuel_power_inflation,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.16861226604879234,0.1,6,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,fuel_power_inflation,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-4.168040609950713,0.00500065314569107,8,103,-4.049466557237078,-3.454008496019591,-3.1525433623860306,False,TESTED,2026-10
+short_almon,short,fuel_power_inflation,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11390233190503192,0.1,6,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,ppi_inflation,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.1060714120142405,0.24208027510864405,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,ppi_inflation,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2889732066854312,0.1,6,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,ppi_inflation,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-1.8824984530495925,0.6636891912777411,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,ppi_inflation,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09262731814183676,0.1,6,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,cpi_inflation,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-0.8859273679107752,0.7925714052526407,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,cpi_inflation,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.8389913227467674,0.01,6,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,cpi_inflation,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.2631077062067426,0.4544534800807275,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,cpi_inflation,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08836955623432863,0.1,5,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,import_unit_price_yoy_pct,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.0250308284992804,0.2757069276559302,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,import_unit_price_yoy_pct,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10027640753580963,0.1,5,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,import_unit_price_yoy_pct,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-1.906766637332278,0.6511554500404235,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,import_unit_price_yoy_pct,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.08450720871611445,0.1,5,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,import_quantity_yoy_pct,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-1.904467096562323,0.3299625745095305,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,import_quantity_yoy_pct,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,,0.4431934729681208,0.058537296134430705,5,112,0.739,0.463,0.347,False,TESTED,2026-10
+short_almon,short,import_quantity_yoy_pct,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.6048117619464928,0.27768273925481923,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,import_quantity_yoy_pct,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07568643656901436,0.1,5,112,0.216,0.146,0.119,True,TESTED,2026-10
+short_almon,short,import_value_yoy_pct,ADF,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.455993654479499,0.1265518725213155,12,99,-3.498198082189098,-2.891208211860468,-2.5825959973472097,False,TESTED,2026-10
+short_almon,short,import_value_yoy_pct,KPSS,c,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.25594463683366886,0.1,5,112,0.739,0.463,0.347,True,TESTED,2026-10
+short_almon,short,import_value_yoy_pct,ADF,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,AIC; maxlag12,,-2.3497194315443637,0.4066679814497651,12,99,-4.053254236405479,-3.455806184392646,-3.1535907061122397,False,TESTED,2026-10
+short_almon,short,import_value_yoy_pct,KPSS,ct,112,2017-07,2026-10,cdd79d20ae16cb37156f439f2c21f2f44b6ccafbd2f4b30a4a040f8a81478fbf,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09655932414529872,0.1,5,112,0.216,0.146,0.119,True,TESTED,2026-10
+long_full_valid,long,oil_rmb_yoy_pct,ADF,c,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,AIC; maxlag12,,-3.5589845847941186,0.006595340743467446,12,321,-3.450886958636161,-2.870586350823483,-2.5715897843576827,False,TESTED,2026-10
+long_full_valid,long,oil_rmb_yoy_pct,KPSS,c,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.20439457678828074,0.1,10,334,0.739,0.463,0.347,True,TESTED,2026-10
+long_full_valid,long,oil_rmb_yoy_pct,ADF,ct,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,AIC; maxlag12,,-3.5059904461697045,0.038754268547705646,12,321,-3.987252749860239,-3.4242563236189953,-3.1351435969141037,False,TESTED,2026-10
+long_full_valid,long,oil_rmb_yoy_pct,KPSS,ct,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07781008656741328,0.1,10,334,0.216,0.146,0.119,True,TESTED,2026-10
+long_full_valid,long,brent_yoy_pct,ADF,c,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,AIC; maxlag12,,-3.5070707218596198,0.007807348993064097,12,321,-3.450886958636161,-2.870586350823483,-2.5715897843576827,False,TESTED,2026-10
+long_full_valid,long,brent_yoy_pct,KPSS,c,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2255754049122075,0.1,10,334,0.739,0.463,0.347,True,TESTED,2026-10
+long_full_valid,long,brent_yoy_pct,ADF,ct,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,AIC; maxlag12,,-3.458528579272238,0.04404520990862104,12,321,-3.987252749860239,-3.4242563236189953,-3.1351435969141037,False,TESTED,2026-10
+long_full_valid,long,brent_yoy_pct,KPSS,ct,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07145421861225759,0.1,10,334,0.216,0.146,0.119,True,TESTED,2026-10
+long_full_valid,long,fx_yoy_pct,ADF,c,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,AIC; maxlag12,,-2.9791512953516963,0.03688781297244907,12,321,-3.450886958636161,-2.870586350823483,-2.5715897843576827,False,TESTED,2026-10
+long_full_valid,long,fx_yoy_pct,KPSS,c,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2644913855268417,0.1,11,334,0.739,0.463,0.347,True,TESTED,2026-10
+long_full_valid,long,fx_yoy_pct,ADF,ct,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,AIC; maxlag12,,-3.032676066056981,0.12317342103177653,12,321,-3.987252749860239,-3.4242563236189953,-3.1351435969141037,False,TESTED,2026-10
+long_full_valid,long,fx_yoy_pct,KPSS,ct,334,1999-01,2026-10,11c26de2154ec2f6a7e577b30f09444599039ff965dc490db2746519c0f3dd7c,statsmodels auto,,0.12143651430509539,0.09548793647204556,11,334,0.216,0.146,0.119,False,TESTED,2026-10
+long_full_valid,long,fuel_power_inflation,ADF,c,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,AIC; maxlag12,,-3.099104981928382,0.02661949476874423,12,333,-3.450141065277327,-2.870258846235788,-2.571415151457764,False,TESTED,2026-10
+long_full_valid,long,fuel_power_inflation,KPSS,c,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.15841741770010803,0.1,11,346,0.739,0.463,0.347,True,TESTED,2026-10
+long_full_valid,long,fuel_power_inflation,ADF,ct,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,AIC; maxlag12,,-3.17938402484642,0.08858851499012854,12,333,-3.9862164840323913,-3.4237571000573386,-3.134850566397093,False,TESTED,2026-10
+long_full_valid,long,fuel_power_inflation,KPSS,ct,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06116016580461257,0.1,11,346,0.216,0.146,0.119,True,TESTED,2026-10
+long_full_valid,long,ppi_inflation,ADF,c,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,AIC; maxlag12,,-3.2282570760641267,0.018406215606758765,12,333,-3.450141065277327,-2.870258846235788,-2.571415151457764,False,TESTED,2026-10
+long_full_valid,long,ppi_inflation,KPSS,c,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09685775507798175,0.1,11,346,0.739,0.463,0.347,True,TESTED,2026-10
+long_full_valid,long,ppi_inflation,ADF,ct,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,AIC; maxlag12,,-3.2561988020298234,0.07377370534422475,12,333,-3.9862164840323913,-3.4237571000573386,-3.134850566397093,False,TESTED,2026-10
+long_full_valid,long,ppi_inflation,KPSS,ct,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.09644554793834174,0.1,11,346,0.216,0.146,0.119,True,TESTED,2026-10
+long_full_valid,long,cpi_inflation,ADF,c,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,AIC; maxlag12,,-2.808525007935755,0.05706631199851983,12,333,-3.450141065277327,-2.870258846235788,-2.571415151457764,False,TESTED,2026-10
+long_full_valid,long,cpi_inflation,KPSS,c,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.33710998743735493,0.1,11,346,0.739,0.463,0.347,True,TESTED,2026-10
+long_full_valid,long,cpi_inflation,ADF,ct,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,AIC; maxlag12,,-2.764098932494647,0.21044268268717192,12,333,-3.9862164840323913,-3.4237571000573386,-3.134850566397093,False,TESTED,2026-10
+long_full_valid,long,cpi_inflation,KPSS,ct,346,1998-01,2026-10,b3680ebfc7132842d4616e0cf6cbf5ebfc04fb1a5547c9b836a1efc0ee10dd68,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",0.331522923105079,0.01,11,346,0.216,0.146,0.119,True,TESTED,2026-10
+short_full_valid,short,oil_rmb_yoy_pct,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.7282485770309237,0.06927628889091345,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_full_valid,short,oil_rmb_yoy_pct,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.21383113543088353,0.1,7,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_full_valid,short,oil_rmb_yoy_pct,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.6727654825975593,0.2475636770748239,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_full_valid,short,oil_rmb_yoy_pct,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11132449514243623,0.1,7,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_full_valid,short,brent_yoy_pct,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.699322190225172,0.07415563319304382,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_full_valid,short,brent_yoy_pct,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.2272312136432939,0.1,7,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_full_valid,short,brent_yoy_pct,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.6491229885918512,0.2578077871295411,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_full_valid,short,brent_yoy_pct,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.10936018547010161,0.1,7,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_full_valid,short,fx_yoy_pct,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.475823685622898,0.12146803552827362,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_full_valid,short,fx_yoy_pct,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.1522557379472644,0.1,8,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_full_valid,short,fx_yoy_pct,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.5520680115956296,0.3024372463722085,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_full_valid,short,fx_yoy_pct,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06989378897879565,0.1,8,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_full_valid,short,fuel_power_inflation,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-4.592990126284486,0.00013306750531380843,8,133,-3.480500383888377,-2.8835279559405045,-2.578495716547007,False,TESTED,2026-10
+short_full_valid,short,fuel_power_inflation,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11878685889308362,0.1,8,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_full_valid,short,fuel_power_inflation,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-4.577489727324694,0.001124327609067998,8,133,-4.028502544757224,-3.4440306386960673,-3.146722003543258,False,TESTED,2026-10
+short_full_valid,short,fuel_power_inflation,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.11473660257304688,0.1,8,142,0.216,0.146,0.119,True,TESTED,2026-10
+short_full_valid,short,ppi_inflation,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.5808351181975624,0.09702330357922906,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_full_valid,short,ppi_inflation,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.12290590865426551,0.1,8,142,0.739,0.463,0.347,True,TESTED,2026-10
+short_full_valid,short,ppi_inflation,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.7081686187822114,0.23270653608863234,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_full_valid,short,ppi_inflation,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,,0.1241703225822498,0.09042532855138924,8,142,0.216,0.146,0.119,False,TESTED,2026-10
+short_full_valid,short,cpi_inflation,ADF,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-1.0812717500715288,0.7224824400000489,12,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_full_valid,short,cpi_inflation,KPSS,c,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,,0.658379321745833,0.017329152568560633,8,142,0.739,0.463,0.347,False,TESTED,2026-10
+short_full_valid,short,cpi_inflation,ADF,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,AIC; maxlag12,,-2.2008839303845407,0.48935302942173126,12,129,-4.030719874481119,-3.4450882414779223,-3.1473396994394625,False,TESTED,2026-10
+short_full_valid,short,cpi_inflation,KPSS,ct,142,2015-01,2026-10,7dce6181def23e5297820043e533c64574069ed58bd1b4250024d5949d37b850,statsmodels auto,,0.14885226756202305,0.047623110364980785,8,142,0.216,0.146,0.119,False,TESTED,2026-10
+short_full_valid,short,import_unit_price_yoy_pct,ADF,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-1.9965926946286607,0.28806907939066184,12,117,-3.487517288664615,-2.8865777180380032,-2.5801239192052012,False,TESTED,2026-10
+short_full_valid,short,import_unit_price_yoy_pct,KPSS,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06853017247120512,0.1,6,130,0.739,0.463,0.347,True,TESTED,2026-10
+short_full_valid,short,import_unit_price_yoy_pct,ADF,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-1.9115116610792817,0.6486830354628198,12,117,-4.038307389431779,-3.448703208559121,-3.149449845280976,False,TESTED,2026-10
+short_full_valid,short,import_unit_price_yoy_pct,KPSS,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06866676787292071,0.1,6,130,0.216,0.146,0.119,True,TESTED,2026-10
+short_full_valid,short,import_quantity_yoy_pct,ADF,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-1.972726850256401,0.2986579406713877,12,117,-3.487517288664615,-2.8865777180380032,-2.5801239192052012,False,TESTED,2026-10
+short_full_valid,short,import_quantity_yoy_pct,KPSS,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,,0.7189505070573639,0.011822681176603286,5,130,0.739,0.463,0.347,False,TESTED,2026-10
+short_full_valid,short,import_quantity_yoy_pct,ADF,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-2.9623666128488897,0.14290815922329014,12,117,-4.038307389431779,-3.448703208559121,-3.149449845280976,False,TESTED,2026-10
+short_full_valid,short,import_quantity_yoy_pct,KPSS,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.06512881398053487,0.1,5,130,0.216,0.146,0.119,True,TESTED,2026-10
+short_full_valid,short,import_value_yoy_pct,ADF,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-3.644500338185407,0.004965100777424874,0,129,-3.482087964046026,-2.8842185101614626,-2.578864381347275,False,TESTED,2026-10
+short_full_valid,short,import_value_yoy_pct,KPSS,c,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.19259494073567407,0.1,6,130,0.739,0.463,0.347,True,TESTED,2026-10
+short_full_valid,short,import_value_yoy_pct,ADF,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,AIC; maxlag12,,-2.4203146892751355,0.3688757749398968,12,117,-4.038307389431779,-3.448703208559121,-3.149449845280976,False,TESTED,2026-10
+short_full_valid,short,import_value_yoy_pct,KPSS,ct,130,2016-01,2026-10,cb9af9da1750b58d9482c947f112061046b897841a0d36bde82e522e79ae2a4e,statsmodels auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",0.07506320219587455,0.1,6,130,0.216,0.146,0.119,True,TESTED,2026-10

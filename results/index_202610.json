@@ -1,0 +1,123 @@
+{
+  "release_version": "3.0.0",
+  "data_vintage": "2026-10",
+  "frequency": "monthly",
+  "macro_calendar": {
+    "start": "1998-01",
+    "end": "2026-10",
+    "months": 346
+  },
+  "customs_calendar": {
+    "start": "2015-01",
+    "end": "2026-10",
+    "months": 142
+  },
+  "primary_lp_equations": 39,
+  "link2_equations": 52,
+  "artifacts": {
+    "monthly_inputs": [
+      {
+        "path": "data/model_inputs/2026-10/long_sample_canonical.csv",
+        "sha256": "5df3031956ada681958e96b765529b8a890814e6602f947cfa583a5fb96b96a0"
+      },
+      {
+        "path": "data/model_inputs/2026-10/long_sample_transformed.csv",
+        "sha256": "80532efeecad592f8de6ae266b74f41a5bf4fd5f87f7de3d3e459d30abc2c48d"
+      },
+      {
+        "path": "data/model_inputs/2026-10/long_sample_yoy_aligned.csv",
+        "sha256": "98a000296119935eba0d506e24fa70b25887413e109121abbe5fbb43fe6ff258"
+      },
+      {
+        "path": "data/model_inputs/2026-10/short_sample_canonical.csv",
+        "sha256": "2ba6dd7820633688e69319f9bee37e027a605221c7bda1456a7f63d612314e80"
+      },
+      {
+        "path": "data/model_inputs/2026-10/short_sample_transformed.csv",
+        "sha256": "286173bf73af246201788037aacc04540abd95f773b8ab2472616f2f9deca885"
+      },
+      {
+        "path": "data/model_inputs/2026-10/short_sample_yoy_aligned.csv",
+        "sha256": "ec4ed73281eb4bb977508e77d7b4169d9b2542944e790505dca947f17c09a478"
+      }
+    ],
+    "sources": "data/manifests/sources_202610.csv",
+    "core": [
+      "results/core/customs_link1.csv",
+      "results/core/customs_link2.csv",
+      "results/core/inference_sensitivity.csv",
+      "results/core/primary_joint_tests.csv",
+      "results/core/primary_lp_comparison.csv"
+    ],
+    "validation": [
+      "results/validation/historical/long_dlm_lag_grid_0_12.csv",
+      "results/validation/historical/long_dlm_lag_grid_0_18_sensitivity.csv",
+      "results/validation/historical/long_dynamic_dlm_diagnostics.csv",
+      "results/validation/historical/long_dynamic_dlm_grid.csv",
+      "results/validation/historical/stationarity_full.csv",
+      "results/validation/historical/table3_lag_selection_full.csv",
+      "results/validation/historical/table3_lag_selection_summary.csv",
+      "results/validation/historical/transformed_stationarity_full.csv",
+      "results/validation/historical/yoy_aligned_stationarity_full.csv",
+      "results/validation/link1/hac_covariance.csv",
+      "results/validation/link1/observation_influence.csv",
+      "results/validation/link1/precision_decomposition.csv",
+      "results/validation/link1/score_lag_decomposition.csv",
+      "results/validation/phase2b/lp_composite_components.csv",
+      "results/validation/phase2b/multicollinearity_diagnostics.csv",
+      "results/validation/phase2b/phase2b_inference_summary.csv",
+      "results/validation/phase2b/price_hierarchy_tests.csv",
+      "results/validation/phase2b/relative_pass_through_bootstrap.csv",
+      "results/validation/phase2b/s12_terminal_bootstrap.csv",
+      "results/validation/phase2b/s12_terminal_cumulative_hac.csv",
+      "results/validation/phase2b/terminal_cpi_lp.csv",
+      "results/validation/s18/lag_stage2_cross_p_differences.csv",
+      "results/validation/s18/lag_stage2_cumulative_mbb.csv",
+      "results/validation/s18/lag_stage2_joint_windows.csv",
+      "results/validation/s18/lag_stage2_paired_stage_contrasts.csv",
+      "results/validation/s18/lp_lag_all_parameters_hac.csv",
+      "results/validation/s18/lp_lag_cumulative_point_estimates.csv",
+      "results/validation/s18/lp_lag_extra_terms_wald.csv",
+      "results/validation/s18/lp_lag_ic_winners.csv",
+      "results/validation/s18/lp_lag_information_criteria.csv",
+      "results/validation/s18/lp_lag_p2_baseline_comparison.csv",
+      "results/validation/s18/lp_lag_period_hac.csv",
+      "results/validation/samples/final_sample_registry.csv",
+      "results/validation/samples/industrial_missing_accounting.csv",
+      "results/validation/stability/break_subsample_lp.csv",
+      "results/validation/stability/broad_period_sensitivity.csv",
+      "results/validation/stability/future_shock_placebo.csv",
+      "results/validation/stability/hierarchy_stability.csv",
+      "results/validation/stability/mechanism_link1_stability.csv",
+      "results/validation/stability/mechanism_link2_stability.csv",
+      "results/validation/stability/parameter_stability_tests.csv",
+      "results/validation/stability/phase2c_break_cumulative.csv",
+      "results/validation/stability/phase2c_break_search_profile.csv",
+      "results/validation/stability/phase2c_cusum_paths.csv",
+      "results/validation/stability/phase2c_hierarchy_evidence_summary.csv",
+      "results/validation/stability/phase2c_recursive_endpoint_drift.csv",
+      "results/validation/stability/phase2c_rolling_evidence_summary.csv",
+      "results/validation/stability/recursive_lp_coefficients.csv",
+      "results/validation/stability/reverse_predictive_diagnostic.csv",
+      "results/validation/stability/rolling_lp_coefficients.csv",
+      "results/validation/stability/structural_break_supwald.csv",
+      "results/validation/stability/structural_stability_summary.csv"
+    ],
+    "extensions": [
+      "results/extensions/asymmetric_direction_hierarchy.csv",
+      "results/extensions/asymmetric_responses_and_tests.csv",
+      "results/extensions/asymmetry_design_diagnostics.csv",
+      "results/extensions/estimation_calendar.csv",
+      "results/extensions/extreme_period_paired_hierarchy.csv",
+      "results/extensions/extreme_period_short_window_tests.csv",
+      "results/extensions/hac_bandwidth_sensitivity.csv",
+      "results/extensions/link1_exploratory_influence.csv",
+      "results/extensions/symmetric_responses.csv"
+    ]
+  },
+  "commands": {
+    "core": "python scripts/reproduce_202610.py --output <empty-run-dir> --core",
+    "validate": "python scripts/reproduce_validation.py <core-run-dir> <empty-validation-dir>",
+    "extensions": "python scripts/reproduce_extensions.py <core-run-dir> config/extensions_202610.json config/extensions_202610.sha256 <empty-extensions-dir>"
+  }
+}
